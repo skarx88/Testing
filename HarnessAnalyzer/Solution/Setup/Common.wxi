@@ -1,9 +1,0 @@
-﻿<Include xmlns="http://wixtoolset.org/schemas/v4/wxs">
-	<?define AssemblyName = $(var.E3.HarnessAnalyzer.TargetName).exe?>
-	<?define BorrowUtilityAssemblyName = $(var.BorrowUtility.TargetName).exe?>
-	<?define SetupDefaultsDir = $(sys.CURRENTDIR)$(OutDir)$(tempMsiBuildDir)?>
-	<?define PayloadDir = $(OutDir)TempPayload?>
-	<?define ProductUpgradeCode = "D9D41D3E-5FC8-46C9-A316-D5ACECCE0714"?>
-	<!-- see wiki for programfiles-folder-env-variables on different platforms: https://ulm-dev.zuken.com/Team-Erlangen/E3.App.Windows.HarnessAnalyzer/wiki/Environment-Variables -->
-	<?define MyInstallFolder=$(env.programfiles)\$(var.ManufacturerShort)\$(var.PackageName)?>
-</Include>

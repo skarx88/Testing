@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "E3.HarnessAnalyzer": {
-      "commandName": "Project",
-      "nativeDebugging": false
-    }
-  }
-}

@@ -1,1 +1,0 @@
-This is a readme template file for "E3.HarnessAnalyzer.BorrowUtility2"
