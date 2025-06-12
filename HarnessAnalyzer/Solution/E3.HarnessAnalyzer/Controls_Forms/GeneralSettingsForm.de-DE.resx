@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnResetBDR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="btnResetBDR.Text" xml:space="preserve">
+    <value>Standards wiederherstellen</value>
+  </data>
+  <data name="btnAddBDR.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="UltraLabel2.Text" xml:space="preserve">
+    <value>Ausführlichkeit der Nachrichtenprotokollierungsanzeige:</value>
+  </data>
+  <data name="uckDataValidation.Text" xml:space="preserve">
+    <value>Validiere KBL-Daten direkt nach dem Laden</value>
+  </data>
+  <data name="lblDataValidation.Text" xml:space="preserve">
+    <value>Datenvalidierung</value>
+  </data>
+  <data name="uckTouchSupport.Text" xml:space="preserve">
+    <value>Aktiviere Touch-Unterstützung für Benutzeroberfläche</value>
+  </data>
+  <data name="lblTouchSupport.Text" xml:space="preserve">
+    <value>Unterstützung für Touch-Bedienung</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="lblScaleFactorRedliningIndicator.Text" xml:space="preserve">
+    <value>Skalierungsfaktor für QM-Stempel/Anmerkungssymbole</value>
+  </data>
+  <data name="lblMoveDistToleranceInfo.Text" xml:space="preserve">
+    <value>* Abstandswert muss zwischen 1 und 100 liegen</value>
+  </data>
+  <data name="lblMoveDistTolerance.Text" xml:space="preserve">
+    <value>Toleranz für Verschiebungsabstand der Koordinaten beim grafischen Vergleich</value>
+  </data>
+  <data name="lblDrawingSelectionMode.Text" xml:space="preserve">
+    <value>Auswahlmodus in der Zeichnung</value>
+  </data>
+  <data name="ValueListItem1.DisplayText" xml:space="preserve">
+    <value>Objekttypunabhängig (ignoriere aktive Datentabelle)</value>
+  </data>
+  <data name="ValueListItem2.DisplayText" xml:space="preserve">
+    <value>Objekttypabhängig (berücksichtigt aktive Datentabelle)</value>
+  </data>
+  <data name="lblHideNavigator.Text" xml:space="preserve">
+    <value>Navigator-Einstellungen</value>
+  </data>
+  <data name="uckHideNavigatorHub.Text" xml:space="preserve">
+    <value>Verberge Navigator beim Laden des Dokuments</value>
+  </data>
+  <data name="lblLenthTypeWires.Text" xml:space="preserve">
+    <value>Drähte/Adern:</value>
+  </data>
+  <data name="lblSelectableLengthTypeWires.Text" xml:space="preserve">
+    <value>* Nur bei geöffnetem Dokument wählbar</value>
+  </data>
+  <data name="lblLengtTypeCable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 171</value>
+  </data>
+  <data name="lblLengtTypeCable.Text" xml:space="preserve">
+    <value>Kabel:</value>
+  </data>
+  <data name="lblSelectableLengthTypeCables.Text" xml:space="preserve">
+    <value>* Nur bei geöffnetem Dokument wählbar</value>
+  </data>
+  <data name="lblLengthType.Text" xml:space="preserve">
+    <value>Auswahl des anzuzeigenden Längentyps in den Datentabellen</value>
+  </data>
+  <data name="lblClearDocumentsList.Text" xml:space="preserve">
+    <value>Zuletzt geöffnete Dokumente</value>
+  </data>
+  <data name="ValueListItem4.DisplayText" xml:space="preserve">
+    <value>Vollbild-Achsencursor</value>
+  </data>
+  <data name="btnClearRecentFiles.Text" xml:space="preserve">
+    <value>Lösche Liste</value>
+  </data>
+  <data name="lblSelectCursor.Text" xml:space="preserve">
+    <value>Cursor-Auswahl</value>
+  </data>
+  <data name="btnAddWCC.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="btnResetWCC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="btnResetWCC.Text" xml:space="preserve">
+    <value>Standards wiederherstellen</value>
+  </data>
+  <data name="ugWireColorCodes.Text" xml:space="preserve">
+    <value>Darstellung der Drahtfarben in der Verbindungsansicht</value>
+  </data>
+  <data name="lblPairSuffixIdentifierCaption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 586</value>
+  </data>
+  <data name="lblPairSuffixIdentifierCaption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 28</value>
+  </data>
+  <data name="lblPairSuffixIdentifierCaption.Text" xml:space="preserve">
+    <value>{&lt;Paarkenner1&gt;,&lt;Paarkenner2&gt;} verwenden, um die Paar-Endsilben anzugeben</value>
+  </data>
+  <data name="btnResetInlIdentifiers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="btnResetInlIdentifiers.Text" xml:space="preserve">
+    <value>Standards wiederherstellen</value>
+  </data>
+  <data name="btnAddInlIdentifier.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="ugInlinerIdentifiers.Text" xml:space="preserve">
+    <value>Definition von Kriterien basierend auf den KBL Kontaktgehäuse-Eigenschaften zur Identifizierung von Trennstellen</value>
+  </data>
+  <data name="chkUseJTColors.Text" xml:space="preserve">
+    <value>JT Farben verwenden</value>
+  </data>
+  <data name="chkUseDynamicBundles.Text" xml:space="preserve">
+    <value>Dynamische Bündel verwenden</value>
+  </data>
+  <data name="UltraLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 14</value>
+  </data>
+  <data name="UltraLabel1.Text" xml:space="preserve">
+    <value>Angewendete Längenklasse für Speißpositionen:</value>
+  </data>
+  <data name="uckAutoSync3D.Text" xml:space="preserve">
+    <value>Selektion automatisch zoomen</value>
+  </data>
+  <data name="lblConnectorFacesDirectory.Text" xml:space="preserve">
+    <value>Kontaktgehäusebilder Verzeichnis:</value>
+  </data>
+  <data name="lblCarModelDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 15</value>
+  </data>
+  <data name="lblCarModelDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>757, 16</value>
+  </data>
+  <data name="lblCarModelDirectory.Text" xml:space="preserve">
+    <value>Fahrzeug-Model Verzeichnis:</value>
+  </data>
+  <data name="ugEyeletIdentifiers.Text" xml:space="preserve">
+    <value>Definition von Kriterien basierend auf den KBL Kontaktgehäuse-Eigenschaften zur Identifizierung von Kabelschuhen</value>
+  </data>
+  <data name="ubtnAddEyeletIdent.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="ugSpliceIdentifiers.Text" xml:space="preserve">
+    <value>Definition von Kriterien basierend auf den KBL Kontaktgehäuse-Eigenschaften zur Identifizierung von Spleißen</value>
+  </data>
+  <data name="ubtnAddSpliceIdent.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="UltraLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 23</value>
+  </data>
+  <data name="UltraLabel3.Text" xml:space="preserve">
+    <value>Komponenten / Kontaktgehäuse Separator</value>
+  </data>
+  <data name="uckSchematicsAutoZoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 589</value>
+  </data>
+  <data name="uckSchematicsAutoZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 20</value>
+  </data>
+  <data name="uckSchematicsAutoZoom.Text" xml:space="preserve">
+    <value>Selektion automatisch zoomen</value>
+  </data>
+  <data name="btnResetConnectivityDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="btnResetConnectivityDefaults.Text" xml:space="preserve">
+    <value>Standards wiederherstellen</value>
+  </data>
+  <data name="btnResetUSSpliceIdentifiers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="btnResetUSSpliceIdentifiers.Text" xml:space="preserve">
+    <value>Standards wiederherstellen</value>
+  </data>
+  <data name="btnAddUSSpliceIdentifier.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="ugUSSpliceIdentifiers.Text" xml:space="preserve">
+    <value>Definition von Kriterien basierend auf den KBL Kontaktgehäuse-Eigenschaften zur Identifizierung von Ultraschall-Spleißen</value>
+  </data>
+  <data name="uckAutoSyncCavityChecks.Text" xml:space="preserve">
+    <value>Selektion automatisch zoomen</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="UltraTab1.Text" xml:space="preserve">
+    <value>Bündeldurchmesser-Wertebereiche</value>
+  </data>
+  <data name="UltraTab2.Text" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="UltraTab3.Text" xml:space="preserve">
+    <value>Farbcodes</value>
+  </data>
+  <data name="UltraTab4.Text" xml:space="preserve">
+    <value>Trennstellen-Identifizierer</value>
+  </data>
+  <data name="UltraTab6.Text" xml:space="preserve">
+    <value>Komponenten-Identifizierer (Schaltplan)</value>
+  </data>
+  <data name="UltraTab7.Text" xml:space="preserve">
+    <value>Ultraschall-Spleiß-Identifizierer</value>
+  </data>
+  <data name="UltraTab8.Text" xml:space="preserve">
+    <value>Kammerprüfung</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Applikationseinstellungen</value>
+  </data>
+</root>

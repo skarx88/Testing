@@ -1,0 +1,38 @@
+<Project>
+	<PropertyGroup Label="ASSEMBLY_GLOBAL">
+		<NoWarn>MSB3246,NU3027,NU3037,NU1900,SYSLIB0011,SYSLIB0050,SYSLIB0051,NU5125,42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup Label="META_DATA_GLOBAL">
+		<Version>25.0.0-alpha.0</Version>
+		<Product>E3.HarnessAnalyzer</Product>
+		<ProductTargetFramework>net8.0-windows7.0</ProductTargetFramework>
+		<ProductName>$(Product)</ProductName>
+		<ProductTitle>E³ HarnessAnalyzer</ProductTitle>
+		<ProductDescription>Software for analyzing and reviewing of harness documents</ProductDescription>
+		<Copyright>© Zuken E3 GmbH 2024</Copyright>
+		<Authors>Zuken Team Voyager</Authors>
+		<Company>Zuken E3 GmbH</Company>
+		<ProductNeutralLanguage>en-us</ProductNeutralLanguage>
+		<NeutralLanguage>en-us</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup Label="META_DATA_MACROS">
+		<VersionShort>$(Version.Split('-')[0])</VersionShort>
+		<CompanyShort>$(Company.Split(' ')[0])</CompanyShort>
+   </PropertyGroup>
+
+	<PropertyGroup Label="ZSTART_CONST_VARIABLES">
+		<ZstartRunJsonFileName>.zstart-run.json</ZstartRunJsonFileName>
+		<ZstartVersionInfoFileName>.version.json</ZstartVersionInfoFileName>
+		<InstallExtraFilesFolderName>.InstallExtraFiles</InstallExtraFilesFolderName>
+		<PackagesFolderName>.packages</PackagesFolderName>
+		<SandboxFolderName>.sandbox</SandboxFolderName>
+		<TestDataFolderName>.TestData</TestDataFolderName>
+		<TestDataCompressedFileName>.TestData.zip</TestDataCompressedFileName>
+		<ZStartBatchContentFileNameExtension>.exe</ZStartBatchContentFileNameExtension>
+		<ZstartRunDownloadUrl>https://ulm-dev.zuken.com/Team-Erlangen/scripts/raw/branch/trunk/sandbox/run.bat</ZstartRunDownloadUrl>
+		<SandboxRunBatchFileName>run.bat</SandboxRunBatchFileName>
+	</PropertyGroup>
+
+</Project>

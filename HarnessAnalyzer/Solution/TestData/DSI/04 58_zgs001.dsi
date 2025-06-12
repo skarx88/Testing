@@ -1,0 +1,682 @@
+!************************************************************************
+!
+!***  Harness Design System Interface (DSI)
+!
+!***  Created by:  CapH Designer  - Version: OEM Build 2011.1 - 2011.1
+!***  Original DSI file name: \\naro2203\groups\ENG\03.PRDENG\02. BU_CV\10.DAIMLER_NON_KSK\GATS\14_Design GATS\CURENT\A 961 440 04 58\04 58_zgs001.dsi
+!***  AutoCAD DWG file name: D0002671.DWG
+!***  Date: 24-Feb-2015  10:52:33 AM
+!
+!************************************************************************
+!
+!   Harness description information
+!
+A 961 440 04 58:001:03/07/14:12:Daimler GATS:A 961 440 04 58:001:03/07/14:::::GATS::1585.000000:800.000000:Front:::::::::::::::None:Percentage:0.000000:FALSE:FALSE:N-3::FALSE::
+!
+%   Harness notes
+!
+!***  Harness Internal Part No: A 961 440 04 58
+!***  Harness Internal Issue: 001
+Harness Description:  :
+Harness Project:      :
+Harness Design Stage: :
+!************************************************************************
+!!***  Harness Customer Part No: A 961 440 04 58
+!***  Harness Customer Issue: 001
+Customer Harness Description:  :
+Customer Harness Project:      :
+Customer Harness Design Stage: :
+!
+%   Harness circuit information
+!
+!
+!
+%   Harness branch configuration
+!
+N-3   :          :x925.5   y461.0   :N-4   :          :x925.4   y461.0   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_A60:          :x358.0   y311.0   :300   :          :x358.0   y348.4   :    60.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-4   :          :x925.4   y461.0   :680   :          :x792.9   y370.7   :    40.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B73:          :x1383.7  y715.2   :270   :          :x1251.0  y694.4   :   240.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-12  :          :x1225.0  y461.0   :370   :          :x1225.0  y508.2   :    65.0:          :     0.0:::AUTOMATIC: ::::::: :
+370   :          :x1225.0  y508.2   :380   :          :x1225.0  y540.5   :    65.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-12  :          :x1225.0  y461.0   :410   :          :x1303.2  y461.0   :    20.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_A57:          :x1442.9  y461.0   :420   :          :x1388.2  y461.0   :   105.0:          :     0.0:::AUTOMATIC: ::::::: :
+410   :          :x1303.2  y461.0   :420   :          :x1388.2  y461.0   :   150.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-3   :          :x925.5   y461.0   :440   :          :x844.9   y460.6   :   115.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-3   :          :x925.5   y461.0   :450   :          :x1007.4  y461.0   :    10.0:          :     0.0:::AUTOMATIC: ::::::: :
+440   :          :x844.9   y460.6   :460   :          :x731.5   y461.0   :   640.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B37:          :x340.0   y781.7   :490   :          :x339.9   y824.5   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_A70:          :x476.8   y651.0   :540   :          :x476.8   y711.7   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+X157  :          :x635.8   y263.7   :560   :          :x635.8   y166.3   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+X208  :          :x737.2   y263.7   :570   :          :x737.4   y189.7   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+X174  :          :x980.3   y243.3   :580   :          :x980.3   y148.3   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+X160  :          :x870.4   y243.3   :590   :          :x870.5   y148.3   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_A57:          :x1442.9  y461.0   :550   :          :x1503.6  y461.0   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+600   :          :x1076.0  y822.1   :ST_B38:          :x1076.0  y768.1   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B70:          :x1225.0  y715.2   :610   :          :x1225.1  y810.0   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B73:          :x1383.7  y715.2   :620   :          :x1384.2  y809.6   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :650   :          :x358.0   y409.8   :    80.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-4   :          :x925.4   y461.0   :670   :          :x839.8   y370.7   :    40.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B70:          :x1225.0  y715.2   :260   :          :x1225.0  y694.5   :   200.0:          :     0.0:::AUTOMATIC: ::::::: :
+120   :          :x324.4   y634.2   :710   :          :x324.4   y661.7   :   160.0:          :     0.0:::AUTOMATIC: ::::::: :
+X208  :          :x737.2   y263.7   :670   :          :x839.8   y370.7   :   140.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-4   :          :x925.4   y461.0   :840   :          :x893.7   y370.7   :    40.0:          :     0.0:::AUTOMATIC: ::::::: :
+X160  :          :x870.4   y243.3   :830   :          :x870.5   y304.8   :   205.0:          :     0.0:::AUTOMATIC: ::::::: :
+840   :          :x893.7   y370.7   :830   :          :x870.5   y304.8   :    50.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-4   :          :x925.4   y461.0   :330   :          :x957.2   y370.7   :    40.0:          :     0.0:::AUTOMATIC: ::::::: :
+X174  :          :x980.3   y243.3   :340   :          :x980.3   y304.8   :   210.0:          :     0.0:::AUTOMATIC: ::::::: :
+330   :          :x957.2   y370.7   :340   :          :x980.3   y304.8   :    50.0:          :     0.0:::AUTOMATIC: ::::::: :
+X157  :          :x635.8   y263.7   :680   :          :x792.9   y370.7   :   130.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :120   :          :x324.4   y634.2   :    90.0:          :     0.0:::AUTOMATIC: ::::::: :
+ST_B67:          :x244.0   y681.2   :760   :          :x186.4   y749.5   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+790   :          :x196.5   y639.3   :770   :          :x137.1   y704.9   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :110   :          :x280.3   y611.0   :    90.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :100   :          :x240.8   y590.3   :    90.0:          :     0.0:::AUTOMATIC: ::::::: :
+110   :          :x280.3   y611.0   :ST_B67:          :x244.0   y681.2   :   165.0:          :     0.0:::AUTOMATIC: ::::::: :
+100   :          :x240.8   y590.3   :790   :          :x196.5   y639.3   :   210.0:          :     0.0:::AUTOMATIC: ::::::: :
+910   :          :x476.8   y578.2   :ST_A70:          :x476.8   y651.0   :   130.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :910   :          :x476.8   y578.2   :   110.0:          :     0.0:::AUTOMATIC: :::::::x358.1y491.6:
+710   :          :x324.4   y661.7   :640   :          :x324.4   y692.2   :    95.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-21  :          :x358.0   y461.0   :690   :          :x585.4   y461.0   :   140.0:          :     0.0:::AUTOMATIC: ::::::: :
+460   :          :x731.5   y461.0   :870   :          :x645.9   y461.0   :   115.0:          :     0.0:::AUTOMATIC: ::::::: :
+690   :          :x585.4   y461.0   :870   :          :x645.9   y461.0   :    20.0:          :     0.0:::AUTOMATIC: ::::::: :
+300   :          :x358.0   y348.4   :650   :          :x358.0   y409.8   :    80.0:          :     0.0:::AUTOMATIC: ::::::: :
+A67   :          :x1177.7  y550.9   :890   :          :x1177.7  y589.8   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-12  :          :x1225.0  y461.0   :720   :          :x1177.7  y461.0   :     0.0:          :     0.0:::AUTOMATIC: ::::::: :
+450   :          :x1007.4  y461.0   :720   :          :x1177.7  y461.0   :   145.0:          :     0.0:::AUTOMATIC: ::::::: :
+720   :          :x1177.7  y461.0   :A67   :          :x1177.7  y550.9   :   505.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-1   :          :x1225.0  y658.0   :740   :          :x1225.0  y638.9   :    20.0:          :     0.0:::AUTOMATIC: ::::::: :
+400   :          :x1225.0  y605.1   :740   :          :x1225.0  y638.9   :    70.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-1   :          :x1225.0  y658.0   :250   :          :x1199.4  y694.4   :   120.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-1   :          :x1225.0  y658.0   :260   :          :x1225.0  y694.5   :   120.0:          :     0.0:::AUTOMATIC: ::::::: :
+N-1   :          :x1225.0  y658.0   :270   :          :x1251.0  y694.4   :   120.0:          :     0.0:::AUTOMATIC: ::::::: :
+250   :          :x1199.4  y694.4   :ST_B38:          :x1076.0  y768.1   :   170.0:          :     0.0:::AUTOMATIC: :::::::x1107.6y712.1:x1097.2y722.5:x1076.0y743.6:
+640   :          :x324.4   y692.2   :ST_B37:          :x340.0   y781.7   :   120.0:          :     0.0:::AUTOMATIC: :::::::x324.5y727.7:x324.5y727.7:x324.5y765.9:
+380   :          :x1225.0  y540.5   :400   :          :x1225.0  y605.1   :    85.0:          :     0.0:::AUTOMATIC: ::::::: :
+!
+%   Harness wire specification
+!
+6001::FLR5Y-A NI_0.75:GNRD:0.750000:PTFE:::ST_A60:          :9: :X157:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::1495.000000:1495.000000:0.000000:0.000000:493364700663::::
+6002::FLR5Y-A NI_0.75:GN:0.750000:PTFE:::ST_A60:          :16: :X157:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::1495.000000:1495.000000:0.000000:0.000000:493364700666::::
+6003::FLR5Y-A NI_0.75:BURD:0.750000:PTFE:::ST_A60:          :15: :X160:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::1625.000000:1625.000000:0.000000:0.000000:493364700553::::
+6006::FLR5Y-A NI_0.75:BU:0.750000:PTFE:::ST_A60:          :18: :X160:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::1625.000000:1625.000000:0.000000:0.000000:493364700555::::
+6007::FLR5Y-A NI_0.75:VTRD:0.750000:PTFE:::ST_A60:          :39: :X174:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::1630.000000:1630.000000:0.000000:0.000000:493364700443::::
+6008::FLR5Y-A NI_0.75:VT:0.750000:PTFE:::ST_A60:          :32: :X174:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::1630.000000:1630.000000:0.000000:0.000000:493364700444::::
+6022::FLR5Y-A NI_0.75:YEGN:0.750000:PTFE::CBL_3:ST_A60:          :49: :X208:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::1570.000000:1570.000000:0.000000:0.000000:493364700116::::
+6023::FLR5Y-A NI_0.75:BU:0.750000:PTFE::CBL_3:ST_A60:          :48: :X208:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::1570.000000:1570.000000:0.000000:0.000000:493364700555::::
+6024::FLR5Y-A NI_0.75:BNGY:0.750000:PTFE::CBL_3:ST_A60:          :47: :X208:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::1570.000000:1570.000000:0.000000:0.000000:493364700887::::
+6025::FLR5Y-A NI_0.75:BNRD:0.750000:PTFE::CBL_3:ST_A60:          :62: :X208:          :4: :TRUE:TRUE:::NEITHER:0.000000:0::1570.000000:1570.000000:0.000000:0.000000:493364700883::::
+6027::FLR5Y-A NI_0.75:YEBU:0.750000:PTFE:::ST_A60:          :87: :ST_B37:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::720.000000:720.000000:0.000000:0.000000:493364700115::::
+6028::FLR5Y-A NI_0.75:YERD:0.750000:PTFE:::ST_A60:          :117: :300:          :R: :TRUE:TRUE:::NEITHER:0.000000:0::65.000000:65.000000:0.000000:0.000000:493364700113::::
+6029::FLR5Y-A NI_0.75:YERD:0.750000:PTFE:::ST_B37:          :1: :300:          :L: :TRUE:TRUE:::NEITHER:0.000000:0::660.000000:660.000000:0.000000:0.000000:493364700113::::
+6030::FLR5Y-A NI_0.75:YERD:0.750000:PTFE:::ST_B38:          :1: :300:          :L: :TRUE:TRUE:::NEITHER:0.000000:0::2040.000000:2040.000000:0.000000:0.000000:493364700113::::
+6032::FLR5Y-A NI_0.75:YEBN:0.750000:PTFE:::ST_A60:          :11: :ST_B37:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::720.000000:720.000000:0.000000:0.000000:493364700118::::
+6033::FLR5Y-A NI_0.75:YEBN:0.750000:PTFE:::ST_A60:          :88: :ST_B38:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::2100.000000:2100.000000:0.000000:0.000000:493364700118::::
+6034::FLR5Y-A NI_0.75:YEGN:0.750000:PTFE:::ST_A60:          :72: :ST_B38:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::2100.000000:2100.000000:0.000000:0.000000:493364700116::::
+6035::FLR5Y-A NI_0.75:BNRD:0.750000:PTFE::CBL_1:ST_A60:          :42: :ST_A57:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::1840.000000:1840.000000:0.000000:0.000000:493364700883::::
+6036::FLR5Y-A NI_0.75:BNGY:0.750000:PTFE::CBL_1:ST_A60:          :43: :ST_A57:          :4: :TRUE:TRUE:::NEITHER:0.000000:0::1840.000000:1840.000000:0.000000:0.000000:493364700887::::
+6037::FLR5Y-A NI_0.75:BU:0.750000:PTFE::CBL_1:ST_A60:          :40: :ST_A57:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::1840.000000:1840.000000:0.000000:0.000000:493364700555::::
+6038::FLR5Y-A NI_0.75:YE:0.750000:PTFE::CBL_1:ST_A60:          :41: :ST_A57:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::1840.000000:1840.000000:0.000000:0.000000:493364700111::::
+6039::FLR5Y-A NI_0.75:RD:0.750000:PTFE::CBL_2:ST_A60:          :50: :ST_A70:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::505.000000:505.000000:0.000000:0.000000:493364700333::::
+6040::FLR5Y-A NI_0.75:BN:0.750000:PTFE::CBL_2:ST_A60:          :51: :ST_A70:          :4: :TRUE:TRUE:::NEITHER:0.000000:0::505.000000:505.000000:0.000000:0.000000:493364700888::::
+6041::FLR5Y-A NI_0.75:BU:0.750000:PTFE::CBL_2:ST_A60:          :52: :ST_A70:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::505.000000:505.000000:0.000000:0.000000:493364700555::::
+6042::FLR5Y-A NI_0.75:YEBK:0.750000:PTFE::CBL_2:ST_A60:          :53: :ST_A70:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::505.000000:505.000000:0.000000:0.000000:493364700110::::
+6043::FLR5Y-A NI_0.75:GYRD:0.750000:PTFE:::ST_A60:          :107: :ST_B67:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::500.000000:500.000000:0.000000:0.000000:493364700773::::
+6044::FLR5Y-A NI_0.75:BNRD:0.750000:PTFE:::ST_A60:          :108: :ST_B67:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::500.000000:500.000000:0.000000:0.000000:493364700883::::
+6045::FLR5Y-A NI_0.75:GYBK:0.750000:PTFE:::ST_A60:          :27: :790:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::550.000000:550.000000:0.000000:0.000000:493364700770::::
+6046::FLR5Y-A NI_0.75:BNBK:0.750000:PTFE:::ST_A60:          :73: :790:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::550.000000:550.000000:0.000000:0.000000:493364700880::::
+6049::FLR5Y-A NI_0.75:GYBU:0.750000:PTFE:::ST_A60:          :97: :ST_B70:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::2135.000000:2135.000000:0.000000:0.000000:493364700775::::
+6050::FLR5Y-A NI_0.75:BNBU:0.750000:PTFE:::ST_A60:          :98: :ST_B70:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::2135.000000:2135.000000:0.000000:0.000000:493364700885::::
+6051::FLR5Y-A NI_0.75:GYYE:0.750000:PTFE:::ST_A60:          :78: :ST_B73:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::2175.000000:2175.000000:0.000000:0.000000:493364700771::::
+6052::FLR5Y-A NI_0.75:BNYE:0.750000:PTFE:::ST_A60:          :77: :ST_B73:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::2175.000000:2175.000000:0.000000:0.000000:493364700881::::
+6053::FLR5Y-A NI_0.75:GYGN:0.750000:PTFE:::ST_A60:          :95: :X208:          :5: :TRUE:TRUE:::NEITHER:0.000000:0::1505.000000:1505.000000:0.000000:0.000000:493364700776::::
+6054::FLR5Y-A NI_0.75:RDGN:0.750000:PTFE:::ST_A60:          :1: :X208:          :6: :TRUE:TRUE:::NEITHER:0.000000:0::1505.000000:1505.000000:0.000000:0.000000:P00126569::::
+6055::FLR5Y-A NI_0.75:YEGN:0.750000:PTFE:::ST_A60:          :20: :X208:          :7: :TRUE:TRUE:::NEITHER:0.000000:0::1505.000000:1505.000000:0.000000:0.000000:493364700116::::
+6056::FLR5Y-A NI_0.75:BNGN:0.750000:PTFE:::ST_A60:          :31: :X208:          :8: :TRUE:TRUE:::NEITHER:0.000000:0::1505.000000:1505.000000:0.000000:0.000000:493364700886::::
+6061::FLR5Y-A NI_0.75:BNVT:0.750000:PTFE:::ST_A60:          :28: :A67:          :1: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700884::::
+6062::FLR5Y-A NI_0.75:VT:0.750000:PTFE:::ST_A60:          :33: :A67:          :2: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700444::::
+6063::FLR5Y-A NI_0.75:BNBU:0.750000:PTFE:::ST_A60:          :22: :A67:          :3: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700885::::
+6064::FLR5Y-A NI_0.75:BU:0.750000:PTFE:::ST_A60:          :3: :A67:          :4: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700555::::
+6065::FLR5Y-A NI_0.75:VTGN:0.750000:PTFE:::ST_A60:          :84: :A67:          :5: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700446::::
+6066::FLR5Y-A NI_0.75:VTGY:0.750000:PTFE:::ST_A60:          :99: :A67:          :7: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700447::::
+6067::FLR5Y-A NI_0.75:VTYE:0.750000:PTFE:::ST_A60:          :100: :A67:          :8: :TRUE:TRUE:::NEITHER:0.000000:0::2010.000000:2010.000000:0.000000:0.000000:493364700441::::
+!
+%   Harness connector & splice components
+!
+120   : : : :CLIP           :                    :Clip_018            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+120   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+120   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+270   : : : :CLIP           :                    :Clip_010            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+270   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+270   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+300   : : : :SPLICE         :                    :XR-AG-SV						      :          :412064500           :1.0000         : :412064500           :1500-0162:      :FALSE :FALSE     :: :-:SPL                 :None:::AUTOMATIC: :DEFAULT:::3:FALSE:
+300   : : : :               :                    :HSS TR RBK-VWS-125-NR1-X 50 5.75/1.25:          :491121300           :1.0000         : :491121300           :RBK-VWS-125-NR1-X-50:      :      :      :          : : : :None                :::AUTOMATIC::DEFAULT:0:::FALSE:
+330   : : : :CLIP           :                    :Clip_014            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+330   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+330   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+370   : : : :CLIP           :                    :Clip_013            :          :P00117211           :1.0000         : :A 003 991 41 70     :220403:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+370   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+380   : : : :CLIP           :                    :Clip_011            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+380   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+400   : : : :CLIP           :                    :Clip_012            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+400   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+410   : : : :CLIP           :                    :Clip_007            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+410   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+420   : : : :CLIP           :                    :Clip_008            :          :P00117211           :1.0000         : :A 003 991 41 70     :220403:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+420   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+450   : : : :CLIP           :                    :Clip_006            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+450   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+650   : : : :CLIP           :                    :Clip_016            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+650   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+690   : : : :CLIP           :                    :Clip_004            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+690   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+710   : : : :CLIP           :                    :Clip_017            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+710   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+710   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+740   : : : :CLIP           :                    :Clip_002            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+740   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+790   : : : :CONNECTOR      :                    :ST_B68	Temperatursensor T2 vor DPF Flut 1				:          :418050023           :1.0000         : :A 055 545 08 28     :1-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+790   : : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+910   : : : :CLIP           :                    :Clip_020            :          :P00110871           :1.0000         : :A 003 991 62 70     :222690:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::::0:FALSE:
+910   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+910   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:FALSE :FALSE :FALSE :          : : : :                    :::AUTOMATIC:::0::0:FALSE:
+A67   : : : :CONNECTOR      :                    :A67	Harnstoff Dosiereinheit				:          :418050050           :1.0000         : :A 027 545 41 26     :1-1418479-1:      :TRUE  :TRUE      :: :PBT:CON                 ::::AUTOMATIC: :DEFAULT::BK:8:FALSE:
+A67   : : : :               :                    :ADAPTOR 90° BK NW10 w Tiewrap:          :P00124891           :1.0000         : :A 003 545 08 83     :7806 074 - MB:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+A67   : : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A57: : : :CONNECTOR      :                    :ST_A57	NOx-Sensorelektronik 2				:          :418105052           :1.0000         : :A 026 545 11 26     :2-1418390-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::4:FALSE:
+ST_A57: : : :               :                    :ADAPTOR 180° BK NW10 w Tiewrap:          :418889530           :1.0000         : :A 001 546 17 35     :0-0965786-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A60: : : :CONNECTOR      :                    :ST_A60	Steuergerät Abgasnachbehandlung				:          :418006110           :1.0000         : :A 000 153 14 22     :1418421-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::120:FALSE:
+ST_A60: : : :               :                    :COVERING CAP with Tie-Wrap:          :P00143559           :1.0000         : :A 000 982 32 09     :96829690:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A60: : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A60: : : :               :                    :REDUCER BK 29-26    :          :491126230           :1.0000         : :A 000 997 90 76     :7807 285:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A70: : : :CONNECTOR      :                    :ST_A70	NOx-Sensorelektronik 1				:          :418105050           :1.0000         : :A 026 545 10 26     :1-1418390-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::4:FALSE:
+ST_A70: : : :               :                    :REDUCER BK 10-7.5   :          :492197500           :1.0000         : :A 000 153 22 66     :7807 276:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A70: : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_A70: : : :               :                    :ADAPTOR 180° BK NW10 w Tiewrap:          :418889530           :1.0000         : :A 001 546 17 35     :0-0965786-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B37: : : :CONNECTOR      :                    :ST_B37	Abgasdrucksensor 1				:          :418004820           :1.0000         : :A 026 545 05 26     :1-1418448-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+ST_B37: : : :               :                    :ADAPTOR 90° BK NW8.5 with Tiewrap:          :418057950           :1.0000         : :A 002 545 69 83     :0-1670150-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B37: : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B37: : : :               :                    :PROTECTION CAP 3WAY :          :P00132761           :1.0000         : :A 960 545 28 83     :2241:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B38: : : :CONNECTOR      :                    :ST_B38	Abgasdrucksensor 2				:          :418004822           :1.0000         : :A 026 545 06 26     :2-1418448-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+ST_B38: : : :               :                    :ADAPTOR 180° BK     :          :418105020           :1.0000         : :A 002 545 70 83     :0-1670365-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B38: : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B38: : : :               :                    :PROTECTION CAP 3WAY :          :P00132761           :1.0000         : :A 960 545 28 83     :2241:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B67: : : :CONNECTOR      :                    :ST_B67	Temperatursensor T5 vor DOC				:          :418050025           :1.0000         : :A 055 545 10 28     :3-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+ST_B67: : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B70: : : :CONNECTOR      :                    :ST_B70	Temperatursensor T1 nach DPF				:          :418050023           :1.0000         : :A 055 545 08 28     :1-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+ST_B70: : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+ST_B73: : : :CONNECTOR      :                    :ST_B73	Temperatursensor T4 nach SCR-Kat				:          :418050024           :1.0000         : :A 055 545 09 28     :2-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+ST_B73: : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+X157  : : : :CONNECTOR      :                    :X157	SV Abgasaggregat				:          :418050023           :1.0000         : :A 055 545 08 28     :1-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+X157  : : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+X160  : : : :CONNECTOR      :                    :X160	SV Abgasaggregat				:          :418050024           :1.0000         : :A 055 545 09 28     :2-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+X160  : : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+X174  : : : :CONNECTOR      :                    :X174	SV Abgasaggregat				:          :418050025           :1.0000         : :A 055 545 10 28     :3-1703843-1:      :TRUE  :TRUE      :: ::                    ::::AUTOMATIC: :DEFAULT:::3:FALSE:
+X174  : : : :               :                    :ADAPTOR 180° BK NW univ:          :418889500           :1.0000         : :A 001 546 00 35     :0-0965784-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+X208  : : : :CONNECTOR      :                    :X208	SV Abgasaggregat				:          :418104880           :1.0000         : :A 055 545 79 28     :1-1564416-1:      :TRUE  :TRUE      :: :PBT:CON                 ::::AUTOMATIC: :DEFAULT::BK:8:FALSE:
+X208  : : : :               :                    :ADAPTOR 180° BK- NW13 with Tiewrap:          :418105040           :1.0000         : :A 002 545 68 83     :0-1670364-1:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+X208  : : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940:      :      :      :          : : : :                    :::AUTOMATIC::DEFAULT:0:::FALSE:
+!
+!   Harness Multi Location Components
+!
+!
+!   Harness Assemblies
+!
+!
+!   Harness node components
+!
+N-1   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0300         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-21  : : : :               :                    :T-PIECE BK 26-17-13 :          :492155020           :1.0000         : :A 000 546 33 27     :9806 124            : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-21  : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-21  : : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-3   : : : :               :                    :T-PIECE BK 17-17-17 :          :498300830           :1.0000         : :A 000 153 74 66     :492-26-221          : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-3   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-3   : : : :               :                    :CLIP TIE-WRAP ON BK :          :491103000           :1.0000         : :A 001 997 94 90     :111-01940           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+680   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+680   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-12  : : : :               :                    :T-PIECE BK 17-13-13 :          :492116610           :1.0000         : :A 000 153 73 66     :492-27-172          : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+N-12  : : : :               :                    :REDUCER BK 13-10    :          :492197510           :1.0000         : :A 000 153 24 66     :7807 280            : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+460   : : : :               :                    :STEEL TUBE          :          :P00127200           :1.0000         : :A 960 546 00 85     :A 960 546 00 85     : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+460   : : : :               :                    :CLIP TIE-WRAP ON BK :          :497069200           :2.0000         : :A 001 997 95 90     :111 03260           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+340   : : : :               :                    :CLIP TIE-WRAP ON GY :          :498002001           :1.0000         : :A 901 997 02 90     :111-00824           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+340   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0100         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+640   : : : :               :                    :TAPE CLOTH 19MMX25M BK -40/+150 C:          :497020310_COMPONENT :0.0400         : :A 007 989 07 85     :837X                : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+870   : : : :               :                    :TEST LABEL 65x95    :          :499030939           :1.0000         : :A 944 000 41 99     :51171595            : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+870   : : : :               :                    :TRANSFER RIBBON 110MMX300M:          :497006100           :0.0003         : :556-00104           :556-00104           : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+720   : : : :               :                    :T-PIECE BK 17-10-13 :          :492137800           :1.0000         : :A 000 153 93 66     :492-17-171          : : : : : : : : :::AUTOMATIC:::0::0:FALSE:
+!
+!   Harness branch components
+!
+!
+!    Harness cavity components
+!
+790   :1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+790   :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+790   :2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+790   :2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+790   :3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+790   :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :1            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :2            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :2            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :3            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :4            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :4            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :5            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :5            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :6            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :6            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :7            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :7            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+A67   :8            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+A67   :8            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A57:1            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A57:1            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A57:2            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A57:2            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A57:3            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A57:3            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A57:4            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A57:4            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:1            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:3            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:4            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:4            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:5            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:5            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:6            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:6            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:7            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:7            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:8            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:8            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:9            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:9            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:10           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:10           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:11           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:11           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:12           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:12           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:13           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:13           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:14           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:14           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:15           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:15           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:16           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:16           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:17           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:17           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:18           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:18           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:19           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:19           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:20           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:20           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:21           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:21           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:22           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:22           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:23           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:23           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:24           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:24           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:25           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:25           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:26           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:26           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:27           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:27           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:28           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:28           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:29           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:29           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:30           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:30           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:31           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:31           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:32           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:32           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:33           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:33           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:34           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:34           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:35           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:35           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:36           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:36           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:37           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:37           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:38           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:38           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:39           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:39           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:40           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:40           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:41           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:41           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:42           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:42           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:43           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:43           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:44           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:44           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:45           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:45           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:46           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:46           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:47           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:47           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:48           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:48           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:49           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:49           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:50           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:50           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:51           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:51           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:52           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:52           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:53           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:53           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:54           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:54           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:55           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:55           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:56           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:56           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:57           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:57           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:58           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:58           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:59           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:59           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:60           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:60           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:61           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:61           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:62           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:62           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:63           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:63           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:64           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:64           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:65           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:65           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:66           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:66           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:67           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:67           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:68           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:68           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:69           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:69           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:70           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:70           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:71           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:71           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:72           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:72           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:73           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:73           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:74           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:74           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:75           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:75           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:76           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:76           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:77           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:77           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:78           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:78           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:79           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:79           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:80           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:80           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:81           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:81           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:82           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:82           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:83           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:83           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:84           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:84           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:85           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:85           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:86           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:86           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:87           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:87           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:88           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:88           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:89           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:89           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:90           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:90           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:91           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:91           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:92           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:92           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:93           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:93           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:94           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:94           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:95           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:95           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:96           :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:96           :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:97           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:97           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:98           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:98           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:99           :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:99           :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:100          :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:100          :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:101          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:101          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:102          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:102          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:103          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:103          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:104          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:104          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:105          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:105          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:106          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:106          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:107          :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:107          :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:108          :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:108          :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:109          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:109          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:110          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:110          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:111          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:111          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:112          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:112          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:113          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:113          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:114          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:114          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:115          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:115          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:116          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:116          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:117          :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :-    :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A60:117          :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:118          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:118          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:119          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:119          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:120          :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A60:120          :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A70:1            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A70:1            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A70:2            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A70:2            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A70:3            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A70:3            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_A70:4            :          : :TERM:          : : :414348377           :1.000000: :A 014 545 80 26     :1-0968855-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_A70:4            :          : :SEAL:          : : :499148600           :1.000000: :A 000 545 28 39     :0-0828904-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B37:1            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :-    :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B37:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B37:2            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B37:2            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B37:3            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B37:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B38:1            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :-    :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B38:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B38:2            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B38:2            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B38:3            :          : :TERM:          : : :411502200           :1.000000: :A 018 545 29 26     :0-1241380-3         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B38:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B67:1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B67:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B67:2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B67:2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B67:3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B67:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B70:1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B70:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B70:2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B70:2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B70:3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B70:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B73:1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B73:1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B73:2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B73:2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+ST_B73:3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+ST_B73:3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X157  :1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X157  :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X157  :2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X157  :2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X157  :3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X157  :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X160  :1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X160  :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X160  :2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X160  :2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X160  :3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X160  :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X174  :1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X174  :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X174  :2            :          : :SEAL:          : : :                    :1.000000: :                    :                    :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X174  :2            :          : :PLUG:          : : :498084500           :1.000000: :A 002 997 60 86     :0-0963531-1         :     :     :TRUE :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X174  :3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X174  :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :1            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :1            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :TRUE :     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :2            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :2            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :3            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :TRUE :     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :3            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :4            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :4            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :5            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :5            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :6            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :6            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :7            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :7            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+X208  :8            :          : :TERM:          : : :414298730           :1.000000: :A 000 982 44 28     :0-0964269-5         :FALSE:     :     :          :System Calculated   :     :     : :::AUTOMATIC:::0::0:FALSE:
+X208  :8            :          : :SEAL:          : : :498084400           :1.000000: :A 003 997 75 49     :0-0963530-1         :     :FALSE:     :          :                    :     :     :     :::AUTOMATIC:::0::0:FALSE:
+!
+!   Harness wire components
+!
+!
+%   Harness branch insulations
+!
+!
+!     Branch Insulation configuration
+N-3   :          :N-4   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_B37:          :490   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_A70:          :540   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+X157  :          :560   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+X208  :          :570   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+X174  :          :580   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+X160  :          :590   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_A57:          :550   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+600   :          :ST_B38:          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_B70:          :610   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_B73:          :620   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+ST_B67:          :760   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+790   :          :770   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+A67   :          :890   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+N-12  :          :720   :          :               :BYLAYER        :          :          :          :::AUTOMATIC: : : : : : : : : : : : : : : : : : : : : : : :no:no::
+!
+!     Node Insulation configuration
+!
+!     Insulation Table configuration
+720   :          :A67   :          :PIECECODE-7A3A1:PA6 MOD NW 10  :          :          :          :::AUTOMATIC: : : : :0:40:Fixed Tube:P00105099:A 006 997 04 52:472-010-00:BK:COTU:PFA:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-1   :          :ST_B38:          :PIECECODE-7A3A3:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-1   :          :ST_B70:          :PIECECODE-7A3A5:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-1   :          :ST_B73:          :PIECECODE-7A3A7:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-12  :          :N-1   :          :PIECECODE-7A3A9:PFA Top 260 NW 13:          :          :          :::AUTOMATIC: : : : :0:40:Fixed Tube:P00109053:A 006 997 05 52:472-013-00:BK:COTU:PFA:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-12  :          :ST_A57:          :PIECECODE-7A3AB:PFA Top 260 NW 10:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:P00105099:A 006 997 04 52:472-010-00:BK:COTU:PFA:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-21  :          :790   :          :PIECECODE-7A3AD:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:50:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-21  :          :N-3   :          :PIECECODE-7A3AF:PFA Top 260 NW 17:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:P00109050:A 006 997 06 52:472-017-00:BK:COTU:PFA:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-21  :          :ST_B37:          :PIECECODE-7A3B1:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:40:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-21  :          :ST_B67:          :PIECECODE-7A3B3:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:50:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-3   :          :720   :          :PIECECODE-7A3B5:PFA Top 260 NW 17:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:P00109050:A 006 997 06 52:472-017-00:BK:COTU:PFA:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-4   :          :X157  :          :PIECECODE-7A3B7:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+N-4   :          :X174  :          :PIECECODE-7A3B9:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+ST_A60:          :N-21  :          :PIECECODE-7A3BB:PA6 MOD NW 26  :          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:491184450:A 006 997 08 52:472-026-00:BK:COTU:PFA:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+ST_A70:          :N-21  :          :PIECECODE-7A3BD:ISOFLEX 250 NW 9:          :          :          :::AUTOMATIC: : : : :0:50:Fixed Tube:485005720:A 001 997 72 51:60093675:BK:TUBE:-:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+X160  :          :N-4   :          :PIECECODE-7A3BF:ISOFLEX 250 NW 7:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005710:A 001 997 70 51:60093674:BK:TUBE:-:0.000000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+X208  :          :N-4   :          :PIECECODE-7A3C1:ISOFLEX 250 NW 9:          :          :          :::AUTOMATIC: : : : :0:10:Fixed Tube:485005720:A 001 997 72 51:60093675:BK:TUBE:-:0.800000:0:0:0:0.000000:0.000000:0.000000:P:0.000000:0.000000:no:no:*******:
+!
+%   Harness centre strips
+!
+!
+%   Harness multicore specification
+!
+CBL_1:YES:YES:::NEITHER:0.0:NEITHER:0.0:NEITHER:0.0:-:TWI:1.04:FALSE: :0::::1765.000000:1765.000000:493364700883/887/555/111:::
+CBL_2:YES:YES:::NEITHER:0.0:NEITHER:0.0:NEITHER:0.0:-:TWI:1.04:FALSE: :0::::485.000000:485.000000:493364700333/888/555/110:::
+CBL_3:YES:YES:::NEITHER:0.0:NEITHER:0.0:NEITHER:0.0:-:TWI:1.04:FALSE: :0::::1505.000000:1505.000000:493364700883/887/555/116:::
+!
+%   Module Children
+!
+!
+%   Module Compatibility Table
+!
+!
+%   Manual BOM Quantities
+!
+!
+%   Composite Options Table
+!
+!
+%   Harness Wire - Through And Not-Through Nodes
+!
+!
+%   Harness Insulation - Through And Not-Through Nodes
+!
+!
+%   Mid Wire Components
+!
+!
+%   Harness Wire Markers
+!
+!
+!   Harness Multicore Markers
+!
+!
+% Harness pin mappings
+!
+!
+% Harness Scoping Details
+!
+!
+%   End of file marker

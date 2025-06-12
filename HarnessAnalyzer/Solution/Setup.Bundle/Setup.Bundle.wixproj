@@ -1,0 +1,96 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.2">
+  <PropertyGroup>
+    <OutputName>$(ProductName)-$(Version)</OutputName>
+    <OutputType>Bundle</OutputType>
+    <Name>Installer</Name>
+    <DefineConstants>tempMsiBuildDir=TempMsiBuild\;Version=$(Version);VersionShort=$(VersionShort);IconPath=$(IconPath);ManufacturerShort=$(CompanyShort);PackageName=$(ProductName);Manufacturer=$(Company);Copyright=$(Copyright)</DefineConstants>
+    <Platforms>x64</Platforms>
+    <Configurations>Release</Configurations>
+  </PropertyGroup>
+  <!---->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <!---->
+  <ItemGroup>
+    <PackageReference Include="WixToolset.Util.wixext" Version="5.0.2" />
+    <PackageReference Include="WixToolset.NetFx.wixext" Version="5.0.2" />
+    <PackageReference Include="WixToolset.Bal.wixext" Version="5.0.2" />
+  </ItemGroup>
+  <!---->
+  <ItemGroup>
+    <ProjectReference Include="..\BorrowUtility\BorrowUtility.vbproj" />
+    <ProjectReference Include="..\E3.HarnessAnalyzer\E3.HarnessAnalyzer.vbproj">
+      <Name>E3.HarnessAnalyzer</Name>
+      <Project>{74cceb02-b728-4e37-a90b-c7fc2ff4ca55}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\Setup\Setup.wixproj" />
+  </ItemGroup>
+  <!---->
+  <ItemGroup>
+    <Content Include="..\Setup\Common.wxi">
+      <Link>Common.wxi</Link>
+    </Content>
+  </ItemGroup>
+  <!---->
+  <!-- ///////////////////////////////////////////////////////////// Execute signing ////////////////////////////////////////////////////////////////////////////////////// -->
+  <!---->
+  <Target Name="SignBundleEngine" Condition="'$(USERNAME)' == 'ContainerAdministrator'">
+    <Message Importance="high" Text="Signing bundle engine: @(SignBundleEngine)" />
+    <Exec Command="zs sign &quot;%(SignBundleEngine.FullPath)&quot;" />
+  </Target>
+  <Target Name="SignBundle" Condition="'$(USERNAME)' == 'ContainerAdministrator'">
+    <Message Importance="high" Text="Signing bundle: @(SignBundle)" />
+    <Exec Command="zs sign &quot;%(SignBundle.FullPath)&quot;" />
+  </Target>
+  <!--Execute signing for burn bundle and engine: https://docs.firegiant.com/wix/tools/signing/-->
+  <!---->
+  <!-- //////////////////////////////////////////////////////////////////////////// Execute signing /////////////////////////////////////////////////////////////////////// -->
+  <!---->
+  <!---->
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CONFIGURE ZSTART FILES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
+  <!---->
+  <Target Name="WriteSetupZstartContents" AfterTargets="Build" Condition="$(Configuration.StartsWith('Release'))">
+	    <ItemGroup>
+		      <SetupBatchFiles Include ="..\Setup\bin\*.bat"/>
+	    </ItemGroup>
+	    <!---->
+	    <PropertyGroup>
+		      <!-- overwrite content to add .msi (Setup.bat) and .exe (Setup.Bundle.bat) - bundle to zstart run - entries (defined throu the zstart.run.json file) -->
+		      <ZstartRunJsonContent>
+    [
+        {
+	        "executable": "$(ZstartBatchFileName)",
+	        "args": []
+        },
+        {
+            <!-- source https://stackoverflow.com/questions/73993334/using-msbuild-how-to-expand-wildcard-files-as-one-single-line  | source 2: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-well-known-item-metadata?view=vs-2022 -->
+            "executable": "@(SetupBatchFiles->'%(Filename)%(Extension)')",
+	        "args": []
+        }
+    ]
+		      </ZstartRunJsonContent>
+	    </PropertyGroup>
+	    <!---->
+        <Message Text=">>> $(MSBuildProjectName): Creating zstart run files ..." Importance="high" />
+	    <!---->
+            <WriteLinesToFile File="$(ZstartBatchFilePath)" Lines="$(ZstartBatchFileContent)" Overwrite="true" WriteOnlyWhenDifferent="true" />
+            <WriteLinesToFile File="$(ZstartRunJsonFilePath)" Lines="$(ZstartRunJsonContent)" Overwrite="true" WriteOnlyWhenDifferent="true" />
+            <WriteLinesToFile File="$(ZstartVersionInfoFilePath)" Lines="$(ZStart_Version_Info_Json)" Overwrite="true" Encoding="ASCII" />
+            <MakeDir Directories="$(SandboxOutputPath)" />
+            <MakeDir Directories="$(InstallExtraFilesPath)" />
+            <Copy SourceFiles="..\E3.HarnessAnalyzer\license.dat" DestinationFolder="$(InstallExtraFilesPath)"/>
+            <Copy SourceFiles="@(SetupBatchFiles)" DestinationFolder="$(TargetDir)"/>
+            <Exec Command="powershell -Command &quot;Invoke-WebRequest -OutFile '$(SandboxOutputPath)\$(SandboxRunBatchFileName)' -Uri '$(ZstartRunDownloadUrl)'&quot;" />
+	        <ZipDirectory SourceDirectory="..\TestData" DestinationFile="$(TargetDir)\$(TestDataCompressedFileName)" Overwrite="true" ContinueOnError="true"/>
+	    <!---->
+	    <Message Text=">>> $(MSBuildProjectName): Creating zstart run files ...Finished!" Importance="high" />
+  </Target>
+  <!---->
+  <!-- ///////////////////////////////////////////////////////////// CONFIGURE ZSTART FILES ///////////////////////////////////////////////////////////////////////////// -->
+</Project>

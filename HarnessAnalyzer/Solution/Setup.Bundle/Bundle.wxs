@@ -1,0 +1,158 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:bal="http://wixtoolset.org/schemas/v4/wxs/bal" xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx">
+	<?include ..\Setup\Common.wxi?>
+
+	<!-- see more: https://wixtoolset.org/docs/tools/burn/-->
+	<Bundle Name="HarnessAnalyzer" Copyright="$(Copyright)" Version="$(Version)" Manufacturer="$(Manufacturer)" 
+	UpgradeCode="$(var.ProductUpgradeCode)" 
+	Compressed="yes"
+	IconSourceFile="$(var.SolutionDir)\..\Setup\images\e3logo.ico">
+		<BootstrapperApplication>
+			<!-- see for how to set logos and theme: https://wixtoolset.org/docs/v3/bundle/wixstdba/wixstdba_branding/ and v5-info: https://wixtoolset.org/docs/schema/bal/wixstandardbootstrapperapplication/-->
+			<!-- this is a url where i have uploaded the zuken license to an azure.blob LicenseUrl="https://zuken.blob.core.windows.net/licenses/Zuken.rtf" (a html file would be better)-->
+			<!-- Parameter for Theme "rtfLargeLicense": LicenseFile="$(var.SolutionDir)\..\Setup\EULA\License.rtf"-->
+			<!-- how to use a custom theme: https://documentation.help/WiX-3.10.1/wixstdba_customize.html-->
+			<bal:WixStandardBootstrapperApplication
+				LicenseUrl="https://zuken.blob.core.windows.net/licenses/Zuken.htm"
+				Theme="hyperlinkSidebarLicense"
+				ShowVersion="yes" 
+				LogoFile="$(var.SolutionDir)\..\Setup\images\e3logo.ico" 
+				LogoSideFile="$(var.SolutionDir)\..\Setup\images\banner-left.png" />
+		</BootstrapperApplication>
+
+		<!-- ************* -->
+		<!--see: https://wixtoolset.org/docs/tools/wixext/dotnet/ -->
+		<!--<netfx:DotNetCoreSearch Id="Net8Runtime" RuntimeType="desktop" Platform="x64" MajorVersion="8" Variable="NetCoreRuntimeEightOneHundredVersion" />-->
+		<!-- ************* -->
+		
+		<Chain>
+			<PackageGroupRef Id="BundlePackages"/>
+		</Chain>
+
+	</Bundle>
+
+	<Fragment>
+
+		<!-- template for using variables: https://neilsleightholm.blogspot.com/2012/05/wix-burn-tipstricks.html-->
+		<Variable Name="InstallFolder" Type="string" Value="$(var.MyInstallFolder)"></Variable>
+
+		<PackageGroup Id="BundlePackages">
+			<PackageGroupRef Id="DotNetDesktopRedist" />
+			<PackageGroupRef Id="VCRuntimeRedist" />
+			<MsiPackage Id="SetupPackage" SourceFile="$(var.Setup.TargetPath)">
+				<MsiProperty Name="INSTALLFOLDER" Value="[InstallFolder]"></MsiProperty> 
+			</MsiPackage>
+			<!--another 2nd package would be: <msipackage id="packageb" sourcefile="packageb.msi" />-->
+		</PackageGroup>
+
+		<!-- code source: https://stackoverflow.com/questions/79113612/install-net-core-6-0-0-and-windows-desktop-runtime-6-0-33-using-online-setup-in -->
+		<!-- download link's source: https://dotnet.microsoft.com/en-us/download/dotnet/8.0 -->
+		<PackageGroup Id="DotNetDesktopRedist">
+			<!-- If you set up your bundle to Compressed=no it will not include the source file in your final bundle. -->
+			<!-- HINT - SourceFile-Attribute: tells Burn to go out to the project directory and use the downloaded, local copy of the target package to generate all of the info you would otherwise have to figure out and put in your RemotePayload record-->
+			<!-- HINT2 - Hash: How to create a file hash with powershell https://www.thomas-krenn.com/de/wiki/Get-Filehash_-_sha256sum_Windows ( SHA-512 IS NEEDED!) -->
+			<!--<ExePackage Id="NetCoreInstaller"
+					 Vital="yes"
+					 UninstallArguments="/uninstall"
+					 InstallArguments="/quiet /norestart"
+					 DetectCondition="NETCORE80FOUND"  >
+					<ExePackagePayload
+					     Id="Net8RuntimePlayLoad"
+						 Name="dotnet-runtime-8.0.12-win-x64.exe"
+						 Hash="EC889578022D9822DF2BB9983845E80797667CA364EC8CC101D94468010F8E1411CB8C288E4ACC55393C4A20AF0574CBE4CD17B917D24727F1D3D5F1903B13AF"
+						 ProductName="Microsoft .NET Runtime - 8.0.12 (x64)" 
+						 DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/136f4593-e3cd-4d52-bc25-579cdf46e80c/8b98c1347293b48c56c3a68d72f586a1/dotnet-runtime-8.0.12-win-x64.exe"
+						 Compressed="no"
+						 Size="28563896"
+						 Version="8.0.12"
+						 Description="Microsoft .NET Runtime - 8.0.12 (x64)"/>
+			</ExePackage>-->
+
+			<!-- HINT2 - Hash: How to create a file hash with powershell https://www.thomas-krenn.com/de/wiki/Get-Filehash_-_sha256sum_Windows ( SHA-512 IS NEEDED!)-->
+			<ExePackage Id="WindowsDesktopRuntime"
+				   Vital="yes"
+				   UninstallArguments="/uninstall"
+				   InstallArguments="/quiet /norestart"
+				   DetectCondition="WINDOWSDESKTOP80FOUND" >
+					<ExePackagePayload
+						 Id="Net8DesktopRuntimePlayLoad"
+						 Name="windowsdesktop-runtime-8.0.12-win-x64.exe"
+						 Hash="C5B6A2B5C38A8B2A4D4F096E6BB62ECD74EBFA039CE9D0E19B023099E364F29A1C256014B8995CA152B64A00C951FEB2F93BF7D4C85EB70CDB30A209F4B1E17F"
+						 ProductName="Microsoft Windows Desktop Runtime - 8.0.12 (x64)"
+						 DownloadUrl="https://download.visualstudio.microsoft.com/download/pr/f1e7ffc8-c278-4339-b460-517420724524/f36bb75b2e86a52338c4d3a90f8dac9b/windowsdesktop-runtime-8.0.12-win-x64.exe"
+						 Compressed="no"
+						 Size="58514712"
+						 Version="8.0.12"
+						 Description="Microsoft Windows Desktop Runtime - 8.0.12 (x64)"/>
+			</ExePackage>
+		</PackageGroup>
+
+		<PackageGroup Id="VCRuntimeRedist">
+			<!-- HINT - SourceFile-Attribute: tells Burn to go out to the project directory and use the downloaded, local copy of the target package to generate all of the info you would otherwise have to figure out and put in your RemotePayload record-->
+			<!-- download link sources: https://raw.githubusercontent.com/aaronparker/vcredist/refs/heads/main/VcRedist/VisualCRedistributables.json -->
+			<!-- HINT2 - Hash: How to create a file hash with powershell https://www.thomas-krenn.com/de/wiki/Get-Filehash_-_sha256sum_Windows (SHA-512 IS NEEDED!) -->
+			<ExePackage Id="VCRedist2022Runtime"
+				   Vital="yes"
+				   UninstallArguments="/uninstall"
+				   InstallArguments="/quiet /norestart"
+				   DetectCondition="VC_REDIST2022_FOUND">
+					<ExePackagePayload
+						 Id="VCRedist2022PlayLoad"
+						 Name="VC_redist.x64.exe"
+						 ProductName="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.42.34433"
+						 Hash="C021453F6DBC8E79C5B97CA1F5D717868E9124E503391CC133A76F10643E2B41043E47D98836F524938D581C610D5F887C710CD5E6C036DC8F868074E3759C8F"
+						 DownloadUrl="https://aka.ms/vs/17/release/VC_redist.x64.exe"
+						 Compressed="no"
+						 Size="25640112"
+						 Version="14.42.34433"
+						 Description="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.42.34433"/>
+			</ExePackage>
+		</PackageGroup>
+
+		<!-- see more: https://wixtoolset.org/docs/tools/burn/-->
+		<!--<PackageGroup Id="PrereqPackages">
+			<MsiPackage SourceFile="Prereqs.msi"> 
+				<MsiProperty Name="PREREQSONLY" Value="1" />
+			</MsiPackage>
+		</PackageGroup>-->
+	</Fragment>
+
+	<Fragment>
+		<!--<Property Id="NETCORE80FOUND">
+			<RegistrySearch Id="NetCore80"
+				Root="HKLM"
+				Key="SOFTWARE\dotnet\Setup\InstalledVersions\x64\sharedfx\Microsoft.NETCore.App"
+				Name="8.0.0"
+				Type="raw" />
+		</Property>-->
+		<Property Id="WINDOWSDESKTOP80FOUND">
+			<RegistrySearch Id="WindowsDesktop80"
+				Root="HKLM"
+				Key="SOFTWARE\dotnet\Setup\InstalledVersions\x64\sharedfx\Microsoft.WindowsDesktop.App"
+				Name="8.0.0"
+				Type="raw" />
+		</Property>
+	</Fragment>
+
+	<!-- how detect net runtime installer + download urls: https://stackoverflow.com/questions/12206314/detect-if-visual-c-redistributable-for-visual-studio-2012-is-installed/34209692#34209692-->
+	<!-- info about every VC redistributables installer: https://raw.githubusercontent.com/aaronparker/vcredist/refs/heads/main/VcRedist/VisualCRedistributables.json-->
+	<!-- search for the product-code: {804e7d66-ccc2-4c12-84ba-476da31d103d} == 14.42.34433.0 Version -->
+	<Fragment>
+		<Property Id="VC_REDIST2022_FOUND">
+			<RegistrySearch Id="VCTools2022"
+				Root="HKCR"
+				Key="Installer\Dependencies\VC,redist.x64,amd64,14.42,bundle\Dependents\{804e7d66-ccc2-4c12-84ba-476da31d103d}"
+				Type="raw"/>
+		</Property>
+	</Fragment>
+
+	<Fragment>
+
+		<InstallExecuteSequence>
+			<!--<Custom Action="NetCore80Search" After="AppSearch" />-->
+			<Custom Action="WindowsDesktop80Search" After="AppSearch" />
+			<Custom Action="VCTools2022Search" After="AppSearch" />
+		</InstallExecuteSequence>
+
+	</Fragment>
+	 
+</Wix>

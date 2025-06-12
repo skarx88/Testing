@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ugbQM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnDebugGenerate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnDebugGenerate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDebugGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 69</value>
+  </data>
+  <data name="btnDebugGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDebugGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnDebugGenerate.Text" xml:space="preserve">
+    <value>Generate from current (only Debug)</value>
+  </data>
+  <data name="btnDebugGenerate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnDebugGenerate.Name" xml:space="preserve">
+    <value>btnDebugGenerate</value>
+  </data>
+  <data name="&gt;&gt;btnDebugGenerate.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnDebugGenerate.Parent" xml:space="preserve">
+    <value>ugbQM</value>
+  </data>
+  <data name="&gt;&gt;btnDebugGenerate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ugbColors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="colorRange5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 186</value>
+  </data>
+  <data name="colorRange5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="colorRange5.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;colorRange5.Name" xml:space="preserve">
+    <value>colorRange5</value>
+  </data>
+  <data name="&gt;&gt;colorRange5.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraNumericEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;colorRange5.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;colorRange5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucp5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 186</value>
+  </data>
+  <data name="ucp5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="ucp5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ucp5.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;ucp5.Name" xml:space="preserve">
+    <value>ucp5</value>
+  </data>
+  <data name="&gt;&gt;ucp5.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraColorPicker, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ucp5.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ucp5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UltraLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 189</value>
+  </data>
+  <data name="UltraLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="UltraLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="UltraLabel6.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel6.Name" xml:space="preserve">
+    <value>UltraLabel6</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel6.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel6.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colorRange4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 146</value>
+  </data>
+  <data name="colorRange4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="colorRange4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;colorRange4.Name" xml:space="preserve">
+    <value>colorRange4</value>
+  </data>
+  <data name="&gt;&gt;colorRange4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraNumericEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;colorRange4.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;colorRange4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="colorRange3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 105</value>
+  </data>
+  <data name="colorRange3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="colorRange3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;colorRange3.Name" xml:space="preserve">
+    <value>colorRange3</value>
+  </data>
+  <data name="&gt;&gt;colorRange3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraNumericEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;colorRange3.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;colorRange3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colorRange2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 63</value>
+  </data>
+  <data name="colorRange2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="colorRange2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;colorRange2.Name" xml:space="preserve">
+    <value>colorRange2</value>
+  </data>
+  <data name="&gt;&gt;colorRange2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraNumericEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;colorRange2.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;colorRange2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colorRange1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="colorRange1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="colorRange1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;colorRange1.Name" xml:space="preserve">
+    <value>colorRange1</value>
+  </data>
+  <data name="&gt;&gt;colorRange1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraNumericEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;colorRange1.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;colorRange1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ucp4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 146</value>
+  </data>
+  <data name="ucp4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="ucp4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ucp4.Text" xml:space="preserve">
+    <value>255; 50; 50</value>
+  </data>
+  <data name="&gt;&gt;ucp4.Name" xml:space="preserve">
+    <value>ucp4</value>
+  </data>
+  <data name="&gt;&gt;ucp4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraColorPicker, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ucp4.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ucp4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ucp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 105</value>
+  </data>
+  <data name="ucp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="ucp3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ucp3.Text" xml:space="preserve">
+    <value>255; 100; 100</value>
+  </data>
+  <data name="&gt;&gt;ucp3.Name" xml:space="preserve">
+    <value>ucp3</value>
+  </data>
+  <data name="&gt;&gt;ucp3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraColorPicker, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ucp3.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ucp3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ucp2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 63</value>
+  </data>
+  <data name="ucp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="ucp2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ucp2.Text" xml:space="preserve">
+    <value>255; 150; 150</value>
+  </data>
+  <data name="&gt;&gt;ucp2.Name" xml:space="preserve">
+    <value>ucp2</value>
+  </data>
+  <data name="&gt;&gt;ucp2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraColorPicker, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ucp2.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ucp2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ucp1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="ucp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 25</value>
+  </data>
+  <data name="ucp1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ucp1.Text" xml:space="preserve">
+    <value>255; 192; 192</value>
+  </data>
+  <data name="&gt;&gt;ucp1.Name" xml:space="preserve">
+    <value>ucp1</value>
+  </data>
+  <data name="&gt;&gt;ucp1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraColorPicker, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ucp1.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ucp1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="UltraLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 149</value>
+  </data>
+  <data name="UltraLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="UltraLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="UltraLabel5.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel5.Name" xml:space="preserve">
+    <value>UltraLabel5</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel5.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel5.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="UltraLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 108</value>
+  </data>
+  <data name="UltraLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="UltraLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UltraLabel4.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel4.Name" xml:space="preserve">
+    <value>UltraLabel4</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel4.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel4.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="UltraLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 66</value>
+  </data>
+  <data name="UltraLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="UltraLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="UltraLabel3.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel3.Name" xml:space="preserve">
+    <value>UltraLabel3</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel3.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel3.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="UltraLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 25</value>
+  </data>
+  <data name="UltraLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="UltraLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="UltraLabel2.Text" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Name" xml:space="preserve">
+    <value>UltraLabel2</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.Parent" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ugbColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 103</value>
+  </data>
+  <data name="ugbColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 230</value>
+  </data>
+  <data name="ugbColors.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ugbColors.Text" xml:space="preserve">
+    <value>Color ranges by occurrences</value>
+  </data>
+  <data name="&gt;&gt;ugbColors.Name" xml:space="preserve">
+    <value>ugbColors</value>
+  </data>
+  <data name="&gt;&gt;ugbColors.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraGroupBox, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugbColors.Parent" xml:space="preserve">
+    <value>ugbQM</value>
+  </data>
+  <data name="&gt;&gt;ugbColors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtQMFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="EditorButton1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="txtQMFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 42</value>
+  </data>
+  <data name="txtQMFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 25</value>
+  </data>
+  <data name="txtQMFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtQMFile.Name" xml:space="preserve">
+    <value>txtQMFile</value>
+  </data>
+  <data name="&gt;&gt;txtQMFile.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics.Win.UltraWinEditors, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;txtQMFile.Parent" xml:space="preserve">
+    <value>ugbQM</value>
+  </data>
+  <data name="&gt;&gt;txtQMFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UltraLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UltraLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UltraLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 22</value>
+  </data>
+  <data name="UltraLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="UltraLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UltraLabel1.Text" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Name" xml:space="preserve">
+    <value>UltraLabel1</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.Parent" xml:space="preserve">
+    <value>ugbQM</value>
+  </data>
+  <data name="&gt;&gt;UltraLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ugbQM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ugbQM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ugbQM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 357</value>
+  </data>
+  <data name="ugbQM.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ugbQM.Text" xml:space="preserve">
+    <value>Choose quality management issues file</value>
+  </data>
+  <data name="&gt;&gt;ugbQM.Name" xml:space="preserve">
+    <value>ugbQM</value>
+  </data>
+  <data name="&gt;&gt;ugbQM.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraGroupBox, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugbQM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ugbQM.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnView.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 380</value>
+  </data>
+  <data name="btnView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="btnView.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;btnView.Name" xml:space="preserve">
+    <value>btnView</value>
+  </data>
+  <data name="&gt;&gt;btnView.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 380</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics.Win.Misc, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>524, 421</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>540, 460</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>QMIssuesForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>QMIssuesForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

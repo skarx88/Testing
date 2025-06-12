@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiameterSettings xmlns:Zuken="E3.HarnessAnalyzer">
+  <Name>Diameter Settings</Name>
+  <RawBundleCrossSectionAreaTolerance>0.2</RawBundleCrossSectionAreaTolerance>
+  <RawBundleOutsideDiameterTolerance>0</RawBundleOutsideDiameterTolerance>
+  <Diameters>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 0.5</WireType>
+      <Value>2.3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 0.75</WireType>
+      <Value>2.5</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 1</WireType>
+      <Value>2.7</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 1.5</WireType>
+      <Value>3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 2</WireType>
+      <Value>3.3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 2.5</WireType>
+      <Value>3.6</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 3</WireType>
+      <Value>3.9</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 4</WireType>
+      <Value>4.4</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 6</WireType>
+      <Value>5</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 10</WireType>
+      <Value>6.5</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 16</WireType>
+      <Value>8.3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 25</WireType>
+      <Value>10.2</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 35</WireType>
+      <Value>10.7</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 50</WireType>
+      <Value>13</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 70</WireType>
+      <Value>15</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 95</WireType>
+      <Value>16.2</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLY 120</WireType>
+      <Value>19.7</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 0.22</WireType>
+      <Value>1.2</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 0.35</WireType>
+      <Value>1.3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 0.5</WireType>
+      <Value>1.6</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 0.75</WireType>
+      <Value>1.9</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 1</WireType>
+      <Value>2.1</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 1.5</WireType>
+      <Value>2.4</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 2</WireType>
+      <Value>2.8</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-A 2.5</WireType>
+      <Value>3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 0.35</WireType>
+      <Value>1.4</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 0.5</WireType>
+      <Value>1.6</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 0.75</WireType>
+      <Value>1.9</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 1</WireType>
+      <Value>2.1</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 1.5</WireType>
+      <Value>2.4</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 2</WireType>
+      <Value>2.8</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 2.5</WireType>
+      <Value>3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 3</WireType>
+      <Value>3.2</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 4</WireType>
+      <Value>3.7</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 6</WireType>
+      <Value>4.3</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 10</WireType>
+      <Value>6</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 16</WireType>
+      <Value>7.9</Value>
+    </Diameter>
+    <Diameter>
+      <PartNumber />
+      <WireType>FLRY-B 25</WireType>
+      <Value>9.4</Value>
+    </Diameter>
+  </Diameters>
+  <GenericDiameterFormulaParameters>
+    <BDL_Coeff1>1.425</BDL_Coeff1>
+    <BDL_Corr>1</BDL_Corr>
+    <BDL_Exp>0.5</BDL_Exp>
+    <MCD_Coeff1>1.49</MCD_Coeff1>
+    <MCD_Corr>1.1</MCD_Corr>
+    <MCD_Exp>0.52</MCD_Exp>
+    <WD_Coeff1>0.4</WD_Coeff1>
+    <WD_Coeff2>0.055</WD_Coeff2>
+    <WD_Coeff3>1.6259</WD_Coeff3>
+    <WD_Exp>0.4943</WD_Exp>
+  </GenericDiameterFormulaParameters>
+</DiameterSettings>

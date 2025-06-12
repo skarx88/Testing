@@ -1,0 +1,31 @@
+﻿[*.{cs,vb}]
+
+# IDE0044: Modifizierer "readonly" hinzufügen
+dotnet_diagnostic.IDE0044.severity = none
+
+# Default severity for analyzer diagnostics with category 'Globalization'
+dotnet_analyzer_diagnostic.category-Globalization.severity = none
+
+# Default severity for analyzer diagnostics with category 'Performance'
+dotnet_analyzer_diagnostic.category-Performance.severity = none
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = none
+
+# CA1862: "StringComparison"-Methodenüberladungen verwenden, um Zeichenfolgenvergleiche ohne Beachtung der Groß-/Kleinschreibung durchzuführen
+dotnet_diagnostic.CA1862.severity = none
+
+# CA1822: Member als statisch markieren
+dotnet_diagnostic.CA1822.severity = none
+
+# CA1854: Methode „IDictionary.TryGetValue(TKey, out TValue)“ bevorzugen
+dotnet_diagnostic.CA1854.severity = none
+
+# CA1859: Ändern Sie den Typ um die Leistung zu verbessern
+dotnet_diagnostic.CA1859.severity = none
+
+# CA2224: "Equals" beim Überladen von Gleichheitsoperatoren außer Kraft setzen 
+dotnet_diagnostic.CA2224.severity = none
+
+# CA1845: "string.Concat" auf span-Basis verwenden
+dotnet_diagnostic.CA1845.severity = none

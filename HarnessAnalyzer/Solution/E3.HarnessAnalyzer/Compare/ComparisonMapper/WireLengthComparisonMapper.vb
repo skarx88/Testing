@@ -1,0 +1,31 @@
+﻿Imports Zuken.E3.HarnessAnalyzer.Settings
+
+Public Class WireLengthComparisonMapper
+    Inherits ComparisonMapper
+
+    Public Sub New(owner As ComparisonMapper, fillListToDictionary As ListConvertToDictionary, settings As GeneralSettingsBase)
+        MyBase.New(owner, fillListToDictionary, settings)
+    End Sub
+
+    Public Overrides Sub CompareObjects()
+        For Each dictionaryEntry As KeyValuePair(Of String, Object) In _listConvertToDictionary.CurrentObjects
+            If _listConvertToDictionary.CompareObjects.ContainsKey(dictionaryEntry.Key) Then
+                If dictionaryEntry.Value.Equals(_listConvertToDictionary.CompareObjects(dictionaryEntry.Key)) = False Then
+                    Dim changedProperty As WireLengthChangedProperty = CompareProperties(Of WireLengthChangedProperty)(dictionaryEntry.Value, _listConvertToDictionary.CompareObjects(dictionaryEntry.Key))
+                    If (changedProperty.ChangedProperties.Count <> 0) AndAlso (Not Me.Changes.ContainsModified(dictionaryEntry.Key)) Then
+                        Me.AddOrReplaceChangeWithInverse(dictionaryEntry.Key, changedProperty, CompareChangeType.Modified)
+                    End If
+                End If
+            Else
+                Me.AddOrReplaceChangeWithInverse(dictionaryEntry.Key, dictionaryEntry.Value, CompareChangeType.Deleted)
+            End If
+        Next
+
+        For Each dictionaryEntry As KeyValuePair(Of String, Object) In _listConvertToDictionary.CompareObjects
+            If _listConvertToDictionary.CurrentObjects.ContainsKey(dictionaryEntry.Key) = False Then
+                Me.AddOrReplaceChangeWithInverse(dictionaryEntry.Key, dictionaryEntry.Value, CompareChangeType.New)
+            End If
+        Next
+    End Sub
+
+End Class

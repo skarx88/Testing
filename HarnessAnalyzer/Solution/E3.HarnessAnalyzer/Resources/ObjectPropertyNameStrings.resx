@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abbreviation" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="AccessoryType" xml:space="preserve">
+    <value>Accessory type</value>
+  </data>
+  <data name="AddExtremities" xml:space="preserve">
+    <value>Add. extremities</value>
+  </data>
+  <data name="AliasId" xml:space="preserve">
+    <value>Alias id</value>
+  </data>
+  <data name="ApproverDepartment" xml:space="preserve">
+    <value>Approver department</value>
+  </data>
+  <data name="ApproverName" xml:space="preserve">
+    <value>Approver name</value>
+  </data>
+  <data name="BendRadius" xml:space="preserve">
+    <value>Bend radius</value>
+  </data>
+  <data name="CableDesignator" xml:space="preserve">
+    <value>Cable designator</value>
+  </data>
+  <data name="CableNumber" xml:space="preserve">
+    <value>Cable number</value>
+  </data>
+  <data name="CarClassLevel2" xml:space="preserve">
+    <value>Car classification level 2</value>
+  </data>
+  <data name="CarClassLevel3" xml:space="preserve">
+    <value>Car classification level 3</value>
+  </data>
+  <data name="CarClassLevel4" xml:space="preserve">
+    <value>Car classification level 4</value>
+  </data>
+  <data name="CavityCount" xml:space="preserve">
+    <value>Cavity count</value>
+  </data>
+  <data name="CavityNumber" xml:space="preserve">
+    <value>Cavity number</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ChangeDate" xml:space="preserve">
+    <value>Change date</value>
+  </data>
+  <data name="ChangedElements" xml:space="preserve">
+    <value>Changed elements</value>
+  </data>
+  <data name="ChangeRequest" xml:space="preserve">
+    <value>Change request</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="CopyrightNote" xml:space="preserve">
+    <value>Copyright note</value>
+  </data>
+  <data name="CoreColor" xml:space="preserve">
+    <value>Core color</value>
+  </data>
+  <data name="CoreId" xml:space="preserve">
+    <value>Core id</value>
+  </data>
+  <data name="CoreNumber" xml:space="preserve">
+    <value>Core number</value>
+  </data>
+  <data name="CoreType" xml:space="preserve">
+    <value>Core type</value>
+  </data>
+  <data name="CoverColor" xml:space="preserve">
+    <value>Cover color</value>
+  </data>
+  <data name="CrossSectionArea" xml:space="preserve">
+    <value>Cross section area</value>
+  </data>
+  <data name="DegreeOfMaturity" xml:space="preserve">
+    <value>Degree of maturity</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DesignerDepartment" xml:space="preserve">
+    <value>Designer department</value>
+  </data>
+  <data name="EndCavity" xml:space="preserve">
+    <value>End cavity</value>
+  </data>
+  <data name="EndConnector" xml:space="preserve">
+    <value>End connector</value>
+  </data>
+  <data name="EndLocation" xml:space="preserve">
+    <value>End location</value>
+  </data>
+  <data name="EndVertex" xml:space="preserve">
+    <value>End vertex</value>
+  </data>
+  <data name="ExternalReferences" xml:space="preserve">
+    <value>External references</value>
+  </data>
+  <data name="FixingAssignment" xml:space="preserve">
+    <value>Fixing assignment</value>
+  </data>
+  <data name="FixingType" xml:space="preserve">
+    <value>Fixing type</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="HousingCode" xml:space="preserve">
+    <value>Housing code</value>
+  </data>
+  <data name="HousingColor" xml:space="preserve">
+    <value>Housing color</value>
+  </data>
+  <data name="HousingType" xml:space="preserve">
+    <value>Housing type</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="InstallationInformation" xml:space="preserve">
+    <value>Installation information</value>
+  </data>
+  <data name="KEM" xml:space="preserve">
+    <value>KEM</value>
+  </data>
+  <data name="LengthInformation" xml:space="preserve">
+    <value>Length information</value>
+  </data>
+  <data name="LogisticControlInfo" xml:space="preserve">
+    <value>Logistic control information</value>
+  </data>
+  <data name="MassInformation" xml:space="preserve">
+    <value>Mass information</value>
+  </data>
+  <data name="MaterialInformation" xml:space="preserve">
+    <value>Material information</value>
+  </data>
+  <data name="ModConfigType" xml:space="preserve">
+    <value>Module configuration type</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>Model year</value>
+  </data>
+  <data name="MountingObjects" xml:space="preserve">
+    <value>Mounted objects</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NetName" xml:space="preserve">
+    <value>Net name</value>
+  </data>
+  <data name="OutsideDiameter" xml:space="preserve">
+    <value>Outside diameter</value>
+  </data>
+  <data name="PartAliasId" xml:space="preserve">
+    <value>Part alias id</value>
+  </data>
+  <data name="PartDescription" xml:space="preserve">
+    <value>Part description</value>
+  </data>
+  <data name="PartNumber" xml:space="preserve">
+    <value>Part number</value>
+  </data>
+  <data name="PartProcessingInformation" xml:space="preserve">
+    <value>Part processing information</value>
+  </data>
+  <data name="PartType" xml:space="preserve">
+    <value>Part type</value>
+  </data>
+  <data name="PhysicalLength" xml:space="preserve">
+    <value>Physical length</value>
+  </data>
+  <data name="PlugInformation" xml:space="preserve">
+    <value>Plug information</value>
+  </data>
+  <data name="PlugPartNumber" xml:space="preserve">
+    <value>Plug part number</value>
+  </data>
+  <data name="PredecessorPartNumber" xml:space="preserve">
+    <value>Predecessor part number</value>
+  </data>
+  <data name="ProcessingInformation" xml:space="preserve">
+    <value>Processing information</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Project number</value>
+  </data>
+  <data name="ProtectionLength" xml:space="preserve">
+    <value>Protection length</value>
+  </data>
+  <data name="ProtectionType" xml:space="preserve">
+    <value>Protection type</value>
+  </data>
+  <data name="ReferencedCavities" xml:space="preserve">
+    <value>Referenced cavities</value>
+  </data>
+  <data name="ReferencedComponents" xml:space="preserve">
+    <value>Referenced components</value>
+  </data>
+  <data name="ReferenceElement" xml:space="preserve">
+    <value>Reference element</value>
+  </data>
+  <data name="RelatedChanges" xml:space="preserve">
+    <value>Related changes</value>
+  </data>
+  <data name="ResponsibleDesigner" xml:space="preserve">
+    <value>Responsible designer</value>
+  </data>
+  <data name="Routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="SealInformation" xml:space="preserve">
+    <value>Seal information</value>
+  </data>
+  <data name="SealPartNumber" xml:space="preserve">
+    <value>Seal part number</value>
+  </data>
+  <data name="SegmentLocation" xml:space="preserve">
+    <value>Segment location</value>
+  </data>
+  <data name="StartCavity" xml:space="preserve">
+    <value>Start cavity</value>
+  </data>
+  <data name="StartConnector" xml:space="preserve">
+    <value>Start connector</value>
+  </data>
+  <data name="StartLocation" xml:space="preserve">
+    <value>Start location</value>
+  </data>
+  <data name="StartVertex" xml:space="preserve">
+    <value>Start vertex</value>
+  </data>
+  <data name="TapingDirection" xml:space="preserve">
+    <value>Taping direction</value>
+  </data>
+  <data name="TerminalInformation" xml:space="preserve">
+    <value>Terminal information</value>
+  </data>
+  <data name="TerminalPartNumber" xml:space="preserve">
+    <value>Terminal part number</value>
+  </data>
+  <data name="TypeDependentParameter" xml:space="preserve">
+    <value>Type dependent parameter</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="VirtualLength" xml:space="preserve">
+    <value>Virtual length</value>
+  </data>
+  <data name="WireCoreNumber" xml:space="preserve">
+    <value>Wire/Core number</value>
+  </data>
+  <data name="WireNumber" xml:space="preserve">
+    <value>Wire number</value>
+  </data>
+  <data name="WireType" xml:space="preserve">
+    <value>Wire type</value>
+  </data>
+  <data name="ZGS" xml:space="preserve">
+    <value>ZGS</value>
+  </data>
+  <data name="PerMeter" xml:space="preserve">
+    <value>per meter</value>
+  </data>
+  <data name="NominalVoltage" xml:space="preserve">
+    <value>Nominal voltage</value>
+  </data>
+  <data name="SignalType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DateOfApproval" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="IsAppliedTo" xml:space="preserve">
+    <value>Applied to</value>
+  </data>
+  <data name="TypeOfApproval" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Plating" xml:space="preserve">
+    <value>Plating material</value>
+  </data>
+  <data name="DimValue" xml:space="preserve">
+    <value>Dim. value</value>
+  </data>
+  <data name="DimValueRange" xml:space="preserve">
+    <value>Dim. value range</value>
+  </data>
+  <data name="Origin" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="ToleranceIndication" xml:space="preserve">
+    <value>Tolerance indication</value>
+  </data>
+  <data name="ToleranceType" xml:space="preserve">
+    <value>Tolerance type</value>
+  </data>
+  <data name="LowerLimit" xml:space="preserve">
+    <value>Lower limit</value>
+  </data>
+  <data name="UpperLimit" xml:space="preserve">
+    <value>Upper limit</value>
+  </data>
+  <data name="ComponentPinMaps" xml:space="preserve">
+    <value>Component pin maps</value>
+  </data>
+  <data name="IsOnTopOf" xml:space="preserve">
+    <value>Is on top of</value>
+  </data>
+  <data name="WindingType" xml:space="preserve">
+    <value>Winding type</value>
+  </data>
+  <data name="WindingFirmness" xml:space="preserve">
+    <value>Winding firmness</value>
+  </data>
+  <data name="FoldingDirection" xml:space="preserve">
+    <value>Folding direction</value>
+  </data>
+  <data name="PartNumberType" xml:space="preserve">
+    <value>Part number type</value>
+  </data>
+  <data name="EndLocationAbsolute" xml:space="preserve">
+    <value>End location abs.</value>
+  </data>
+  <data name="StartLocationAbsolute" xml:space="preserve">
+    <value>Start location abs.</value>
+  </data>
+  <data name="LocationAbsolute" xml:space="preserve">
+    <value>Location abs.</value>
+  </data>
+  <data name="LocalizedPartDescriptions" xml:space="preserve">
+    <value>Localized part descriptions</value>
+  </data>
+  <data name="LocalizedOccDescriptions" xml:space="preserve">
+    <value>Localized descriptions</value>
+  </data>
+  <data name="HarnessModule" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="ProcessingInformationAssignment" xml:space="preserve">
+    <value>Processing info asgmt</value>
+  </data>
+  <data name="AdditionalExtrimities" xml:space="preserve">
+    <value>Add. extremities</value>
+  </data>
+</root>

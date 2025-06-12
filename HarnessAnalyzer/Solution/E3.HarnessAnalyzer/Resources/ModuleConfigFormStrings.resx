@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abbreviation_ColCaption" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Activate_CtxtMnu_Caption" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="ActiveConfig_CtxtMnu_Caption" xml:space="preserve">
+    <value>Active configuration...</value>
+  </data>
+  <data name="AddNewConfigName_InputBoxTitle" xml:space="preserve">
+    <value>Add new harness module configuration</value>
+  </data>
+  <data name="AddNew_CtxtMnu_Caption" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="AllConfig_CtxtMnu_Caption" xml:space="preserve">
+    <value>All configurations...</value>
+  </data>
+  <data name="ChooseConfigName_InputBoxPrompt" xml:space="preserve">
+    <value>Please choose a valid harness module configuration name:</value>
+  </data>
+  <data name="ConfigCannotBeDel_Msg" xml:space="preserve">
+    <value>Harness module configurations originating from opened KBL document cannot be deleted!</value>
+  </data>
+  <data name="ConfigCannotBeMod_Msg" xml:space="preserve">
+    <value>Harness module configurations originating from opened KBL document cannot be modified!</value>
+  </data>
+  <data name="ConfigCannotBeRen_Msg" xml:space="preserve">
+    <value>Custom harness module configuration or harness module configurations originating from opened KBL document cannot be renamed!</value>
+  </data>
+  <data name="Copy2_String" xml:space="preserve">
+    <value>{0}_copy</value>
+  </data>
+  <data name="Copy_CtxtMnu_Caption" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Copy_String" xml:space="preserve">
+    <value>_copy</value>
+  </data>
+  <data name="CustomConfigCannotBeDel_Msg" xml:space="preserve">
+    <value>'&lt;Custom&gt;' harness module configuration cannot be deleted!</value>
+  </data>
+  <data name="CustomCopy2_ModConfigName" xml:space="preserve">
+    <value>Custom_copy</value>
+  </data>
+  <data name="CustomCopy_ModConfigName" xml:space="preserve">
+    <value>&lt;Custom&gt;_copy</value>
+  </data>
+  <data name="DelActConfig_Msg" xml:space="preserve">
+    <value>Delete active harness module configuration?</value>
+  </data>
+  <data name="Delete_CtxtMnu_Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DelSelConfig_Msg" xml:space="preserve">
+    <value>Delete selected harness module configuration?</value>
+  </data>
+  <data name="Description_ColCaption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DeselectAll_CtxtMnu_Caption" xml:space="preserve">
+    <value>Deselect all modules</value>
+  </data>
+  <data name="ErrorExportConfig_Msg" xml:space="preserve">
+    <value>Error while exporting harness module configuration(s)!{0}{1}.</value>
+  </data>
+  <data name="ErrorImportConfig_Msg" xml:space="preserve">
+    <value>Error while importing harness module configuration(s)!{0}{1}.</value>
+  </data>
+  <data name="ExportConfigSuccess_Msg" xml:space="preserve">
+    <value>Harness module configuration(s) successfully exported!</value>
+  </data>
+  <data name="ExportConfigToFile_Title" xml:space="preserve">
+    <value>Export harness module configuration(s)...</value>
+  </data>
+  <data name="Id_ColCaption" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ImportConfigFile_Title" xml:space="preserve">
+    <value>Import harness module configuration(s)...</value>
+  </data>
+  <data name="ImportConfigSuccess_Msg" xml:space="preserve">
+    <value>Harness module configuration(s) successfully imported!</value>
+  </data>
+  <data name="LoadConfigFile_LogMsg" xml:space="preserve">
+    <value>Loaded module configuration file '{0}' at {1}{2}</value>
+  </data>
+  <data name="ModuleNotExist_LogMsg" xml:space="preserve">
+    <value>Module '{0}' from imported configuration not existing within document{1}.</value>
+  </data>
+  <data name="NewConfig_InputBoxDefResp" xml:space="preserve">
+    <value>New module config</value>
+  </data>
+  <data name="OfFamily_ColCaption" xml:space="preserve">
+    <value>Of family</value>
+  </data>
+  <data name="OverrideNames_Msg" xml:space="preserve">
+    <value>Override custom/user-defined harness module configurations with identical names?</value>
+  </data>
+  <data name="PartNumber_ColCaption" xml:space="preserve">
+    <value>Part number</value>
+  </data>
+  <data name="Paste_CtxtMnu_Caption" xml:space="preserve">
+    <value>Paste from clipboard</value>
+  </data>
+  <data name="ReadOnlyConfig_Tooltip" xml:space="preserve">
+    <value>Read-only module configuration originated from KBL document</value>
+  </data>
+  <data name="RegExInvalid_Msg" xml:space="preserve">
+    <value>RegEx pattern defined in the general settings configuration file isn't valid! Use default pattern instead.</value>
+  </data>
+  <data name="Rename_CtxtMnu_Caption" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="SelConfigNameExists_Msg" xml:space="preserve">
+    <value>Selected harness module configuration name already exists or blocked by system!</value>
+  </data>
+  <data name="SelConfigNameIsEmpty_Msg" xml:space="preserve">
+    <value>Selected harness module configuration name may not be empty!</value>
+  </data>
+  <data name="SelConfigNameTooLong_Msg" xml:space="preserve">
+    <value>Selected harness module configuration name is too long. Maximum 50 characters are allowed!</value>
+  </data>
+  <data name="SelectAll_CtxtMnu_Caption" xml:space="preserve">
+    <value>Select all modules</value>
+  </data>
+  <data name="TempDefConfig_Tooltip" xml:space="preserve">
+    <value>Temporary defined and editable module configuration originated from active opened HCV document</value>
+  </data>
+  <data name="ToggleVisibility_CtxtMnu_Caption" xml:space="preserve">
+    <value>Toggle KBL-based module configuration visibility</value>
+  </data>
+  <data name="UserConfig_CtxtMnu_Caption" xml:space="preserve">
+    <value>User-defined configuration(s)...</value>
+  </data>
+  <data name="UserDefConfig_Tooltip" xml:space="preserve">
+    <value>User defined and editable module configuration</value>
+  </data>
+  <data name="UserDefModConifg_Tooltip" xml:space="preserve">
+    <value>User defined and editable module configuration</value>
+  </data>
+  <data name="RenameConfig_InputBoxTitle" xml:space="preserve">
+    <value>Rename harness module configuration</value>
+  </data>
+  <data name="ImportConfig_Msg" xml:space="preserve">
+    <value>Harness module configuration import does not match the currently loaded HCV document. There is a harness part number and/or version mismatch! Continue with import anyway?</value>
+  </data>
+</root>

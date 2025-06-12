@@ -1,0 +1,1714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ugHarness.DisplayLayout.Appearance" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Appearance10.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ugHarness.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ugHarness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ugHarness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugHarness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 276</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ugHarness.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugHarness.Text" xml:space="preserve">
+    <value>Harness</value>
+  </data>
+  <data name="&gt;&gt;ugHarness.Name" xml:space="preserve">
+    <value>ugHarness</value>
+  </data>
+  <data name="&gt;&gt;ugHarness.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugHarness.Parent" xml:space="preserve">
+    <value>utpcHarness</value>
+  </data>
+  <data name="&gt;&gt;ugHarness.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcHarness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 42</value>
+  </data>
+  <data name="utpcHarness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcHarness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 276</value>
+  </data>
+  <data name="&gt;&gt;utpcHarness.Name" xml:space="preserve">
+    <value>utpcHarness</value>
+  </data>
+  <data name="&gt;&gt;utpcHarness.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcHarness.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcHarness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Appearance22.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugModules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugModules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugModules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugModules.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugModules.Text" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="&gt;&gt;ugModules.Name" xml:space="preserve">
+    <value>ugModules</value>
+  </data>
+  <data name="&gt;&gt;ugModules.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugModules.Parent" xml:space="preserve">
+    <value>utpcModules</value>
+  </data>
+  <data name="&gt;&gt;ugModules.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcModules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcModules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcModules.Name" xml:space="preserve">
+    <value>utpcModules</value>
+  </data>
+  <data name="&gt;&gt;utpcModules.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcModules.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcModules.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Appearance34.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugVertices.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugVertices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugVertices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugVertices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugVertices.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugVertices.Text" xml:space="preserve">
+    <value>Vertices</value>
+  </data>
+  <data name="&gt;&gt;ugVertices.Name" xml:space="preserve">
+    <value>ugVertices</value>
+  </data>
+  <data name="&gt;&gt;ugVertices.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugVertices.Parent" xml:space="preserve">
+    <value>utpcVertices</value>
+  </data>
+  <data name="&gt;&gt;ugVertices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcVertices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcVertices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcVertices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcVertices.Name" xml:space="preserve">
+    <value>utpcVertices</value>
+  </data>
+  <data name="&gt;&gt;utpcVertices.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcVertices.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcVertices.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Appearance46.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugSegments.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugSegments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugSegments.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugSegments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugSegments.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugSegments.Text" xml:space="preserve">
+    <value>Segments</value>
+  </data>
+  <data name="&gt;&gt;ugSegments.Name" xml:space="preserve">
+    <value>ugSegments</value>
+  </data>
+  <data name="&gt;&gt;ugSegments.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugSegments.Parent" xml:space="preserve">
+    <value>utpcSegments</value>
+  </data>
+  <data name="&gt;&gt;ugSegments.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcSegments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcSegments.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcSegments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcSegments.Name" xml:space="preserve">
+    <value>utpcSegments</value>
+  </data>
+  <data name="&gt;&gt;utpcSegments.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcSegments.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcSegments.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Appearance58.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugAccessories.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugAccessories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugAccessories.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugAccessories.Text" xml:space="preserve">
+    <value>Accessories</value>
+  </data>
+  <data name="&gt;&gt;ugAccessories.Name" xml:space="preserve">
+    <value>ugAccessories</value>
+  </data>
+  <data name="&gt;&gt;ugAccessories.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugAccessories.Parent" xml:space="preserve">
+    <value>utpcAccessories</value>
+  </data>
+  <data name="&gt;&gt;ugAccessories.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcAccessories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcAccessories.Name" xml:space="preserve">
+    <value>utpcAccessories</value>
+  </data>
+  <data name="&gt;&gt;utpcAccessories.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcAccessories.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcAccessories.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Appearance70.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugAssemblyParts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugAssemblyParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugAssemblyParts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugAssemblyParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugAssemblyParts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ugAssemblyParts.Text" xml:space="preserve">
+    <value>AssemblyParts</value>
+  </data>
+  <data name="&gt;&gt;ugAssemblyParts.Name" xml:space="preserve">
+    <value>ugAssemblyParts</value>
+  </data>
+  <data name="&gt;&gt;ugAssemblyParts.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugAssemblyParts.Parent" xml:space="preserve">
+    <value>utpcAssemblyParts</value>
+  </data>
+  <data name="&gt;&gt;ugAssemblyParts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcAssemblyParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcAssemblyParts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="utpcAssemblyParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcAssemblyParts.Name" xml:space="preserve">
+    <value>utpcAssemblyParts</value>
+  </data>
+  <data name="&gt;&gt;utpcAssemblyParts.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcAssemblyParts.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcAssemblyParts.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Appearance82.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugFixings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugFixings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugFixings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugFixings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugFixings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugFixings.Text" xml:space="preserve">
+    <value>Fixings</value>
+  </data>
+  <data name="&gt;&gt;ugFixings.Name" xml:space="preserve">
+    <value>ugFixings</value>
+  </data>
+  <data name="&gt;&gt;ugFixings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugFixings.Parent" xml:space="preserve">
+    <value>utpcFixings</value>
+  </data>
+  <data name="&gt;&gt;ugFixings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcFixings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcFixings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcFixings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcFixings.Name" xml:space="preserve">
+    <value>utpcFixings</value>
+  </data>
+  <data name="&gt;&gt;utpcFixings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcFixings.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcFixings.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Appearance94.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugComponentBoxes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugComponentBoxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugComponentBoxes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugComponentBoxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugComponentBoxes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ugComponentBoxes.Text" xml:space="preserve">
+    <value>ComponentBoxes</value>
+  </data>
+  <data name="&gt;&gt;ugComponentBoxes.Name" xml:space="preserve">
+    <value>ugComponentBoxes</value>
+  </data>
+  <data name="&gt;&gt;ugComponentBoxes.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugComponentBoxes.Parent" xml:space="preserve">
+    <value>utpcComponentBoxes</value>
+  </data>
+  <data name="&gt;&gt;ugComponentBoxes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcComponentBoxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcComponentBoxes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="utpcComponentBoxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcComponentBoxes.Name" xml:space="preserve">
+    <value>utpcComponentBoxes</value>
+  </data>
+  <data name="&gt;&gt;utpcComponentBoxes.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcComponentBoxes.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcComponentBoxes.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Appearance106.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugComponents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugComponents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugComponents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugComponents.Text" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="&gt;&gt;ugComponents.Name" xml:space="preserve">
+    <value>ugComponents</value>
+  </data>
+  <data name="&gt;&gt;ugComponents.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugComponents.Parent" xml:space="preserve">
+    <value>utpcComponents</value>
+  </data>
+  <data name="&gt;&gt;ugComponents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcComponents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcComponents.Name" xml:space="preserve">
+    <value>utpcComponents</value>
+  </data>
+  <data name="&gt;&gt;utpcComponents.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcComponents.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcComponents.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Appearance118.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugConnectors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugConnectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugConnectors.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugConnectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugConnectors.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugConnectors.Text" xml:space="preserve">
+    <value>Connectors</value>
+  </data>
+  <data name="&gt;&gt;ugConnectors.Name" xml:space="preserve">
+    <value>ugConnectors</value>
+  </data>
+  <data name="&gt;&gt;ugConnectors.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugConnectors.Parent" xml:space="preserve">
+    <value>utpcConnectors</value>
+  </data>
+  <data name="&gt;&gt;ugConnectors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcConnectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcConnectors.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcConnectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcConnectors.Name" xml:space="preserve">
+    <value>utpcConnectors</value>
+  </data>
+  <data name="&gt;&gt;utpcConnectors.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcConnectors.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcConnectors.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Appearance130.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugCables.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugCables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugCables.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugCables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugCables.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugCables.Text" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="&gt;&gt;ugCables.Name" xml:space="preserve">
+    <value>ugCables</value>
+  </data>
+  <data name="&gt;&gt;ugCables.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugCables.Parent" xml:space="preserve">
+    <value>utpcCables</value>
+  </data>
+  <data name="&gt;&gt;ugCables.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcCables.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcCables.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcCables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcCables.Name" xml:space="preserve">
+    <value>utpcCables</value>
+  </data>
+  <data name="&gt;&gt;utpcCables.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcCables.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcCables.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Appearance142.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugWires.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugWires.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugWires.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugWires.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugWires.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugWires.Text" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="&gt;&gt;ugWires.Name" xml:space="preserve">
+    <value>ugWires</value>
+  </data>
+  <data name="&gt;&gt;ugWires.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugWires.Parent" xml:space="preserve">
+    <value>utpcWires</value>
+  </data>
+  <data name="&gt;&gt;ugWires.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcWires.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcWires.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcWires.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcWires.Name" xml:space="preserve">
+    <value>utpcWires</value>
+  </data>
+  <data name="&gt;&gt;utpcWires.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcWires.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcWires.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Appearance154.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugNets.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugNets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugNets.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugNets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugNets.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugNets.Text" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="&gt;&gt;ugNets.Name" xml:space="preserve">
+    <value>ugNets</value>
+  </data>
+  <data name="&gt;&gt;ugNets.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugNets.Parent" xml:space="preserve">
+    <value>utpcNets</value>
+  </data>
+  <data name="&gt;&gt;ugNets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcNets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcNets.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcNets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcNets.Name" xml:space="preserve">
+    <value>utpcNets</value>
+  </data>
+  <data name="&gt;&gt;utpcNets.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcNets.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcNets.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Appearance166.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugApprovals.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugApprovals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugApprovals.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ugApprovals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugApprovals.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ugApprovals.Text" xml:space="preserve">
+    <value>Approvals</value>
+  </data>
+  <data name="&gt;&gt;ugApprovals.Name" xml:space="preserve">
+    <value>ugApprovals</value>
+  </data>
+  <data name="&gt;&gt;ugApprovals.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugApprovals.Parent" xml:space="preserve">
+    <value>utpcApprovals</value>
+  </data>
+  <data name="&gt;&gt;ugApprovals.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcApprovals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcApprovals.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcApprovals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcApprovals.Name" xml:space="preserve">
+    <value>utpcApprovals</value>
+  </data>
+  <data name="&gt;&gt;utpcApprovals.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcApprovals.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcApprovals.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Appearance178.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugChangeDescriptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugChangeDescriptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugChangeDescriptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ugChangeDescriptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugChangeDescriptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugChangeDescriptions.Text" xml:space="preserve">
+    <value>ChangeDescriptions</value>
+  </data>
+  <data name="&gt;&gt;ugChangeDescriptions.Name" xml:space="preserve">
+    <value>ugChangeDescriptions</value>
+  </data>
+  <data name="&gt;&gt;ugChangeDescriptions.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugChangeDescriptions.Parent" xml:space="preserve">
+    <value>utpcChangeDescriptions</value>
+  </data>
+  <data name="&gt;&gt;ugChangeDescriptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcChangeDescriptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcChangeDescriptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="utpcChangeDescriptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcChangeDescriptions.Name" xml:space="preserve">
+    <value>utpcChangeDescriptions</value>
+  </data>
+  <data name="&gt;&gt;utpcChangeDescriptions.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcChangeDescriptions.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcChangeDescriptions.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Appearance190.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugCoPacks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugCoPacks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugCoPacks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ugCoPacks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugCoPacks.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ugCoPacks.Text" xml:space="preserve">
+    <value>CoPacks</value>
+  </data>
+  <data name="&gt;&gt;ugCoPacks.Name" xml:space="preserve">
+    <value>ugCoPacks</value>
+  </data>
+  <data name="&gt;&gt;ugCoPacks.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugCoPacks.Parent" xml:space="preserve">
+    <value>utpcCoPacks</value>
+  </data>
+  <data name="&gt;&gt;ugCoPacks.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcCoPacks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcCoPacks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="utpcCoPacks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcCoPacks.Name" xml:space="preserve">
+    <value>utpcCoPacks</value>
+  </data>
+  <data name="&gt;&gt;utpcCoPacks.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcCoPacks.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcCoPacks.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Appearance202.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugDefDimSpecs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugDefDimSpecs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugDefDimSpecs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ugDefDimSpecs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugDefDimSpecs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ugDefDimSpecs.Text" xml:space="preserve">
+    <value>DefaultDimensionSpecifications</value>
+  </data>
+  <data name="&gt;&gt;ugDefDimSpecs.Name" xml:space="preserve">
+    <value>ugDefDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;ugDefDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugDefDimSpecs.Parent" xml:space="preserve">
+    <value>utpcDefDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;ugDefDimSpecs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcDefDimSpecs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcDefDimSpecs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcDefDimSpecs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcDefDimSpecs.Name" xml:space="preserve">
+    <value>utpcDefDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;utpcDefDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcDefDimSpecs.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcDefDimSpecs.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Appearance214.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugDimSpecs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugDimSpecs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugDimSpecs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ugDimSpecs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugDimSpecs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ugDimSpecs.Text" xml:space="preserve">
+    <value>DimensionSpecifications</value>
+  </data>
+  <data name="&gt;&gt;ugDimSpecs.Name" xml:space="preserve">
+    <value>ugDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;ugDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugDimSpecs.Parent" xml:space="preserve">
+    <value>utpcDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;ugDimSpecs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcDimSpecs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcDimSpecs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcDimSpecs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcDimSpecs.Name" xml:space="preserve">
+    <value>utpcDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;utpcDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcDimSpecs.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcDimSpecs.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Appearance226.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ugRedlinings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugRedlinings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugRedlinings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugRedlinings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugRedlinings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugRedlinings.Text" xml:space="preserve">
+    <value>Redlinings</value>
+  </data>
+  <data name="&gt;&gt;ugRedlinings.Name" xml:space="preserve">
+    <value>ugRedlinings</value>
+  </data>
+  <data name="&gt;&gt;ugRedlinings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugRedlinings.Parent" xml:space="preserve">
+    <value>utpcRedlinings</value>
+  </data>
+  <data name="&gt;&gt;ugRedlinings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcRedlinings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcRedlinings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcRedlinings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcRedlinings.Name" xml:space="preserve">
+    <value>utpcRedlinings</value>
+  </data>
+  <data name="&gt;&gt;utpcRedlinings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcRedlinings.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcRedlinings.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ugQMStamps.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugQMStamps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugQMStamps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugQMStamps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugQMStamps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ugQMStamps.Text" xml:space="preserve">
+    <value>QMStamps</value>
+  </data>
+  <data name="&gt;&gt;ugQMStamps.Name" xml:space="preserve">
+    <value>ugQMStamps</value>
+  </data>
+  <data name="&gt;&gt;ugQMStamps.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugQMStamps.Parent" xml:space="preserve">
+    <value>utpcQMStamps</value>
+  </data>
+  <data name="&gt;&gt;ugQMStamps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcQMStamps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcQMStamps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcQMStamps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcQMStamps.Name" xml:space="preserve">
+    <value>utpcQMStamps</value>
+  </data>
+  <data name="&gt;&gt;utpcQMStamps.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcQMStamps.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcQMStamps.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="ColumnViewBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1114, 56</value>
+  </metadata>
+  <data name="UltraGridColumn1.Header.Caption" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="UltraGridColumn3.Header.Caption" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="ugDifferences.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ugDifferences.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ugDifferences.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ugDifferences.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ugDifferences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="ugDifferences.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ugDifferences.Text" xml:space="preserve">
+    <value>UltraGrid1</value>
+  </data>
+  <data name="&gt;&gt;ugDifferences.Name" xml:space="preserve">
+    <value>ugDifferences</value>
+  </data>
+  <data name="&gt;&gt;ugDifferences.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics.Win.UltraWinGrid, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugDifferences.Parent" xml:space="preserve">
+    <value>utpcDifferences</value>
+  </data>
+  <data name="&gt;&gt;ugDifferences.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utpcDifferences.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utpcDifferences.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utpcDifferences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 301</value>
+  </data>
+  <data name="&gt;&gt;utpcDifferences.Name" xml:space="preserve">
+    <value>utpcDifferences</value>
+  </data>
+  <data name="&gt;&gt;utpcDifferences.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utpcDifferences.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utpcDifferences.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="utscpInformationHub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="utscpInformationHub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utscpInformationHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 276</value>
+  </data>
+  <data name="&gt;&gt;utscpInformationHub.Name" xml:space="preserve">
+    <value>utscpInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utscpInformationHub.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utscpInformationHub.Parent" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utscpInformationHub.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="utcInformationHub.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="utcInformationHub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="utcInformationHub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="utcInformationHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 321</value>
+  </data>
+  <data name="utcInformationHub.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UltraTab1.Text" xml:space="preserve">
+    <value>Harness</value>
+  </data>
+  <data name="UltraTab2.Text" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="UltraTab3.Text" xml:space="preserve">
+    <value>Vertices</value>
+  </data>
+  <data name="UltraTab4.Text" xml:space="preserve">
+    <value>Segments</value>
+  </data>
+  <data name="UltraTab5.Text" xml:space="preserve">
+    <value>Accessories</value>
+  </data>
+  <data name="UltraTab14.Text" xml:space="preserve">
+    <value>Assembly parts</value>
+  </data>
+  <data name="UltraTab6.Text" xml:space="preserve">
+    <value>Fixings</value>
+  </data>
+  <data name="UltraTab16.Text" xml:space="preserve">
+    <value>Component boxes</value>
+  </data>
+  <data name="UltraTab7.Text" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="UltraTab8.Text" xml:space="preserve">
+    <value>Connectors</value>
+  </data>
+  <data name="UltraTab9.Text" xml:space="preserve">
+    <value>Cables</value>
+  </data>
+  <data name="UltraTab10.Text" xml:space="preserve">
+    <value>Wires</value>
+  </data>
+  <data name="UltraTab11.Text" xml:space="preserve">
+    <value>Nets</value>
+  </data>
+  <data name="UltraTab17.Text" xml:space="preserve">
+    <value>Approvals</value>
+  </data>
+  <data name="UltraTab13.Text" xml:space="preserve">
+    <value>Change descriptions</value>
+  </data>
+  <data name="UltraTab15.Text" xml:space="preserve">
+    <value>Co packs</value>
+  </data>
+  <data name="UltraTab20.Text" xml:space="preserve">
+    <value>Def. dim. specifications</value>
+  </data>
+  <data name="UltraTab21.Text" xml:space="preserve">
+    <value>Dim. specifications</value>
+  </data>
+  <data name="UltraTab12.Text" xml:space="preserve">
+    <value>Redlinings</value>
+  </data>
+  <data name="UltraTab18.Text" xml:space="preserve">
+    <value>QM stamps</value>
+  </data>
+  <data name="UltraTab19.Text" xml:space="preserve">
+    <value>Differences</value>
+  </data>
+  <data name="&gt;&gt;utcInformationHub.Name" xml:space="preserve">
+    <value>utcInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utcInformationHub.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics.Win.UltraWinTabControl, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utcInformationHub.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;utcInformationHub.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="udsHarness.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 17</value>
+  </metadata>
+  <metadata name="udsModules.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>263, 17</value>
+  </metadata>
+  <metadata name="udsVertices.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 17</value>
+  </metadata>
+  <metadata name="udsSegments.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>495, 17</value>
+  </metadata>
+  <metadata name="udsAccessories.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>620, 17</value>
+  </metadata>
+  <metadata name="udsFixings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>754, 17</value>
+  </metadata>
+  <metadata name="udsComponents.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>862, 17</value>
+  </metadata>
+  <metadata name="udsConnectors.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1003, 17</value>
+  </metadata>
+  <metadata name="udsCables.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1136, 17</value>
+  </metadata>
+  <metadata name="udsWires.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1243, 17</value>
+  </metadata>
+  <metadata name="udsNets.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1345, 17</value>
+  </metadata>
+  <metadata name="ugeeInformationHub.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 56</value>
+  </metadata>
+  <metadata name="utmInformationHub.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>333</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Left.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 321</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Left.Name" xml:space="preserve">
+    <value>_InformationHub_Toolbars_Dock_Area_Left</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Left.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics.Win.UltraWinToolbars, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Left.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Left.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1120, 25</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Right.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 321</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Right.Name" xml:space="preserve">
+    <value>_InformationHub_Toolbars_Dock_Area_Right</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Right.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics.Win.UltraWinToolbars, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Right.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Right.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 346</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Bottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 0</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Bottom.Name" xml:space="preserve">
+    <value>_InformationHub_Toolbars_Dock_Area_Bottom</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Bottom.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics.Win.UltraWinToolbars, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Bottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="_InformationHub_Toolbars_Dock_Area_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 25</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Top.Name" xml:space="preserve">
+    <value>_InformationHub_Toolbars_Dock_Area_Top</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Top.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics.Win.UltraWinToolbars, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_InformationHub_Toolbars_Dock_Area_Top.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 346</value>
+  </data>
+  <data name="&gt;&gt;ColumnViewBindingSource.Name" xml:space="preserve">
+    <value>ColumnViewBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ColumnViewBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udsHarness.Name" xml:space="preserve">
+    <value>udsHarness</value>
+  </data>
+  <data name="&gt;&gt;udsHarness.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsModules.Name" xml:space="preserve">
+    <value>udsModules</value>
+  </data>
+  <data name="&gt;&gt;udsModules.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsVertices.Name" xml:space="preserve">
+    <value>udsVertices</value>
+  </data>
+  <data name="&gt;&gt;udsVertices.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsSegments.Name" xml:space="preserve">
+    <value>udsSegments</value>
+  </data>
+  <data name="&gt;&gt;udsSegments.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsAccessories.Name" xml:space="preserve">
+    <value>udsAccessories</value>
+  </data>
+  <data name="&gt;&gt;udsAccessories.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsFixings.Name" xml:space="preserve">
+    <value>udsFixings</value>
+  </data>
+  <data name="&gt;&gt;udsFixings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsComponents.Name" xml:space="preserve">
+    <value>udsComponents</value>
+  </data>
+  <data name="&gt;&gt;udsComponents.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsConnectors.Name" xml:space="preserve">
+    <value>udsConnectors</value>
+  </data>
+  <data name="&gt;&gt;udsConnectors.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsCables.Name" xml:space="preserve">
+    <value>udsCables</value>
+  </data>
+  <data name="&gt;&gt;udsCables.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsWires.Name" xml:space="preserve">
+    <value>udsWires</value>
+  </data>
+  <data name="&gt;&gt;udsWires.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsNets.Name" xml:space="preserve">
+    <value>udsNets</value>
+  </data>
+  <data name="&gt;&gt;udsNets.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugeeInformationHub.Name" xml:space="preserve">
+    <value>ugeeInformationHub</value>
+  </data>
+  <data name="&gt;&gt;ugeeInformationHub.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.ExcelExport.UltraGridExcelExporter, Infragistics.Win.UltraWinGrid.ExcelExport, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utmInformationHub.Name" xml:space="preserve">
+    <value>utmInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utmInformationHub.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsManager, Infragistics.Win.UltraWinToolbars, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsRedlinings.Name" xml:space="preserve">
+    <value>udsRedlinings</value>
+  </data>
+  <data name="&gt;&gt;udsRedlinings.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;timerE3Application.Name" xml:space="preserve">
+    <value>timerE3Application</value>
+  </data>
+  <data name="&gt;&gt;timerE3Application.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udsChangeDescriptions.Name" xml:space="preserve">
+    <value>udsChangeDescriptions</value>
+  </data>
+  <data name="&gt;&gt;udsChangeDescriptions.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsAssemblyParts.Name" xml:space="preserve">
+    <value>udsAssemblyParts</value>
+  </data>
+  <data name="&gt;&gt;udsAssemblyParts.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsCoPacks.Name" xml:space="preserve">
+    <value>udsCoPacks</value>
+  </data>
+  <data name="&gt;&gt;udsCoPacks.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsComponentBoxes.Name" xml:space="preserve">
+    <value>udsComponentBoxes</value>
+  </data>
+  <data name="&gt;&gt;udsComponentBoxes.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsApprovals.Name" xml:space="preserve">
+    <value>udsApprovals</value>
+  </data>
+  <data name="&gt;&gt;udsApprovals.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;utchpInformationHub.Name" xml:space="preserve">
+    <value>utchpInformationHub</value>
+  </data>
+  <data name="&gt;&gt;utchpInformationHub.Type" xml:space="preserve">
+    <value>Infragistics.Win.Touch.UltraTouchProvider, Infragistics.Win, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsQMStamps.Name" xml:space="preserve">
+    <value>udsQMStamps</value>
+  </data>
+  <data name="&gt;&gt;udsQMStamps.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ugePropDifferences.Name" xml:space="preserve">
+    <value>ugePropDifferences</value>
+  </data>
+  <data name="&gt;&gt;ugePropDifferences.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.ExcelExport.UltraGridExcelExporter, Infragistics.Win.UltraWinGrid.ExcelExport, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsDefDimSpecs.Name" xml:space="preserve">
+    <value>udsDefDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;udsDefDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;udsDimSpecs.Name" xml:space="preserve">
+    <value>udsDimSpecs</value>
+  </data>
+  <data name="&gt;&gt;udsDimSpecs.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinDataSource.UltraDataSource, Infragistics.Win.UltraWinDataSource, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>InformationHub</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="udsRedlinings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>649, 56</value>
+  </metadata>
+  <metadata name="timerE3Application.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1707, 17</value>
+  </metadata>
+  <metadata name="udsChangeDescriptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>469, 56</value>
+  </metadata>
+  <metadata name="udsAssemblyParts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1441, 17</value>
+  </metadata>
+  <metadata name="udsCoPacks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1591, 17</value>
+  </metadata>
+  <metadata name="udsComponentBoxes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>777, 56</value>
+  </metadata>
+  <metadata name="udsApprovals.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="utchpInformationHub.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>944, 56</value>
+  </metadata>
+  <metadata name="udsQMStamps.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ugePropDifferences.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="udsDefDimSpecs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1313, 56</value>
+  </metadata>
+  <metadata name="udsDimSpecs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1457, 56</value>
+  </metadata>
+</root>

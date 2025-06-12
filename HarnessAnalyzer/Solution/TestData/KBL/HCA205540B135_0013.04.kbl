@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--HEADER START
+Tool Version :6.9
+XML Version :1.3.3.4
+HEADER_END-->
+<kbl:KBL_container xmlns:kbl="http://www.prostep.org/Car_electric_container/KBL2.3/KBLSchema"
+                   id="KBL_container"
+                   version_id="2.4 SR-1">
+   <Cartesian_point id="CP_1">
+      <Coordinates>0.000</Coordinates>
+      <Coordinates>0.000</Coordinates>
+      <Coordinates>0.000</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_2">
+      <Coordinates>-7.050</Coordinates>
+      <Coordinates>-74.488</Coordinates>
+      <Coordinates>10.627</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_3">
+      <Coordinates>1001.440</Coordinates>
+      <Coordinates>-22.924</Coordinates>
+      <Coordinates>203.734</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_4">
+      <Coordinates>1004.239</Coordinates>
+      <Coordinates>-21.883</Coordinates>
+      <Coordinates>203.425</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_5">
+      <Coordinates>1006.657</Coordinates>
+      <Coordinates>-20.251</Coordinates>
+      <Coordinates>203.187</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_6">
+      <Coordinates>1006.727</Coordinates>
+      <Coordinates>-20.204</Coordinates>
+      <Coordinates>203.180</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_7">
+      <Coordinates>1006.797</Coordinates>
+      <Coordinates>-20.156</Coordinates>
+      <Coordinates>203.173</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_8">
+      <Coordinates>1006.867</Coordinates>
+      <Coordinates>-20.109</Coordinates>
+      <Coordinates>203.166</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_9">
+      <Coordinates>1010.863</Coordinates>
+      <Coordinates>-17.413</Coordinates>
+      <Coordinates>202.772</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_10">
+      <Coordinates>1014.292</Coordinates>
+      <Coordinates>-13.840</Coordinates>
+      <Coordinates>202.471</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_11">
+      <Coordinates>1017.260</Coordinates>
+      <Coordinates>-10.029</Coordinates>
+      <Coordinates>202.222</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_12">
+      <Coordinates>1020.319</Coordinates>
+      <Coordinates>-6.102</Coordinates>
+      <Coordinates>201.966</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_13">
+      <Coordinates>1022.924</Coordinates>
+      <Coordinates>-1.837</Coordinates>
+      <Coordinates>201.764</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_14">
+      <Coordinates>1025.671</Coordinates>
+      <Coordinates>2.316</Coordinates>
+      <Coordinates>201.535</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_15">
+      <Coordinates>1028.322</Coordinates>
+      <Coordinates>6.324</Coordinates>
+      <Coordinates>201.314</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_16">
+      <Coordinates>1031.154</Coordinates>
+      <Coordinates>10.291</Coordinates>
+      <Coordinates>201.063</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_17">
+      <Coordinates>1034.620</Coordinates>
+      <Coordinates>13.608</Coordinates>
+      <Coordinates>200.713</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_18">
+      <Coordinates>1037.915</Coordinates>
+      <Coordinates>16.761</Coordinates>
+      <Coordinates>200.381</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_19">
+      <Coordinates>1041.836</Coordinates>
+      <Coordinates>19.404</Coordinates>
+      <Coordinates>199.955</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_20">
+      <Coordinates>1046.071</Coordinates>
+      <Coordinates>21.059</Coordinates>
+      <Coordinates>199.469</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_21">
+      <Coordinates>1046.149</Coordinates>
+      <Coordinates>21.090</Coordinates>
+      <Coordinates>199.460</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_22">
+      <Coordinates>1046.228</Coordinates>
+      <Coordinates>21.120</Coordinates>
+      <Coordinates>199.451</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_23">
+      <Coordinates>1046.306</Coordinates>
+      <Coordinates>21.151</Coordinates>
+      <Coordinates>199.443</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_24">
+      <Coordinates>1054.257</Coordinates>
+      <Coordinates>24.259</Coordinates>
+      <Coordinates>198.532</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_25">
+      <Coordinates>1063.380</Coordinates>
+      <Coordinates>23.972</Coordinates>
+      <Coordinates>197.556</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_26">
+      <Coordinates>1071.852</Coordinates>
+      <Coordinates>22.900</Coordinates>
+      <Coordinates>196.664</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_27">
+      <Coordinates>1080.667</Coordinates>
+      <Coordinates>21.784</Coordinates>
+      <Coordinates>195.737</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_28">
+      <Coordinates>1089.345</Coordinates>
+      <Coordinates>19.712</Coordinates>
+      <Coordinates>194.842</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_29">
+      <Coordinates>1098.006</Coordinates>
+      <Coordinates>17.714</Coordinates>
+      <Coordinates>193.947</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_30">
+      <Coordinates>1098.088</Coordinates>
+      <Coordinates>17.695</Coordinates>
+      <Coordinates>193.938</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_31">
+      <Coordinates>1098.170</Coordinates>
+      <Coordinates>17.676</Coordinates>
+      <Coordinates>193.930</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_32">
+      <Coordinates>1098.253</Coordinates>
+      <Coordinates>17.658</Coordinates>
+      <Coordinates>193.921</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_33">
+      <Coordinates>1098.335</Coordinates>
+      <Coordinates>17.639</Coordinates>
+      <Coordinates>193.913</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_34">
+      <Coordinates>1098.417</Coordinates>
+      <Coordinates>17.620</Coordinates>
+      <Coordinates>193.904</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_35">
+      <Coordinates>1098.499</Coordinates>
+      <Coordinates>17.601</Coordinates>
+      <Coordinates>193.896</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_36">
+      <Coordinates>1099.821</Coordinates>
+      <Coordinates>17.296</Coordinates>
+      <Coordinates>193.759</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_37">
+      <Coordinates>1101.178</Coordinates>
+      <Coordinates>17.078</Coordinates>
+      <Coordinates>193.689</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_38">
+      <Coordinates>1102.539</Coordinates>
+      <Coordinates>16.987</Coordinates>
+      <Coordinates>193.687</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_39">
+      <Coordinates>1103.785</Coordinates>
+      <Coordinates>16.904</Coordinates>
+      <Coordinates>193.685</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_40">
+      <Coordinates>1104.840</Coordinates>
+      <Coordinates>16.139</Coordinates>
+      <Coordinates>193.241</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_41">
+      <Coordinates>1105.086</Coordinates>
+      <Coordinates>16.930</Coordinates>
+      <Coordinates>193.744</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_42">
+      <Coordinates>1105.281</Coordinates>
+      <Coordinates>48.244</Coordinates>
+      <Coordinates>199.940</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_43">
+      <Coordinates>1105.734</Coordinates>
+      <Coordinates>44.907</Coordinates>
+      <Coordinates>199.969</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_44">
+      <Coordinates>1106.266</Coordinates>
+      <Coordinates>17.299</Coordinates>
+      <Coordinates>193.926</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_45">
+      <Coordinates>1106.388</Coordinates>
+      <Coordinates>42.171</Coordinates>
+      <Coordinates>199.749</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_46">
+      <Coordinates>1106.407</Coordinates>
+      <Coordinates>42.089</Coordinates>
+      <Coordinates>199.742</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_47">
+      <Coordinates>1106.427</Coordinates>
+      <Coordinates>42.007</Coordinates>
+      <Coordinates>199.735</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_48">
+      <Coordinates>1106.447</Coordinates>
+      <Coordinates>41.924</Coordinates>
+      <Coordinates>199.729</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_49">
+      <Coordinates>1106.644</Coordinates>
+      <Coordinates>50.620</Coordinates>
+      <Coordinates>199.257</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_50">
+      <Coordinates>1107.248</Coordinates>
+      <Coordinates>38.570</Coordinates>
+      <Coordinates>199.458</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_51">
+      <Coordinates>1107.283</Coordinates>
+      <Coordinates>17.616</Coordinates>
+      <Coordinates>194.083</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_52">
+      <Coordinates>1108.018</Coordinates>
+      <Coordinates>53.014</Coordinates>
+      <Coordinates>198.569</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_53">
+      <Coordinates>1108.258</Coordinates>
+      <Coordinates>18.199</Coordinates>
+      <Coordinates>194.337</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_54">
+      <Coordinates>1108.382</Coordinates>
+      <Coordinates>35.327</Coordinates>
+      <Coordinates>198.887</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_55">
+      <Coordinates>1108.926</Coordinates>
+      <Coordinates>18.990</Coordinates>
+      <Coordinates>194.630</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_56">
+      <Coordinates>1109.216</Coordinates>
+      <Coordinates>32.041</Coordinates>
+      <Coordinates>198.194</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_57">
+      <Coordinates>1109.661</Coordinates>
+      <Coordinates>30.287</Coordinates>
+      <Coordinates>197.824</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_58">
+      <Coordinates>1109.678</Coordinates>
+      <Coordinates>19.881</Coordinates>
+      <Coordinates>194.961</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_59">
+      <Coordinates>1110.025</Coordinates>
+      <Coordinates>28.514</Coordinates>
+      <Coordinates>197.416</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_60">
+      <Coordinates>1110.058</Coordinates>
+      <Coordinates>21.061</Coordinates>
+      <Coordinates>195.351</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_61">
+      <Coordinates>1110.237</Coordinates>
+      <Coordinates>26.736</Coordinates>
+      <Coordinates>196.963</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_62">
+      <Coordinates>1110.243</Coordinates>
+      <Coordinates>22.206</Coordinates>
+      <Coordinates>195.701</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_63">
+      <Coordinates>1110.417</Coordinates>
+      <Coordinates>25.227</Coordinates>
+      <Coordinates>196.579</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_64">
+      <Coordinates>1110.483</Coordinates>
+      <Coordinates>23.687</Coordinates>
+      <Coordinates>196.155</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_65">
+      <Coordinates>1111.098</Coordinates>
+      <Coordinates>53.969</Coordinates>
+      <Coordinates>197.301</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_66">
+      <Coordinates>1111.226</Coordinates>
+      <Coordinates>14.441</Coordinates>
+      <Coordinates>192.601</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_67">
+      <Coordinates>1113.745</Coordinates>
+      <Coordinates>54.338</Coordinates>
+      <Coordinates>196.329</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_68">
+      <Coordinates>1115.669</Coordinates>
+      <Coordinates>54.605</Coordinates>
+      <Coordinates>195.622</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_69">
+      <Coordinates>1117.655</Coordinates>
+      <Coordinates>54.548</Coordinates>
+      <Coordinates>194.969</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_70">
+      <Coordinates>1117.748</Coordinates>
+      <Coordinates>14.209</Coordinates>
+      <Coordinates>192.177</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_71">
+      <Coordinates>1119.626</Coordinates>
+      <Coordinates>54.414</Coordinates>
+      <Coordinates>194.361</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_72">
+      <Coordinates>1121.866</Coordinates>
+      <Coordinates>54.262</Coordinates>
+      <Coordinates>193.670</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_73">
+      <Coordinates>1124.115</Coordinates>
+      <Coordinates>54.035</Coordinates>
+      <Coordinates>193.023</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_74">
+      <Coordinates>1124.252</Coordinates>
+      <Coordinates>13.978</Coordinates>
+      <Coordinates>191.754</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_75">
+      <Coordinates>1126.367</Coordinates>
+      <Coordinates>53.757</Coordinates>
+      <Coordinates>192.418</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_76">
+      <Coordinates>1130.272</Coordinates>
+      <Coordinates>53.274</Coordinates>
+      <Coordinates>191.368</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_77">
+      <Coordinates>1130.843</Coordinates>
+      <Coordinates>15.195</Coordinates>
+      <Coordinates>191.548</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_78">
+      <Coordinates>1134.239</Coordinates>
+      <Coordinates>52.582</Coordinates>
+      <Coordinates>190.412</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_79">
+      <Coordinates>1137.085</Coordinates>
+      <Coordinates>17.076</Coordinates>
+      <Coordinates>191.392</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_80">
+      <Coordinates>1137.166</Coordinates>
+      <Coordinates>17.100</Coordinates>
+      <Coordinates>191.390</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_81">
+      <Coordinates>1137.247</Coordinates>
+      <Coordinates>17.125</Coordinates>
+      <Coordinates>191.388</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_82">
+      <Coordinates>1137.328</Coordinates>
+      <Coordinates>17.149</Coordinates>
+      <Coordinates>191.386</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_83">
+      <Coordinates>1138.269</Coordinates>
+      <Coordinates>52.751</Coordinates>
+      <Coordinates>189.857</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_84">
+      <Coordinates>1138.599</Coordinates>
+      <Coordinates>52.764</Coordinates>
+      <Coordinates>189.811</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_85">
+      <Coordinates>1138.929</Coordinates>
+      <Coordinates>52.778</Coordinates>
+      <Coordinates>189.766</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_86">
+      <Coordinates>1139.259</Coordinates>
+      <Coordinates>52.792</Coordinates>
+      <Coordinates>189.720</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_87">
+      <Coordinates>1145.500</Coordinates>
+      <Coordinates>19.611</Coordinates>
+      <Coordinates>191.182</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_88">
+      <Coordinates>1153.404</Coordinates>
+      <Coordinates>22.947</Coordinates>
+      <Coordinates>190.952</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_89">
+      <Coordinates>1161.175</Coordinates>
+      <Coordinates>26.480</Coordinates>
+      <Coordinates>190.957</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_90">
+      <Coordinates>1164.586</Coordinates>
+      <Coordinates>59.879</Coordinates>
+      <Coordinates>183.212</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_91">
+      <Coordinates>1169.065</Coordinates>
+      <Coordinates>30.067</Coordinates>
+      <Coordinates>190.962</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_92">
+      <Coordinates>1176.865</Coordinates>
+      <Coordinates>33.889</Coordinates>
+      <Coordinates>191.211</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_93">
+      <Coordinates>1184.810</Coordinates>
+      <Coordinates>37.269</Coordinates>
+      <Coordinates>191.966</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_94">
+      <Coordinates>1192.477</Coordinates>
+      <Coordinates>40.531</Coordinates>
+      <Coordinates>192.694</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_95">
+      <Coordinates>1200.361</Coordinates>
+      <Coordinates>43.412</Coordinates>
+      <Coordinates>193.904</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_96">
+      <Coordinates>1208.345</Coordinates>
+      <Coordinates>45.120</Coordinates>
+      <Coordinates>195.721</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_97">
+      <Coordinates>1216.321</Coordinates>
+      <Coordinates>46.826</Coordinates>
+      <Coordinates>197.536</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_98">
+      <Coordinates>1224.500</Coordinates>
+      <Coordinates>47.400</Coordinates>
+      <Coordinates>199.976</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_99">
+      <Coordinates>1232.374</Coordinates>
+      <Coordinates>46.696</Coordinates>
+      <Coordinates>202.678</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_100">
+      <Coordinates>1232.454</Coordinates>
+      <Coordinates>46.689</Coordinates>
+      <Coordinates>202.705</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_101">
+      <Coordinates>1232.534</Coordinates>
+      <Coordinates>46.682</Coordinates>
+      <Coordinates>202.732</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_102">
+      <Coordinates>1232.614</Coordinates>
+      <Coordinates>46.675</Coordinates>
+      <Coordinates>202.760</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_103">
+      <Coordinates>1240.054</Coordinates>
+      <Coordinates>46.010</Coordinates>
+      <Coordinates>205.313</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_104">
+      <Coordinates>1247.362</Coordinates>
+      <Coordinates>44.167</Coordinates>
+      <Coordinates>208.143</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_105">
+      <Coordinates>1254.279</Coordinates>
+      <Coordinates>41.361</Coordinates>
+      <Coordinates>210.712</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_106">
+      <Coordinates>1261.268</Coordinates>
+      <Coordinates>38.527</Coordinates>
+      <Coordinates>213.309</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_107">
+      <Coordinates>1267.942</Coordinates>
+      <Coordinates>34.661</Coordinates>
+      <Coordinates>215.673</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_108">
+      <Coordinates>1274.440</Coordinates>
+      <Coordinates>30.425</Coordinates>
+      <Coordinates>217.533</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_109">
+      <Coordinates>1281.064</Coordinates>
+      <Coordinates>26.106</Coordinates>
+      <Coordinates>219.428</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_110">
+      <Coordinates>1287.575</Coordinates>
+      <Coordinates>21.362</Coordinates>
+      <Coordinates>220.819</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_111">
+      <Coordinates>1294.300</Coordinates>
+      <Coordinates>16.863</Coordinates>
+      <Coordinates>221.637</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_112">
+      <Coordinates>1300.952</Coordinates>
+      <Coordinates>12.414</Coordinates>
+      <Coordinates>222.447</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_113">
+      <Coordinates>1307.870</Coordinates>
+      <Coordinates>8.157</Coordinates>
+      <Coordinates>222.710</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_114">
+      <Coordinates>1315.170</Coordinates>
+      <Coordinates>4.783</Coordinates>
+      <Coordinates>222.538</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_115">
+      <Coordinates>1315.247</Coordinates>
+      <Coordinates>4.748</Coordinates>
+      <Coordinates>222.536</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_116">
+      <Coordinates>1315.324</Coordinates>
+      <Coordinates>4.712</Coordinates>
+      <Coordinates>222.534</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_117">
+      <Coordinates>1315.401</Coordinates>
+      <Coordinates>4.677</Coordinates>
+      <Coordinates>222.532</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_118">
+      <Coordinates>1322.434</Coordinates>
+      <Coordinates>1.427</Coordinates>
+      <Coordinates>222.366</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_119">
+      <Coordinates>1329.915</Coordinates>
+      <Coordinates>-1.011</Coordinates>
+      <Coordinates>221.800</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_120">
+      <Coordinates>1337.482</Coordinates>
+      <Coordinates>-2.593</Coordinates>
+      <Coordinates>222.340</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_121">
+      <Coordinates>1344.979</Coordinates>
+      <Coordinates>-4.160</Coordinates>
+      <Coordinates>222.875</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_122">
+      <Coordinates>1352.736</Coordinates>
+      <Coordinates>-4.916</Coordinates>
+      <Coordinates>224.488</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_123">
+      <Coordinates>1359.717</Coordinates>
+      <Coordinates>-5.429</Coordinates>
+      <Coordinates>227.643</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_124">
+      <Coordinates>1359.794</Coordinates>
+      <Coordinates>-5.434</Coordinates>
+      <Coordinates>227.678</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_125">
+      <Coordinates>1359.871</Coordinates>
+      <Coordinates>-5.440</Coordinates>
+      <Coordinates>227.713</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_126">
+      <Coordinates>1359.948</Coordinates>
+      <Coordinates>-5.445</Coordinates>
+      <Coordinates>227.748</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_127">
+      <Coordinates>1360.362</Coordinates>
+      <Coordinates>-31.614</Coordinates>
+      <Coordinates>222.053</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_128">
+      <Coordinates>1360.397</Coordinates>
+      <Coordinates>-31.584</Coordinates>
+      <Coordinates>221.610</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_129">
+      <Coordinates>1363.242</Coordinates>
+      <Coordinates>-5.687</Coordinates>
+      <Coordinates>229.237</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_130">
+      <Coordinates>1366.460</Coordinates>
+      <Coordinates>-5.923</Coordinates>
+      <Coordinates>231.037</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_131">
+      <Coordinates>1369.722</Coordinates>
+      <Coordinates>-6.903</Coordinates>
+      <Coordinates>232.273</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_132">
+      <Coordinates>1372.796</Coordinates>
+      <Coordinates>-7.827</Coordinates>
+      <Coordinates>233.438</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_133">
+      <Coordinates>1376.198</Coordinates>
+      <Coordinates>-9.478</Coordinates>
+      <Coordinates>234.241</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_134">
+      <Coordinates>1376.747</Coordinates>
+      <Coordinates>-27.004</Coordinates>
+      <Coordinates>224.170</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_135">
+      <Coordinates>1377.079</Coordinates>
+      <Coordinates>-27.004</Coordinates>
+      <Coordinates>224.197</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_136">
+      <Coordinates>1377.412</Coordinates>
+      <Coordinates>-27.004</Coordinates>
+      <Coordinates>224.223</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_137">
+      <Coordinates>1377.744</Coordinates>
+      <Coordinates>-27.004</Coordinates>
+      <Coordinates>224.249</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_138">
+      <Coordinates>1378.323</Coordinates>
+      <Coordinates>-27.004</Coordinates>
+      <Coordinates>224.295</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_139">
+      <Coordinates>1378.605</Coordinates>
+      <Coordinates>-11.821</Coordinates>
+      <Coordinates>233.630</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_140">
+      <Coordinates>1378.665</Coordinates>
+      <Coordinates>-11.879</Coordinates>
+      <Coordinates>233.615</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_141">
+      <Coordinates>1378.724</Coordinates>
+      <Coordinates>-11.937</Coordinates>
+      <Coordinates>233.600</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_142">
+      <Coordinates>1378.784</Coordinates>
+      <Coordinates>-11.995</Coordinates>
+      <Coordinates>233.585</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_143">
+      <Coordinates>1378.896</Coordinates>
+      <Coordinates>-26.828</Coordinates>
+      <Coordinates>224.357</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_144">
+      <Coordinates>1379.437</Coordinates>
+      <Coordinates>-26.655</Coordinates>
+      <Coordinates>224.478</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_145">
+      <Coordinates>1380.196</Coordinates>
+      <Coordinates>-13.369</Coordinates>
+      <Coordinates>233.227</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_146">
+      <Coordinates>1380.219</Coordinates>
+      <Coordinates>-26.404</Coordinates>
+      <Coordinates>224.654</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_147">
+      <Coordinates>1380.965</Coordinates>
+      <Coordinates>-26.068</Coordinates>
+      <Coordinates>224.969</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_148">
+      <Coordinates>1381.308</Coordinates>
+      <Coordinates>-14.960</Coordinates>
+      <Coordinates>232.454</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_149">
+      <Coordinates>1381.556</Coordinates>
+      <Coordinates>-25.613</Coordinates>
+      <Coordinates>225.355</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_150">
+      <Coordinates>1382.136</Coordinates>
+      <Coordinates>-16.553</Coordinates>
+      <Coordinates>231.567</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_151">
+      <Coordinates>1382.782</Coordinates>
+      <Coordinates>-24.668</Coordinates>
+      <Coordinates>226.154</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_152">
+      <Coordinates>1383.002</Coordinates>
+      <Coordinates>-18.216</Coordinates>
+      <Coordinates>230.640</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_153">
+      <Coordinates>1383.372</Coordinates>
+      <Coordinates>-23.160</Coordinates>
+      <Coordinates>227.292</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_154">
+      <Coordinates>1383.471</Coordinates>
+      <Coordinates>-21.736</Coordinates>
+      <Coordinates>228.290</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_155">
+      <Coordinates>1383.589</Coordinates>
+      <Coordinates>-20.026</Coordinates>
+      <Coordinates>229.489</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_156">
+      <Coordinates>944.922</Coordinates>
+      <Coordinates>-37.777</Coordinates>
+      <Coordinates>219.540</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_157">
+      <Coordinates>945.107</Coordinates>
+      <Coordinates>-39.912</Coordinates>
+      <Coordinates>221.877</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_158">
+      <Coordinates>945.112</Coordinates>
+      <Coordinates>-39.969</Coordinates>
+      <Coordinates>221.939</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_159">
+      <Coordinates>945.117</Coordinates>
+      <Coordinates>-40.026</Coordinates>
+      <Coordinates>222.001</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_160">
+      <Coordinates>945.122</Coordinates>
+      <Coordinates>-40.084</Coordinates>
+      <Coordinates>222.064</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_161">
+      <Coordinates>945.414</Coordinates>
+      <Coordinates>-43.466</Coordinates>
+      <Coordinates>225.765</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_162">
+      <Coordinates>945.891</Coordinates>
+      <Coordinates>-35.567</Coordinates>
+      <Coordinates>217.028</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_163">
+      <Coordinates>947.600</Coordinates>
+      <Coordinates>-33.838</Coordinates>
+      <Coordinates>214.992</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_164">
+      <Coordinates>948.301</Coordinates>
+      <Coordinates>-89.145</Coordinates>
+      <Coordinates>273.000</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_165">
+      <Coordinates>948.438</Coordinates>
+      <Coordinates>-89.073</Coordinates>
+      <Coordinates>272.939</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_166">
+      <Coordinates>948.576</Coordinates>
+      <Coordinates>-89.001</Coordinates>
+      <Coordinates>272.878</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_167">
+      <Coordinates>948.713</Coordinates>
+      <Coordinates>-88.930</Coordinates>
+      <Coordinates>272.817</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_168">
+      <Coordinates>948.771</Coordinates>
+      <Coordinates>-47.060</Coordinates>
+      <Coordinates>229.453</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_169">
+      <Coordinates>949.322</Coordinates>
+      <Coordinates>-32.098</Coordinates>
+      <Coordinates>212.942</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_170">
+      <Coordinates>951.909</Coordinates>
+      <Coordinates>-30.743</Coordinates>
+      <Coordinates>211.253</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_171">
+      <Coordinates>953.026</Coordinates>
+      <Coordinates>-48.998</Coordinates>
+      <Coordinates>231.287</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_172">
+      <Coordinates>953.097</Coordinates>
+      <Coordinates>-49.030</Coordinates>
+      <Coordinates>231.317</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_173">
+      <Coordinates>953.169</Coordinates>
+      <Coordinates>-49.063</Coordinates>
+      <Coordinates>231.348</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_174">
+      <Coordinates>953.241</Coordinates>
+      <Coordinates>-49.096</Coordinates>
+      <Coordinates>231.379</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_175">
+      <Coordinates>954.659</Coordinates>
+      <Coordinates>-29.750</Coordinates>
+      <Coordinates>209.969</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_176">
+      <Coordinates>954.732</Coordinates>
+      <Coordinates>-29.723</Coordinates>
+      <Coordinates>209.935</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_177">
+      <Coordinates>954.805</Coordinates>
+      <Coordinates>-29.697</Coordinates>
+      <Coordinates>209.901</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_178">
+      <Coordinates>954.878</Coordinates>
+      <Coordinates>-29.671</Coordinates>
+      <Coordinates>209.867</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_179">
+      <Coordinates>955.030</Coordinates>
+      <Coordinates>-85.636</Coordinates>
+      <Coordinates>270.013</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_180">
+      <Coordinates>955.765</Coordinates>
+      <Coordinates>-50.245</Coordinates>
+      <Coordinates>232.467</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_181">
+      <Coordinates>957.322</Coordinates>
+      <Coordinates>-28.788</Coordinates>
+      <Coordinates>208.726</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_182">
+      <Coordinates>958.820</Coordinates>
+      <Coordinates>-51.185</Coordinates>
+      <Coordinates>232.706</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_183">
+      <Coordinates>960.034</Coordinates>
+      <Coordinates>-28.137</Coordinates>
+      <Coordinates>207.825</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_184">
+      <Coordinates>961.773</Coordinates>
+      <Coordinates>-51.521</Coordinates>
+      <Coordinates>232.489</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_185">
+      <Coordinates>962.138</Coordinates>
+      <Coordinates>-84.215</Coordinates>
+      <Coordinates>267.147</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_186">
+      <Coordinates>962.828</Coordinates>
+      <Coordinates>-27.901</Coordinates>
+      <Coordinates>207.387</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_187">
+      <Coordinates>965.031</Coordinates>
+      <Coordinates>-51.891</Coordinates>
+      <Coordinates>232.250</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_188">
+      <Coordinates>965.608</Coordinates>
+      <Coordinates>-27.666</Coordinates>
+      <Coordinates>206.950</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_189">
+      <Coordinates>968.300</Coordinates>
+      <Coordinates>-51.512</Coordinates>
+      <Coordinates>231.424</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_190">
+      <Coordinates>968.461</Coordinates>
+      <Coordinates>-27.856</Coordinates>
+      <Coordinates>206.985</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_191">
+      <Coordinates>968.746</Coordinates>
+      <Coordinates>-81.980</Coordinates>
+      <Coordinates>263.992</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_192">
+      <Coordinates>971.280</Coordinates>
+      <Coordinates>-27.836</Coordinates>
+      <Coordinates>206.823</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_193">
+      <Coordinates>971.365</Coordinates>
+      <Coordinates>-27.835</Coordinates>
+      <Coordinates>206.818</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_194">
+      <Coordinates>971.449</Coordinates>
+      <Coordinates>-27.834</Coordinates>
+      <Coordinates>206.813</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_195">
+      <Coordinates>971.534</Coordinates>
+      <Coordinates>-27.834</Coordinates>
+      <Coordinates>206.808</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_196">
+      <Coordinates>971.557</Coordinates>
+      <Coordinates>-51.075</Coordinates>
+      <Coordinates>231.312</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_197">
+      <Coordinates>972.021</Coordinates>
+      <Coordinates>-80.872</Coordinates>
+      <Coordinates>262.429</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_198">
+      <Coordinates>974.270</Coordinates>
+      <Coordinates>-50.711</Coordinates>
+      <Coordinates>231.218</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_199">
+      <Coordinates>975.223</Coordinates>
+      <Coordinates>-79.552</Coordinates>
+      <Coordinates>260.771</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_200">
+      <Coordinates>977.148</Coordinates>
+      <Coordinates>-50.283</Coordinates>
+      <Coordinates>231.606</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_201">
+      <Coordinates>977.670</Coordinates>
+      <Coordinates>-27.789</Coordinates>
+      <Coordinates>206.455</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_202">
+      <Coordinates>978.103</Coordinates>
+      <Coordinates>-77.756</Coordinates>
+      <Coordinates>259.075</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_203">
+      <Coordinates>979.616</Coordinates>
+      <Coordinates>-50.427</Coordinates>
+      <Coordinates>232.785</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_204">
+      <Coordinates>980.883</Coordinates>
+      <Coordinates>-76.022</Coordinates>
+      <Coordinates>257.438</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_205">
+      <Coordinates>982.068</Coordinates>
+      <Coordinates>-50.570</Coordinates>
+      <Coordinates>233.958</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_206">
+      <Coordinates>983.404</Coordinates>
+      <Coordinates>-73.835</Coordinates>
+      <Coordinates>255.745</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_207">
+      <Coordinates>983.778</Coordinates>
+      <Coordinates>-26.958</Coordinates>
+      <Coordinates>205.741</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_208">
+      <Coordinates>984.109</Coordinates>
+      <Coordinates>-51.257</Coordinates>
+      <Coordinates>235.879</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_209">
+      <Coordinates>985.485</Coordinates>
+      <Coordinates>-71.271</Coordinates>
+      <Coordinates>254.163</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_210">
+      <Coordinates>985.533</Coordinates>
+      <Coordinates>-71.212</Coordinates>
+      <Coordinates>254.126</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_211">
+      <Coordinates>985.582</Coordinates>
+      <Coordinates>-71.152</Coordinates>
+      <Coordinates>254.090</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_212">
+      <Coordinates>985.630</Coordinates>
+      <Coordinates>-71.093</Coordinates>
+      <Coordinates>254.053</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_213">
+      <Coordinates>985.908</Coordinates>
+      <Coordinates>-52.264</Coordinates>
+      <Coordinates>237.658</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_214">
+      <Coordinates>985.964</Coordinates>
+      <Coordinates>-52.295</Coordinates>
+      <Coordinates>237.713</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_215">
+      <Coordinates>986.020</Coordinates>
+      <Coordinates>-52.327</Coordinates>
+      <Coordinates>237.768</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_216">
+      <Coordinates>986.076</Coordinates>
+      <Coordinates>-52.358</Coordinates>
+      <Coordinates>237.824</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_217">
+      <Coordinates>987.236</Coordinates>
+      <Coordinates>-69.113</Coordinates>
+      <Coordinates>252.832</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_218">
+      <Coordinates>988.304</Coordinates>
+      <Coordinates>-53.606</Coordinates>
+      <Coordinates>240.028</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_219">
+      <Coordinates>988.734</Coordinates>
+      <Coordinates>-66.885</Coordinates>
+      <Coordinates>251.700</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_220">
+      <Coordinates>989.527</Coordinates>
+      <Coordinates>-64.586</Coordinates>
+      <Coordinates>250.259</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_221">
+      <Coordinates>989.612</Coordinates>
+      <Coordinates>-55.626</Coordinates>
+      <Coordinates>242.879</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_222">
+      <Coordinates>989.780</Coordinates>
+      <Coordinates>-25.828</Coordinates>
+      <Coordinates>205.053</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_223">
+      <Coordinates>990.043</Coordinates>
+      <Coordinates>-58.027</Coordinates>
+      <Coordinates>245.210</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_224">
+      <Coordinates>990.054</Coordinates>
+      <Coordinates>-58.087</Coordinates>
+      <Coordinates>245.269</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_225">
+      <Coordinates>990.064</Coordinates>
+      <Coordinates>-58.147</Coordinates>
+      <Coordinates>245.327</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_226">
+      <Coordinates>990.075</Coordinates>
+      <Coordinates>-58.207</Coordinates>
+      <Coordinates>245.386</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_227">
+      <Coordinates>990.279</Coordinates>
+      <Coordinates>-62.405</Coordinates>
+      <Coordinates>248.892</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_228">
+      <Coordinates>990.418</Coordinates>
+      <Coordinates>-60.115</Coordinates>
+      <Coordinates>247.239</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_229">
+      <Coordinates>992.764</Coordinates>
+      <Coordinates>-25.266</Coordinates>
+      <Coordinates>204.712</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_230">
+      <Coordinates>995.740</Coordinates>
+      <Coordinates>-24.623</Coordinates>
+      <Coordinates>204.372</Coordinates>
+   </Cartesian_point>
+   <Cartesian_point id="CP_231">
+      <Coordinates>998.651</Coordinates>
+      <Coordinates>-23.755</Coordinates>
+      <Coordinates>204.046</Coordinates>
+   </Cartesian_point>
+   <Connector_housing id="SingleInsertConnector_1">
+      <Part_number>A0315457926</Part_number>
+      <Company_name>-</Company_name>
+      <Version>2</Version>
+      <Abbreviation>KUPPLUNGSGEHAEUSE</Abbreviation>
+      <Description>-</Description>
+   </Connector_housing>
+   <Connector_housing id="SingleInsertConnector_2">
+      <Part_number>A0255459626</Part_number>
+      <Company_name>-</Company_name>
+      <Version>3</Version>
+      <Abbreviation>A0255459626_RevA</Abbreviation>
+      <Description>-</Description>
+   </Connector_housing>
+   <Harness id="Harness_1">
+      <Part_number>HCA205540B135</Part_number>
+      <Company_name/>
+      <Version>2016-04-13+02:00</Version>
+      <Abbreviation>0013.04</Abbreviation>
+      <Description>ZB EL.LTG.SATZ / DMU MITTE COC W/S/V/A/C MI NSG</Description>
+      <Car_classification_level_2> -- </Car_classification_level_2>
+      <Model_year> -- </Model_year>
+      <Content>harness subset</Content>
+      <Connector_occurrence id="HCA205540B135_SIC_occurrence_1">
+         <Id>N29/8*1A-B</Id>
+         <Alias_id id="A_con1">
+            <Alias_id>N29/8*1A-B</Alias_id>
+         </Alias_id>
+         <Description>Geblaeseregler Booster</Description>
+         <Placement id="Trafo_con1">
+            <U>0.04076131595</U>
+            <U>-0.99914110984</U>
+            <U>-0.00745370708</U>
+            <V>0.13661687027</V>
+            <V>-0.00181668533</V>
+            <V>0.99062229453</V>
+            <Cartesian_point>CP_90</Cartesian_point>
+         </Placement>
+         <Part>SingleInsertConnector_1</Part>
+      </Connector_occurrence>
+      <Connector_occurrence id="HCA205540B135_SIC_occurrence_2">
+         <Id>X138/1*COC1-B</Id>
+         <Alias_id id="A_con2">
+            <Alias_id>X138/1*COC1-B</Alias_id>
+         </Alias_id>
+         <Description>Trenstelle Cockpit</Description>
+         <Placement id="Trafo_con2">
+            <U>0.07845861393</U>
+            <U>0.00000090534</U>
+            <U>-0.99691737165</U>
+            <V>0.00000476694</V>
+            <V>0.99999999999</V>
+            <V>0.0000012833</V>
+            <Cartesian_point>CP_128</Cartesian_point>
+         </Placement>
+         <Part>SingleInsertConnector_2</Part>
+      </Connector_occurrence>
+      <Wire_protection_occurrence id="HCA205540B135_Protection_occurrence_1">
+         <Id>HCA205540B135_OVERSTOCK(5)</Id>
+         <Description>---</Description>
+         <Protection_length id="NV_1">
+            <Unit_component>mm</Unit_component>
+            <Value_component>49.974</Value_component>
+         </Protection_length>
+         <Part>Protection_1</Part>
+      </Wire_protection_occurrence>
+      <Wire_protection_occurrence id="HCA205540B135_Protection_occurrence_2">
+         <Id>HCA205540B135_OVERSTOCK(6)</Id>
+         <Description>---</Description>
+         <Protection_length id="NV_2">
+            <Unit_component>mm</Unit_component>
+            <Value_component>300.000</Value_component>
+         </Protection_length>
+         <Part>Protection_2</Part>
+      </Wire_protection_occurrence>
+      <Wire_protection_occurrence id="HCA205540B135_Protection_occurrence_3">
+         <Id>HCA205540B135_OVERSTOCK(8)</Id>
+         <Description>---</Description>
+         <Protection_length id="NV_3">
+            <Unit_component>mm</Unit_component>
+            <Value_component>309.947</Value_component>
+         </Protection_length>
+         <Part>Protection_3</Part>
+      </Wire_protection_occurrence>
+      <Module id="Module_1">
+         <Part_number>HCA205540B135</Part_number>
+         <Company_name>-</Company_name>
+         <Version>2016-04-13+02:00</Version>
+         <Abbreviation>0013.04</Abbreviation>
+         <Description>ZB EL.LTG.SATZ / DMU MITTE COC W/S/V/A/C MI NSG</Description>
+         <Car_classification_level_2>-</Car_classification_level_2>
+         <Model_year>-</Model_year>
+         <Content>module</Content>
+         <Module_configuration id="Module_configuration_1">
+            <Logistic_control_information/>
+            <Controlled_components>HCA205540B135_SIC_occurrence_1 HCA205540B135_SIC_occurrence_2 HCA205540B135_Protection_occurrence_1 HCA205540B135_Protection_occurrence_2 HCA205540B135_Protection_occurrence_3</Controlled_components>
+         </Module_configuration>
+      </Module>
+   </Harness>
+   <Node id="HCA205540B135_Node_1">
+      <Id>HCA205540B135_1_1/POINT.231</Id>
+      <Alias_id id="A_node1">
+         <Alias_id>3274</Alias_id>
+      </Alias_id>
+      <Alias_id id="A_node2">
+         <Alias_id>3677</Alias_id>
+      </Alias_id>
+      <Alias_id id="A_node3">
+         <Alias_id>5069</Alias_id>
+      </Alias_id>
+      <Cartesian_point>CP_32</Cartesian_point>
+   </Node>
+   <Node id="HCA205540B135_Node_2">
+      <Id>N29/8*1A-B</Id>
+      <Alias_id id="A_node4">
+         <Alias_id>3274</Alias_id>
+      </Alias_id>
+      <Alias_id id="A_node5">
+         <Alias_id>N29/8*1A-B</Alias_id>
+      </Alias_id>
+      <Cartesian_point>CP_86</Cartesian_point>
+      <Referenced_components>HCA205540B135_SIC_occurrence_1</Referenced_components>
+   </Node>
+   <Node id="HCA205540B135_Node_3">
+      <Id>X138/*COC1-B</Id>
+      <Alias_id id="A_node6">
+         <Alias_id>3677</Alias_id>
+      </Alias_id>
+      <Alias_id id="A_node7">
+         <Alias_id>X138/1*COC1-B</Alias_id>
+      </Alias_id>
+      <Cartesian_point>CP_134</Cartesian_point>
+      <Referenced_components>HCA205540B135_SIC_occurrence_2</Referenced_components>
+   </Node>
+   <Node id="HCA205540B135_Node_4">
+      <Id>UGP_SKEL_COC_MIKO</Id>
+      <Alias_id id="A_node8">
+         <Alias_id/>
+      </Alias_id>
+      <Cartesian_point>CP_164</Cartesian_point>
+   </Node>
+   <Segment id="HCA205540B135_Segment_1">
+      <Id>Bundle Segment.3/Branchable.3/Constraints/HCA205540B135_1/HCA205540B135</Id>
+      <Start_vector>-0.989784999825078</Start_vector>
+      <Start_vector>-0.0413973704706314</Start_vector>
+      <Start_vector>0.13642548090216775</Start_vector>
+      <End_vector>-0.9695302800060531</End_vector>
+      <End_vector>0.22355192678460672</End_vector>
+      <End_vector>0.10017770301955464</End_vector>
+      <Virtual_length id="VL_1">
+         <Unit_component>mm</Unit_component>
+         <Value_component>80</Value_component>
+      </Virtual_length>
+      <Form>circular</Form>
+      <End_node>HCA205540B135_Node_1</End_node>
+      <Start_node>HCA205540B135_Node_2</Start_node>
+      <Center_curve id="B_Spline_1">
+         <Degree>3</Degree>
+         <Control_points>CP_86 CP_85 CP_84 CP_83 CP_78 CP_76 CP_75 CP_73 CP_72 CP_71 CP_69 CP_68 CP_67 CP_65 CP_52 CP_49 CP_42 CP_43 CP_45 CP_46 CP_47 CP_48 CP_50 CP_54 CP_56 CP_57 CP_59 CP_61 CP_63 CP_64 CP_62 CP_60 CP_58 CP_55 CP_53 CP_51 CP_44 CP_41 CP_39 CP_38 CP_37 CP_36 CP_35 CP_34 CP_33 CP_32</Control_points>
+      </Center_curve>
+      <Cross_section_area_information id="CrossSection_1">
+         <Value_determination>measured</Value_determination>
+         <Area id="CS_1">
+            <Unit_component>mm2</Unit_component>
+            <Value_component>38.4844775</Value_component>
+         </Area>
+      </Cross_section_area_information>
+      <Protection_area id="Protection_area_1">
+         <Start_location>0.375</Start_location>
+         <Absolute_start_location id="AbsoluteStartLocation__1">
+            <Unit_component>mm</Unit_component>
+            <Value_component>30</Value_component>
+         </Absolute_start_location>
+         <End_location>1.000</End_location>
+         <Absolute_end_location id="AbsoluteEndLocation_1">
+            <Unit_component>mm</Unit_component>
+            <Value_component>80</Value_component>
+         </Absolute_end_location>
+         <Associated_protection>HCA205540B135_Protection_occurrence_1</Associated_protection>
+      </Protection_area>
+   </Segment>
+   <Segment id="HCA205540B135_Segment_2">
+      <Id>Bundle Segment.4/Branchable.4/Constraints/HCA205540B135_1/HCA205540B135</Id>
+      <Start_vector>0.9695302800175297</Start_vector>
+      <Start_vector>-0.22355192678725297</Start_vector>
+      <Start_vector>-0.10017770290257778</Start_vector>
+      <End_vector>-0.9969173716395786</End_vector>
+      <End_vector>0.000004852920007130731</End_vector>
+      <End_vector>-0.078458613929152</End_vector>
+      <Virtual_length id="VL_2">
+         <Unit_component>mm</Unit_component>
+         <Value_component>330</Value_component>
+      </Virtual_length>
+      <Form>circular</Form>
+      <End_node>HCA205540B135_Node_3</End_node>
+      <Start_node>HCA205540B135_Node_1</Start_node>
+      <Center_curve id="B_Spline_2">
+         <Degree>3</Degree>
+         <Control_points>CP_32 CP_33 CP_34 CP_35 CP_40 CP_66 CP_70 CP_74 CP_77 CP_79 CP_80 CP_81 CP_82 CP_87 CP_88 CP_89 CP_91 CP_92 CP_93 CP_94 CP_95 CP_96 CP_97 CP_98 CP_99 CP_100 CP_101 CP_102 CP_103 CP_104 CP_105 CP_106 CP_107 CP_108 CP_109 CP_110 CP_111 CP_112 CP_113 CP_114 CP_115 CP_116 CP_117 CP_118 CP_119 CP_120 CP_121 CP_122 CP_123 CP_124 CP_125 CP_126 CP_129 CP_130 CP_131 CP_132 CP_133 CP_139 CP_140 CP_141 CP_142 CP_145 CP_148 CP_150 CP_152 CP_155 CP_154 CP_153 CP_151 CP_149 CP_147 CP_146 CP_144 CP_143 CP_138 CP_137 CP_136 CP_135 CP_134</Control_points>
+      </Center_curve>
+      <Cross_section_area_information id="CrossSection_2">
+         <Value_determination>measured</Value_determination>
+         <Area id="CS_2">
+            <Unit_component>mm2</Unit_component>
+            <Value_component>19.6349375</Value_component>
+         </Area>
+      </Cross_section_area_information>
+      <Protection_area id="Protection_area_2">
+         <Start_location>0.000</Start_location>
+         <Absolute_start_location id="AbsoluteStartLocation__2">
+            <Unit_component>mm</Unit_component>
+            <Value_component>0</Value_component>
+         </Absolute_start_location>
+         <End_location>0.909</End_location>
+         <Absolute_end_location id="AbsoluteEndLocation_2">
+            <Unit_component>mm</Unit_component>
+            <Value_component>299.97</Value_component>
+         </Absolute_end_location>
+         <Associated_protection>HCA205540B135_Protection_occurrence_2</Associated_protection>
+      </Protection_area>
+   </Segment>
+   <Segment id="HCA205540B135_Segment_3">
+      <Id>Bundle Segment.5/Branchable.5/Constraints/HCA205540B135_1/HCA205540B135</Id>
+      <Start_vector>-0.9695302799987592</Start_vector>
+      <Start_vector>0.22355192681083177</Start_vector>
+      <Start_vector>0.10017770303162345</Start_vector>
+      <End_vector>-0.8251213312024049</End_vector>
+      <End_vector>-0.43017904055084805</End_vector>
+      <End_vector>0.36622504265208683</End_vector>
+      <Virtual_length id="VL_3">
+         <Unit_component>mm</Unit_component>
+         <Value_component>310</Value_component>
+      </Virtual_length>
+      <Form>circular</Form>
+      <End_node>HCA205540B135_Node_4</End_node>
+      <Start_node>HCA205540B135_Node_1</Start_node>
+      <Center_curve id="B_Spline_3">
+         <Degree>3</Degree>
+         <Control_points>CP_32 CP_31 CP_30 CP_29 CP_28 CP_27 CP_26 CP_25 CP_24 CP_23 CP_22 CP_21 CP_20 CP_19 CP_18 CP_17 CP_16 CP_15 CP_14 CP_13 CP_12 CP_11 CP_10 CP_9 CP_8 CP_7 CP_6 CP_5 CP_4 CP_3 CP_231 CP_230 CP_229 CP_222 CP_207 CP_201 CP_195 CP_194 CP_193 CP_192 CP_190 CP_188 CP_186 CP_183 CP_181 CP_178 CP_177 CP_176 CP_175 CP_170 CP_169 CP_163 CP_162 CP_156 CP_157 CP_158 CP_159 CP_160 CP_161 CP_168 CP_171 CP_172 CP_173 CP_174 CP_180 CP_182 CP_184 CP_187 CP_189 CP_196 CP_198 CP_200 CP_203 CP_205 CP_208 CP_213 CP_214 CP_215 CP_216 CP_218 CP_221 CP_223 CP_224 CP_225 CP_226 CP_228 CP_227 CP_220 CP_219 CP_217 CP_212 CP_211 CP_210 CP_209 CP_206 CP_204 CP_202 CP_199 CP_197 CP_191 CP_185 CP_179 CP_167 CP_166 CP_165 CP_164</Control_points>
+      </Center_curve>
+      <Cross_section_area_information id="CrossSection_3">
+         <Value_determination>measured</Value_determination>
+         <Area id="CS_3">
+            <Unit_component>mm2</Unit_component>
+            <Value_component>78.53975</Value_component>
+         </Area>
+      </Cross_section_area_information>
+      <Protection_area id="Protection_area_3">
+         <Start_location>0.000</Start_location>
+         <Absolute_start_location id="AbsoluteStartLocation__3">
+            <Unit_component>mm</Unit_component>
+            <Value_component>0</Value_component>
+         </Absolute_start_location>
+         <End_location>1.000</End_location>
+         <Absolute_end_location id="AbsoluteEndLocation_3">
+            <Unit_component>mm</Unit_component>
+            <Value_component>310</Value_component>
+         </Absolute_end_location>
+         <Associated_protection>HCA205540B135_Protection_occurrence_3</Associated_protection>
+      </Protection_area>
+   </Segment>
+   <Unit id="mm">
+      <Si_unit_name>metre</Si_unit_name>
+      <Si_prefix>milli</Si_prefix>
+   </Unit>
+   <Unit id="mm2">
+      <Si_unit_name>metre</Si_unit_name>
+      <Si_prefix>milli</Si_prefix>
+      <Si_dimension>square</Si_dimension>
+   </Unit>
+   <Wire_protection id="Protection_1">
+      <Part_number>G20</Part_number>
+      <Company_name/>
+      <Alias_id id="A_1">
+         <Alias_id>---</Alias_id>
+      </Alias_id>
+      <Version/>
+      <Abbreviation/>
+      <Description>Sleeved</Description>
+   </Wire_protection>
+   <Wire_protection id="Protection_2">
+      <Part_number>G20</Part_number>
+      <Company_name/>
+      <Alias_id id="A_2">
+         <Alias_id>---</Alias_id>
+      </Alias_id>
+      <Version/>
+      <Abbreviation/>
+      <Description>Sleeved</Description>
+   </Wire_protection>
+   <Wire_protection id="Protection_3">
+      <Part_number>G19</Part_number>
+      <Company_name/>
+      <Alias_id id="A_3">
+         <Alias_id>---</Alias_id>
+      </Alias_id>
+      <Version/>
+      <Abbreviation/>
+      <Description>Sleeved</Description>
+   </Wire_protection>
+</kbl:KBL_container>

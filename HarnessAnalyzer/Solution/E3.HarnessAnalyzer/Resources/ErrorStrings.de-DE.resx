@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocStatMachine_ErrorExportExcel_Msg" xml:space="preserve">
+    <value>Beim Exportieren der Tabellen nach Excel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportMemolistFile_Msg" xml:space="preserve">
+    <value>Beim Importieren der Memoliste ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportMemolist_Msg" xml:space="preserve">
+    <value>Beim Import der Memoliste sind Fehler/Warnungen aufgetreten! Detailinformation sind im Log-Fenster verfügbar.</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportRedliningFile_Msg" xml:space="preserve">
+    <value>Beim Importieren der Anmerkungen ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportRedlining_Msg" xml:space="preserve">
+    <value>Beim Importieren der Anmerkungen sind Fehler/Warnungen aufgetreten! Detailinformation sind im Log-Fenster verfügbar.</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadGraphCompResultInfo_Msg" xml:space="preserve">
+    <value>Beim Laden der grafischen Vergleichsdaten ist ein Fehler aufgetreten! Möglicherweise passen Leitungssatz-Teilenummer oder Version nicht zusammen!</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadMemolistFile_Msg" xml:space="preserve">
+    <value>Beim Laden der Memoliste ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadMenu_Msg" xml:space="preserve">
+    <value>Beim Laden der Menüs für das Dokument ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadRedliningFile_Msg" xml:space="preserve">
+    <value>Beim Laden der Anmerkungen ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="DocStatMachine_ErrorSchemaValidation_Msg" xml:space="preserve">
+    <value>Die Schemavalidierung für '{0}' ist fehlgeschlagen! Weitere Detailinformation sind im Log-Fenster verfügbar.</value>
+  </data>
+  <data name="DocStatMachine_RegExForGenSettingsConfigInvalid_Msg" xml:space="preserve">
+    <value>Der reguläre Ausdruck für die Erkennung von Modulsachnummern (Zwischenablage Kopie) in den Einstellungen ist ungültig! Es wird die Voreinstellung verwendet.</value>
+  </data>
+  <data name="DSIImport_ErrorHarnessOrUnsupportedVersion_Msg" xml:space="preserve">
+    <value>Fehler beim Import des Leitungssatzes oder die DSI Version wird nicht unterstützt! Bitte ggf. Log-Fenster überprüfen. Gültig sind die Versionen 11,11,oder 12.</value>
+  </data>
+  <data name="InitMng_BorrowedLicExpired_Msg" xml:space="preserve">
+    <value>Eine geliehene Lizenz ist möglicherweise abgelaufen.{0}{1}</value>
+  </data>
+  <data name="InitMng_BorrowNotFound_Msg" xml:space="preserve">
+    <value>Die Komponente LmBorrow ({0}) konnte nicht gefunden werden!</value>
+  </data>
+  <data name="InitMng_ErrorReadLic_Msg" xml:space="preserve">
+    <value>Beim Ermitteln der geliehenen Lizenzen ist ein Fehler aufgetreten! {0}</value>
+  </data>
+  <data name="InitMng_InitCmdLine_Msg" xml:space="preserve">
+    <value>The commandline processor needs to be initialized before the licensing system!</value>
+  </data>
+  <data name="LicenseAccess_ErrorAuth_Msg" xml:space="preserve">
+    <value>Die Lizenz konnte nicht authentifiziert werden: {0}</value>
+  </data>
+  <data name="MainStatMachine_DocAlreadyOpened_Msg" xml:space="preserve">
+    <value>Ein HCV oder DSI/KBL Dokument mit dem gleichen Namen ist schon geöffnet!</value>
+  </data>
+  <data name="MainStatMachine_ErrorExportDSI_Msg" xml:space="preserve">
+    <value>Beim Export des HCV-Dokuments nach DSI ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorExportExcel_Msg" xml:space="preserve">
+    <value>Beim Export des HCV-Dokuments nach Excel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorExportGraphic_Msg" xml:space="preserve">
+    <value>Beim Exportieren der geöffnenten Zeichnung in ein Grafikformat ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorExportPDF_Msg" xml:space="preserve">
+    <value>Beim Exportieren des HCV-Dokumentes in eine PDF-Datei ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorExtractHCV_Msg" xml:space="preserve">
+    <value>Beim Entpacken der xHCV-Datei ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="MainStatMachine_ErrorImportDSI_Msg" xml:space="preserve">
+    <value>Beim Öffnen der DSI-Datei ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="MainStatMachine_ErrorLoadMenu_Msg" xml:space="preserve">
+    <value>Beim Laden des E³.HarnessAnalyzer Menüs ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorPrintDoc_Msg" xml:space="preserve">
+    <value>Beim Drucken des HCV-Dokumentes ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_ErrorSaveHCV_Msg" xml:space="preserve">
+    <value>Beim Speichern der HCV-Datei ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="MainStatMachine_HCVAlreadyOpened_Msg" xml:space="preserve">
+    <value>Ein HCV Dokument ist schon mit dem gleichen Namen geöffnet!</value>
+  </data>
+  <data name="MainStatMachine_HelpNotFound_Msg" xml:space="preserve">
+    <value>Die Hilfedatei für den E³.HarnessAnalyzer konnte nicht gefunden werden!</value>
+  </data>
+  <data name="MainStatMachine_LicFeatMissingDSI_Msg" xml:space="preserve">
+    <value>Die notwendige Lizenz für das Öffnen von DSI-Dateien fehlt!</value>
+  </data>
+  <data name="MainStatMachine_ProblemExportGraphic_Msg" xml:space="preserve">
+    <value>Beim Exportieren der Grafik ist ein unbekanntes Problem aufgetreten!</value>
+  </data>
+  <data name="MainStatMachine_RecentFileNotFound_Msg" xml:space="preserve">
+    <value>Die zuletzt verwendete Datei '{0}' wurde nicht gefunden!</value>
+  </data>
+  <data name="QM_ErrorAccessingIssueReportFile" xml:space="preserve">
+    <value>Beim Zugriff auf die QM-Report Datei ist ein Fehler aufgetreten "{0}"!</value>
+  </data>
+  <data name="QM_ErrorSavingIssueReport" xml:space="preserve">
+    <value>Beim Speichern der QM-Report Datei ist ein Fehler aufgetreten "{0}" ({1}).</value>
+  </data>
+  <data name="QM_InvalidIssueReportFile" xml:space="preserve">
+    <value>Die QM-Report Datei "{0}" ist nicht gültig!</value>
+  </data>
+  <data name="QM_InvalidStampFile" xml:space="preserve">
+    <value>Die QM-Stempel Datei "{0}" ist nicht gültig!</value>
+  </data>
+  <data name="QM_IssueReportFileDoesNotExist" xml:space="preserve">
+    <value>Die QM-Report Datei "{0}" exisitiert nicht!</value>
+  </data>
+  <data name="QM_IssueReportFileEmpty" xml:space="preserve">
+    <value>Die QM-Report Datei enthält keine Einträge!</value>
+  </data>
+  <data name="QM_IssuesReportFileNotMatching" xml:space="preserve">
+    <value>Die ausgewählte QM-Report Datei passt scheinbar nicht zum geöffneten Dokument (Leitungssatz Teilenummern: "{0}"&lt;&gt;"{1}"). Soll die Datei trotzdem verwendet werden?</value>
+  </data>
+  <data name="QM_MaximumRangeColorTooLow" xml:space="preserve">
+    <value>Der größte definierte Fehlerbereich ist kleiner als die höchste Anzahl von Fehlern in der Report Datei! Der Bereich sollte mindestens bis {0} gehen.</value>
+  </data>
+  <data name="QM_SelectIssueReportFile" xml:space="preserve">
+    <value>Eine QM-Report Datei muss ausgewählt werden!</value>
+  </data>
+  <data name="QM_SelectStampFile" xml:space="preserve">
+    <value>Eine QM-Stempel Datei muss ausgewählt werden!</value>
+  </data>
+  <data name="QM_StampFileDoesNotExist" xml:space="preserve">
+    <value>Die QM-Stempel Datei "{0}" existiert nicht!</value>
+  </data>
+  <data name="SearchMachine_InitPatternFailed_Msg" xml:space="preserve">
+    <value>Die Initialisierung des Suchmusters ist fehlgeschlagen!{0}{1}.</value>
+  </data>
+  <data name="WeightCalc_LengthNotFound" xml:space="preserve">
+    <value>Die voreingestellte Längenklasse "{0}" wurde nicht gefunden!</value>
+  </data>
+  <data name="WeightCalc_MaterialSpecFieldNotFoundInCable" xml:space="preserve">
+    <value>Das Feld "{0}" für die Materialspezifikation am Kabel wurde nicht gefunden!</value>
+  </data>
+  <data name="WeightCalc_MaterialSpecFieldNotFoundInCore" xml:space="preserve">
+    <value>Das Feld "{0}" für die Materialspezifikation an der Ader wurde nicht gefunden!</value>
+  </data>
+  <data name="WeightCalc_MaterialSpecFieldNotFoundInWire" xml:space="preserve">
+    <value>Das Feld "{0}" für die Materialspezifikation an der Leitung wurde nicht gefunden!</value>
+  </data>
+  <data name="WeightCalc_NoSourceMsg" xml:space="preserve">
+    <value>Es wurde keine Quelle (Materialspezifikation oder Nachschlag) für die Gewichtberechnung gefunden!</value>
+  </data>
+  <data name="WeightCalc_RegexNothingError" xml:space="preserve">
+    <value>Der reguläre Ausdruck für die Materialspezifikation ({0}) ist nicht definiert!</value>
+  </data>
+  <data name="WeightCalc_RegexPatternError" xml:space="preserve">
+    <value>Der reguläre Ausdruck für die Materialspezifikation "{0}" ({1}) ist ungültig!</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportQMStampsFile_Msg" xml:space="preserve">
+    <value>Beim Importieren der QM-Stempel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportQMStamps_Msg" xml:space="preserve">
+    <value>Beim Import der QM-Stempel sind Fehler/Warnungen aufgetreten! Detailinformation sind im Log-Fenster verfügbar.</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadQMStampsFile_Msg" xml:space="preserve">
+    <value>Beim Laden der QM-Stempel ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportGraphCompResultInfo_Msg" xml:space="preserve">
+    <value>Beim Importieren der grafischen Vergleichsdaten ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="D3D_CarModelDirectoryIsNotFound" xml:space="preserve">
+    <value>Automodell konnten nicht geladen werden: Verzeichnis nicht gefunden {0} !</value>
+  </data>
+  <data name="D3D_CarModelDirectoryIsNotSet" xml:space="preserve">
+    <value>Automodell konnten nicht geladen werden: Verzeichnis für die Automodell ist nicht gesetzt !</value>
+  </data>
+  <data name="D3D_CarModelDoesNotExistIn" xml:space="preserve">
+    <value>Automodell konnten nicht geladen werden: Modelldatei "{0}" existiert nicht im Verzeichnis "{1}"</value>
+  </data>
+  <data name="D3D_ErrorSavingTransformationFile" xml:space="preserve">
+    <value>Fehler ({0}) beim Speichern der Transformationsdatei "{1}".</value>
+  </data>
+  <data name="D3D_NotATransformationFile" xml:space="preserve">
+    <value>"{0}" ist keine gültige Transformationsdatei !</value>
+  </data>
+  <data name="D3D_ErrorExportingModel" xml:space="preserve">
+    <value>Fehler ({0}) beim Exportieren des 3D-Modells "{1}".</value>
+  </data>
+  <data name="WritingToFileError" xml:space="preserve">
+    <value>Beim schreiben in Datei "{0}" ist der folgende Fehler aufgetreten: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportCable" xml:space="preserve">
+    <value>Fehler beim Import der Informationen des Kabels '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportComponent" xml:space="preserve">
+    <value>Fehler beim Import der Informationen der Komponente '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportHarness" xml:space="preserve">
+    <value>Fehler beim Import der Informationen des Leitungssatzes '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportRouting" xml:space="preserve">
+    <value>Fehler beim Import der Routing-Informationen '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportSegment" xml:space="preserve">
+    <value>Fehler beim Import der Informationen des Segments '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportWire" xml:space="preserve">
+    <value>Fehler beim Import der Informationen des Drahtes '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_ErrorImportWireProtection" xml:space="preserve">
+    <value>Fehler beim Import der Bündelisolations-Informationen '{0}' der gewählten DSI-Datei: {1}</value>
+  </data>
+  <data name="DSIImport_WarningMissingConnectorReference" xml:space="preserve">
+    <value>Fehlende Kontaktgehäuse-Referenz beim Import der Kammer '{0}' der gewählten DSI-Datei.</value>
+  </data>
+  <data name="DSIImport_WarningMissingEndNode" xml:space="preserve">
+    <value>Ignoriere Import der Bündelisolations-Informationen der gewählten DSI-Datei mit Start-Knoten '{0}': End-Knoten-Referenz fehlt; es könnte sich um ein Klebeband handeln.</value>
+  </data>
+  <data name="DSIImport_WarningMissingNodeReference" xml:space="preserve">
+    <value>Erstellung einer Verbindung während Import der Informationen des Draht '{0}' der gewählten DSI-Datei nicht möglich: die Start- und/oder Endknoten-Referenz fehlt.</value>
+  </data>
+  <data name="WeightCalc_MinimumLengthRequired" xml:space="preserve">
+    <value>Um die Eingabe anwenden zu können muss die Mindestlänge {0} betragen!</value>
+  </data>
+  <data name="WeightCalc_MinimumCsaRequired" xml:space="preserve">
+    <value>Um die Eingabe anwenden zu können muss der Querschnitt mindestens {0} betragen!</value>
+  </data>
+  <data name="WeightCalc_DeltaBiggerThanShortestLength" xml:space="preserve">
+    <value>Die Abschlagslänge ist zu hoch, es würden negative Leitungslängen entstehen! Der maximale Wert darf ({0}) betragen.</value>
+  </data>
+  <data name="WeightCalc_LengthResultWouldBeZeroWithGivenLength" xml:space="preserve">
+    <value>Die Länge muss größer oder gleich {0} sein, damit die resultierende Länge nicht negativ wird.</value>
+  </data>
+  <data name="Printing_ErrorRetrievingAllLocalPrinters" xml:space="preserve">
+    <value>Beim ermitteln aller Drucker vom lokalen Druckerserver ist ein Fehler aufgetreten: "{0}"</value>
+  </data>
+  <data name="Printing_ErrorRetrievingPrinterTimeout" xml:space="preserve">
+    <value>Beim ermitteln aller Drucker vom lokalen Druckerserver ist ein Fehler aufgetreten: "Zeitüberschreitung (&gt; 1 Minute)"</value>
+  </data>
+  <data name="Printing_NoPrinterWasSelected" xml:space="preserve">
+    <value>Kein Drucker ausgewählt!</value>
+  </data>
+  <data name="Printing_NoPrintersAvailable" xml:space="preserve">
+    <value>Drucken nicht möglich: es wurden keine lokalen Drucker gefunden!</value>
+  </data>
+  <data name="Printing_MissingPageToCustomUpdate" xml:space="preserve">
+    <value>Ändern des Seitenformats auf "{0}" war nicht möglich weil es am Drucker nicht vorhanden ist ({1}).  Ein Benutzerdefiniertes Format wurde gewählt !</value>
+  </data>
+  <data name="WeightCalc_ErrorRetrievingMaterialSpec" xml:space="preserve">
+    <value>Beim ermitteln der Materialspezifikation für "{0}" ist ein Fehler aufgetreten: {1}</value>
+  </data>
+  <data name="InformationHub_ErrorSetFilter" xml:space="preserve">
+    <value>Error setting filter in tab "{0}" to grid (new filtering is not available) !</value>
+  </data>
+  <data name="CalculationWasAbortedInternallyNotPossibleByUnknonwnReason" xml:space="preserve">
+    <value>Berechnung wurde intern abgebrochen (nicht möglich aus unbekanntem Grund) !</value>
+  </data>
+  <data name="OverallConn_NoWiresSelected" xml:space="preserve">
+    <value>Es wurden keine Kabel ausgewählt!</value>
+  </data>
+  <data name="CompareForm_UnExpectedErrorGettingDifferences" xml:space="preserve">
+    <value>Unerwarteter Fehler beim laden der Comparable Eigenschaftsdifferenzen aufgetreten: {0}</value>
+  </data>
+  <data name="ErrorInitCreatingAppearances" xml:space="preserve">
+    <value>Beim Initialisieren (Erstellen) von Erscheinungsbildern sind Fehler aufgetreten, fahre fort ohne diese zu erstellen (Verwendung nur im RAM) !</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportTechCompResultInfo_Msg" xml:space="preserve">
+    <value>Beim Importieren der technischen Vergleichsdaten ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadTechCompResultInfo_Msg" xml:space="preserve">
+    <value>Beim Laden der technischen Vergleichsdaten ist ein Fehler aufgetreten! Möglicherweise passen Leitungssatz-Teilenummer oder Version nicht zusammen!</value>
+  </data>
+  <data name="DocStatMachine_ErrorImportUltrasonicSpliceTerminalDistanceMappingFile_Msg" xml:space="preserve">
+    <value>Beim Importieren der Ultraschall-Spleiß - Kontakt-Abstands-Daten ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadUltrasonicSpliceTerminalDistanceMappingFile_Msg" xml:space="preserve">
+    <value>Beim Laden der Ultraschall-Spleiß - Kontakt-Abstands-Daten ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="MainStatMachine_ErrorLoadEntireCarSettings_Msg" xml:space="preserve">
+    <value>Beim Laden der Gesamtfahrzeug-Einstellungen ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="DocStatMachine_ErrorLoadUltrasonicSpliceTerminalDistanceMappingFile_Excel" xml:space="preserve">
+    <value>Entweder die Spalte 'TerminalPartNumber' und/oder die Spalte 'MinDistance' ist im Excel-Arbeitsblatt nicht verfügbar!</value>
+  </data>
+  <data name="MainStatMachine_ErrorWhileLoadingVirtualInlinerDocument_Msg" xml:space="preserve">
+    <value>Während des Ladens des virtuellen Trennstellen-Dokuments '{0}' ist ein Fehler aufgetreten:{1}{2}</value>
+  </data>
+  <data name="Printing_MaxHeightExceedsInch" xml:space="preserve">
+    <value>Die maximale Seitenhöhe beträgt {0} Zoll !</value>
+  </data>
+  <data name="Printing_MaxHeightExceedsMM" xml:space="preserve">
+    <value>Die maximale Seitenhöhe beträgt {0} mm !</value>
+  </data>
+  <data name="Printing_MaxWidthExceedsInch" xml:space="preserve">
+    <value>Die maximale Seitenbreite beträgt {0} Zoll !</value>
+  </data>
+  <data name="Printing_MaxWidthExceedsMM" xml:space="preserve">
+    <value>Die maximale Seitenbreite beträgt {0} mm !</value>
+  </data>
+  <data name="Printing_ErrorWhilePrinting" xml:space="preserve">
+    <value>Beim Drucken ist ein Fehler aufgetreten: {0}. (Grund könnte sein, dass die Seitengröße für den ausgewählten Drucker zu groß ist). Möglicherweise muss dieser Dialog jetzt neu gestartet werden, um das weitere Drucken sicherzustellen.</value>
+  </data>
+  <data name="DocStatMachine_ErrorExportMsg" xml:space="preserve">
+    <value>Fehler beim exportieren aufgetreten: {0}</value>
+  </data>
+  <data name="TopologyCompare_ErrorShowingWizard" xml:space="preserve">
+    <value>Fehler beim anzeigen des Strukturvergleichsassistenten aufgetreten: {0}</value>
+  </data>
+  <data name="KBL_UnitComponentIdNotFoundInKbl" xml:space="preserve">
+    <value>Einheitenkomponente mit der id "{0}" konnten in den kbl daten nicht gefunden werden!</value>
+  </data>
+  <data name="D3D_ErrorUpdatingEntity" xml:space="preserve">
+    <value>Die Aktualisierung der Entität "{0}" ist fehlgeschlagen: "{1}".</value>
+  </data>
+  <data name="D3D_UnknownEntity" xml:space="preserve">
+    <value>&lt;Unbekannt&gt;</value>
+  </data>
+  <data name="MainStatMachine_WarningDeserializationCarTransformationSettingsFailed_Msg" xml:space="preserve">
+    <value>Achtung! Die Positionseinstellungen des Automodells konnten nicht aus der xHCV geladen werden: '{0}'. Sollen diese aus der xHCV entfernt werden um zukünftige Meldungen zu vermeiden ?</value>
+  </data>
+  <data name="MainStatMachine_LicFeatMissingPlmXml_Msg" xml:space="preserve">
+    <value>Die notwendige Lizenz für das Öffnen von PlmXml-Dateien fehlt!</value>
+  </data>
+  <data name="MainStatMachine_ErrorExportKbl_Msg" xml:space="preserve">
+    <value>Beim Exportieren des HCV-Dokumentes in eine kbl-Datei ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="SelectedWireOrCoreVDrawUserControl_SelectionError" xml:space="preserve">
+    <value>Bitte einen gültigen Leitungspfad von Quelle zu Senke wählen!</value>
+  </data>
+  <data name="VoltageDropExport_ErrorOccurred" xml:space="preserve">
+    <value>Export fehlgeschlagen! Kann nicht nach Excel exportiert werden. überprüfen Sie folgenden Fehler {0} {1}</value>
+  </data>
+  <data name="VoltageDropExport_ErrorTitel" xml:space="preserve">
+    <value>Fehler beim Exportieren</value>
+  </data>
+  <data name="AdjacentWireVDrawUserControl_SelectionError" xml:space="preserve">
+    <value>Bitte wählen Sie gültige Drähte aus. Ausgewählte Drähte sind nicht benachbart. </value>
+  </data>
+</root>

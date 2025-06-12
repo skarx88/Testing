@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="PROJECT">
+		<ProjectGuid>{74CCEB02-B728-4E37-A90B-C7FC2FF4CA55}</ProjectGuid>
+	</PropertyGroup>
+
+	<PropertyGroup Label="ASSEMBLY">
+		<!--================================-->
+		<TargetFramework>$(ProductTargetFramework)</TargetFramework>
+		<RootNamespace>Zuken.E3.HarnessAnalyzer</RootNamespace>
+		<Platforms>x64</Platforms>
+		<OptionInfer>Off</OptionInfer>
+		<OptionExplicit>On</OptionExplicit>
+		<OptionStrict>On</OptionStrict>
+		<OptionCompare>Binary</OptionCompare>
+		<Configurations>Debug;Release;Debug_MFC;Release_DEV</Configurations>
+		<!--================================-->
+		<OutputType>WinExe</OutputType>
+		<FileAlignment>512</FileAlignment>
+		<MyType>WindowsForms</MyType>
+		<UseWindowsForms>true</UseWindowsForms>
+		<!--================================-->
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<Deterministic>true</Deterministic>
+		<ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+		<StartupObject>Zuken.E3.HarnessAnalyzer.My.MyApplication</StartupObject>
+		<ApplicationIcon>E3.HarnessAnalyzer.ico</ApplicationIcon>
+		<AnalysisLevel>latest-minimum</AnalysisLevel>
+		<EnforceCodeStyleInBuild>False</EnforceCodeStyleInBuild>
+		<!--================================-->
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Label="META_DATA">
+		<!--================================-->
+		<PackageId>E3.HarnessAnalyzer</PackageId>
+		<!--================================-->
+		<!-- Additional Meta Data was moved to Directory.build.props -->
+		<!--================================-->
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>	<!-- see also: https://github.com/dotnet/sdk/issues/18294 -->
+		<!--================================-->
+		<Title>$(ProductTitle)</Title>
+		<Title Condition="$(Configuration.StartsWith('Debug'))">$(Title) (DEBUG)</Title>
+		<Title Condition="$(Configuration.EndsWith('DEV'))">$(Title) (DEVELOPER)</Title>
+		<!--================================-->
+		<Description>$(ProductDescription)</Description>
+		<Description Condition="$(Configuration.StartsWith('Debug'))">$(Description) (DEBUG)</Description>
+		<Description Condition="$(Configuration.EndsWith('DEV'))">$(Description) (DEVELOPER)</Description>
+		<!--================================-->
+		<Version Condition="$(Configuration.StartsWith('Debug'))">$(Version.Split('-')[0])-Debug</Version>
+		<Version Condition="$(Configuration.EndsWith('DEV'))">$(Version.Split('-')[0])-Dev</Version>
+		<!--================================-->
+		<PackageTags>Erlangen</PackageTags>
+		<!--================================-->
+		<NeutralLanguage>$(ProductNeutralLanguage)</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<Optimize>true</Optimize>
+		<UseVSHostingProcess>false</UseVSHostingProcess>
+		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DEV|x64'">
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<Optimize>false</Optimize> <!-- needed to enable breakpoint debugging -->
+		<UseVSHostingProcess>false</UseVSHostingProcess>
+		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MFC|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<Choose>
+		<When Condition="$(Configuration.StartsWith('Release'))">
+			<ItemGroup Label="RELEASE_REFERENCES">
+				<PackageReference Include="E3.App.Windows.Controls.Comparer.Topology" Version="1.0.0-beta.8" />
+				<PackageReference Include="E3.App.Windows.Components.AutoCompleteMenu" Version="1.0.0-beta.1" />
+				<PackageReference Include="E3.Lib.Toasts" Version="1.0.0-beta.2" />
+				<PackageReference Include="E3.Lib.IO.Files.Project" Version="1.0.0-beta.6" />
+				<PackageReference Include="E3.Lib.IO.Files.Svg" Version="1.0.0-beta.8" />
+				<PackageReference Include="E3.Lib.IO.Files.Dsi" Version="1.0.0-beta.10" />
+				<PackageReference Include="E3.Lib.IO.Files.PlmXml" Version="1.0.0-beta.7" />
+				<PackageReference Include="E3.Lib.Converter.Svg" Version="1.0.0-beta.9" />
+				<PackageReference Include="E3.Lib.Locator.Splice" Version="1.0.0-beta.6" />
+				<PackageReference Include="E3.Lib.Packager.Circle" Version="1.0.0-beta.1" />
+				<PackageReference Include="E3.App.Windows.Controls.Infragistics.WinGrid" Version="1.0.0-beta.3" />
+				<PackageReference Include="E3.Lib.CoreTech.V2022" Version="1.0.0-beta.6" />
+				<PackageReference Include="E3.Lib.Schema.Kbl" Version="1.0.0-beta.9" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup Label="DEBUG_REFERENCES">
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Controls\Comparer.Topology\Solution\E3.App.Windows.Controls.Comparer.Topology.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Controls\Infragistics.WinGrid\Solution\E3.App.Windows.Controls.Infragistics.WinGrid.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Eyeshot.Model.Converter\Solution\E3.Lib.Eyeshot.Model.Converter.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Comparer.Topology\Solution\E3.Lib.Comparer.Topology.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Eyeshot.Model\Solution\E3.Lib.Eyeshot.Model.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Eyeshot\Solution\E3.Lib.Eyeshot.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO\Solution\E3.Lib.IO.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.Hcv\Solution\E3.Lib.IO.Files.Hcv.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.Project\Solution\E3.Lib.IO.Files.Project.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files\Solution\E3.Lib.IO.Files.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.Dsi\Solution\E3.Lib.IO.Files.Dsi.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.Svg\Solution\E3.Lib.IO.Files.Svg.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.IXF\Solution\E3.Lib.IO.Files.IXF.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\IO.Files.PlmXml\Solution\E3.Lib.IO.Files.PlmXml.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Locator.Splice\Solution\E3.Lib.Locator.Splice.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Packager.Circle\Solution\E3.Lib.Packager.Circle.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Router.Topology\Solution\E3.Lib.Router.Topology.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Converter.Svg\Solution\E3.Lib.Converter.Svg.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Parser.Formula\Solution\E3.Lib.Parser.Formula.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Schema.Kbl\Solution\E3.Lib.Schema.Kbl.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Schema.PlmXml\Solution\E3.Lib.Schema.PlmXml.csproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Schema.IXF\Solution\E3.Lib.Schema.IXF.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Shared\Solution\E3.Lib.Shared.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\DotNet.Expansions\Solution\E3.Lib.DotNet.Expansions.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Toasts\Solution\E3.Lib.Toasts.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Model\Solution\E3.Lib.Model.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\BinaryDecisionDiagram\Solution\E3.Lib.BinaryDecisionDiagram.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Evaluator.OptionCode\Solution\E3.Lib.Evaluator.OptionCode.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Components\AutocompleteMenu\Solution\E3.App.Windows.Components.AutocompleteMenu.csproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Schema.Vec\Solution\E3.Lib.Schema.Vec.vbproj" />
+			</ItemGroup>
+			<ItemGroup Label="CPP_MFC_DEBUG_EXTRA_REFERENCES" Condition="$(Configuration.Contains('MFC'))">
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\E3.Lib.Licensing.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET8\E3.Lib.Licensing.Wrapper.MFC.NET8.vcxproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\CoreTech.V2022\Solution\E3.Lib.CoreTech.V2022.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\CoreTech.V2022\Solution\Kernel\NET8\E3.Lib.CoreTech.Kernel.MFC.NET8.vcxproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\CoreTech.V2022\Solution\Model\E3.Lib.CoreTech.Model.V2022.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Controls\Connectivity.View\Solution\E3.App.Windows.Controls.Connectivity.View.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Controls\Connectivity.View\Solution\Control.MFC\NET8\E3.App.Windows.Controls.Connectivity.Control.MFC.NET8.vcxproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.App.Windows.Controls\Connectivity.View\Solution\Model.MFC\NET8\E3.App.Windows.Controls.Connectivity.Model.MFC.NET8.vcxproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
+
+	<ItemGroup Label="COMMON_REFERENCES">
+		<PackageReference Include="Microsoft.NETCore.Targets" Version="5.0.0" />
+		<!--================================-->
+		<PackageReference Include="Infragistics.WinForms.WinGrid" Version="23.2.180" />
+		<PackageReference Include="Infragistics.WinForms.WinGrid.ExcelExport" Version="23.2.180" />
+		<PackageReference Include="Infragistics.WinForms.Toolbars" Version="23.2.180" />
+		<PackageReference Include="Infragistics.WinForms.Tree" Version="23.2.180" />
+		<PackageReference Include="DevDept.Eyeshot.Control.Win" Version="22.3.544" />
+		<PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+		<PackageReference Include="NDepend.Path" Version="2.0.0" />
+		<PackageReference Include="VectorDraw.Drawing.Framework.Net-6.x" Version="11.3.1" />
+		<PackageReference Include="Zuken.E3.Interop.2025-2500" Version="1.0.1">
+			<NoWarn>NU1701</NoWarn>
+		</PackageReference>
+		<!--================================-->
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Compatibility\E3.HarnessAnalyzer.Compatibility.vbproj" />
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Project\E3.HarnessAnalyzer.Project.vbproj" />
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Settings\E3.HarnessAnalyzer.Settings.vbproj" />
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Shared\E3.HarnessAnalyzer.Shared.vbproj" />
+		<ProjectReference Include="..\BorrowUtility\BorrowUtility.vbproj" />
+	 	<!--================================-->
+	</ItemGroup>
+
+	<ItemGroup Condition="$(Configuration.StartsWith('Release')) Or !$(Configuration.Contains('MFC'))">
+		<PackageReference Include="E3.Lib.Licensing" Version="1.0.0-beta.6" />
+		<PackageReference Include="E3.App.Windows.Controls.Altair.Connectivity.View" Version="1.0.0-beta.1" />
+	</ItemGroup>
+
+	<ItemGroup Label="COMMON_CONTENT_FILES">
+		<None Include="..\..\README.md" Link="README.md" />
+		<None Include="My Project\Application.myapp" Generator="MyApplicationCodeGenerator" LastGenOutput="Application.Designer.vb" SubType="Designer" />
+		<Content Include="app.config" SubType="Designer" CopyToOutputDirectory="Always" />
+		<Content Include="Resources\Indicators.png" />
+		<Content Include="E3.HarnessAnalyzer.ico">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Icons\E3.HarnessAnalyzer.ico" Link="E3.HarnessAnalyzer.ico" CopyToOutputDirectory="PreserveNewest" />
+		<!--================================-->
+		<Content Include="Icons\RedliningConfirmationPen.png" />
+		<Content Include="Icons\RedliningErrorPen.png" />
+		<Content Include="Icons\RedliningInformationPen.png" />
+		<Content Include="Icons\RedliningLengthCommentPen.png" />
+		<Content Include="Icons\RedliningQuestionPen.png" />
+		<None Include="Icons\Tutorials.png" />
+		<None Include="Icons\Eye.png" />
+		<None Include="Icons\CompareComposite.png" />
+		<None Include="Icons\CompareData.ico" />
+		<!--================================-->
+		<None Include="..\FlexLmNet\FlexnetEndUserManual.pdf" Link="FlexLmTools\FlexnetEndUserManual.pdf" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="..\FlexLmNet\lmborrow.exe" Link="FlexLmTools\lmborrow.exe" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="..\FlexLmNet\lmgrd.exe" Link="FlexLmTools\lmgrd.exe" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="..\FlexLmNet\lmstat.exe" Link="FlexLmTools\lmstat.exe" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="..\FlexLmNet\lmtools.exe" Link="FlexLmTools\lmtools.exe" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="..\FlexLmNet\lmutil.exe" Link="FlexLmTools\lmutil.exe" CopyToOutputDirectory="PreserveNewest" />
+		<!--================================-->
+		<None Include="Resources\RedliningLengthCommentPen.png" />
+		<None Include="Resources\RedliningInformationPen.png" />
+		<None Include="Resources\RedliningErrorPen.png" />
+		<None Include="Resources\RedliningConfirmationPen.png" />
+		<None Include="Resources\RedliningQuestionPen.png" />
+		<!--================================-->
+		<None Include="Checks\CavityChecks\Files\CavityAssignment.xsd" SubType="Designer" />
+		<None Include="DummyCon.vdcl" CopyToOutputDirectory="Always" />
+		<!--================================-->
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\QMIssueReport.xsd" Link="QMIssueReporting\QMIssueReport.xsd" SubType="Designer" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Help\E3.HarnessAnalyzer_d.chm" Link="E3.HarnessAnalyzer_d.chm" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Help\E3.HarnessAnalyzer_u.chm" Link="E3.HarnessAnalyzer_u.chm" CopyToOutputDirectory="PreserveNewest" />
+		<!--================================-->
+		<None Include="Icons\checkbox.png" />
+		<None Include="Icons\checkbox_intermediate.png" />
+		<None Include="Icons\checkbox_unchecked.png" />
+		<None Include="Icons\circle_green.png" />
+		<None Include="Icons\circle_red.png" />
+		<None Include="Icons\circle_yellow.png" />
+		<None Include="Icons\navigate_check.png" />
+		<None Include="Icons\TopologyCompare.png" />
+		<!--================================-->
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\KBL_Schema_V2_3_SR1.xsd" Link="KBL_Schema_V2_3_SR1.xsd" SubType="Designer" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\KBL_Schema_V2_4_SR1.xsd" Link="KBL_Schema_V2_4_SR1.xsd" SubType="Designer" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\KBL_Schema_V2_5.xsd" Link="KBL_Schema_V2_5.xsd" DependentUpon="KBL_Schema_V2_3_SR1.xsd" SubType="Designer" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\KBL_Schema_V2_5_SR1.xsd" Link="KBL_Schema_V2_5_SR1.xsdd" DependentUpon="KBL_Schema_V2_3_SR1.xsd" SubType="Designer" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="$(MSBuildProjectDirectory)\..\Documentation\KBL2_2To2_3.xsl" Link="KBL2_2To2_3.xsl" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="My Project\Resources.Designer.vb">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="My Project\Settings.Designer.vb">
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\ErrorStrings.Designer.vb">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>ErrorStrings.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\MenuButtonStrings.Designer.vb">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>MenuButtonStrings.resx</DependentUpon>
+		</Compile>
+		<EmbeddedResource Update="My Project\Resources.resx">
+			<CustomToolNamespace>My.Resources</CustomToolNamespace>
+			<Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.vb</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\ErrorStrings.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <CustomToolNamespace>My.Resources</CustomToolNamespace>
+		  <LastGenOutput>ErrorStrings.Designer.vb</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MenuButtonStrings.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <CustomToolNamespace>My.Resources</CustomToolNamespace>
+		  <LastGenOutput>MenuButtonStrings.Designer.vb</LastGenOutput>
+		</EmbeddedResource>
+		<None Update="My Project\Settings.settings">
+			<CustomToolNamespace>My</CustomToolNamespace>
+			<Generator>SettingsSingleFileGenerator</Generator>
+			<LastGenOutput>Settings.Designer.vb</LastGenOutput>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="InformationHub\RowSurrogators\**" />
+		<EmbeddedResource Remove="InformationHub\RowSurrogators\**" />
+		<None Remove="InformationHub\RowSurrogators\**" />
+	</ItemGroup>
+
+	<Choose>
+		<When Condition="$(Configuration.StartsWith('Debug'))">
+			<ItemGroup Label="DEBUG_ONLY_CONTENT_FILES">
+				<None Include="license.dat" CopyToOutputDirectory="Always" />
+				<EmbeddedResource Include="DefaultFonts.zip" />
+			</ItemGroup>
+        </When>
+		<Otherwise>
+			<ItemGroup Label="DEV_RELEASE_CONTENT_FILES" Condition="$(Configuration.EndsWith('DEV'))">
+				<None Include="license.dat" CopyToOutputDirectory="Always" />
+			</ItemGroup>
+			<ItemGroup Label="PUBLIC_RELEASE_CONTENT_FILES" Condition="!$(Configuration.EndsWith('DEV'))">
+				<None Remove="DefaultFonts.zip" />
+			</ItemGroup>
+        </Otherwise>
+    </Choose>
+
+	<ItemGroup Label="NAMESPACES_COMMON_IMPORTS">
+		<Import Include="Microsoft.VisualBasic.ApplicationServices" />
+		<Import Include="Microsoft.VisualBasic.CompilerServices" />
+		<Import Include="Microsoft.VisualBasic.MyServices" />
+		<Import Include="Microsoft.VisualBasic.Devices" />
+		<Import Include="System.Drawing" />
+		<Import Include="System.Windows.Forms" />
+		<Import Include="System" />	
+		<Import Include="Zuken.E3.Lib.Schema.Kbl" />
+		<Import Include="Zuken.E3.HarnessAnalyzer.My.Resources" />
+		<Import Include="Zuken.E3.Lib.Converter.Svg" />
+	</ItemGroup>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CONFIGURE ZSTART FILES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
+	<Target Name="WriteZstartCointentsHarnessAnalyzer" AfterTargets="Build" Condition="$(Configuration.StartsWith('Release'))">
+		<Message Text="&gt;&gt;&gt; $(MSBuildProjectName): Creating zstart run files ..." Importance="high" />
+			<WriteLinesToFile File="$(ZstartBatchFilePath)" Lines="$(ZstartBatchFileContent)" Overwrite="true" WriteOnlyWhenDifferent="true" ContinueOnError="true" />
+			<WriteLinesToFile File="$(ZstartRunJsonFilePath)" Lines="$(ZstartRunJsonContent)" Overwrite="true" WriteOnlyWhenDifferent="true" ContinueOnError="true" />
+			<WriteLinesToFile File="$(ZstartVersionInfoFilePath)" Lines="$(ZStart_Version_Info_Json)" Overwrite="true" Encoding="ASCII" ContinueOnError="true" />
+			<MakeDir Directories="$(SandboxOutputPath)" ContinueOnError="true" />
+			<MakeDir Directories="$(PackagesOutputPath)" ContinueOnError="true" />
+			<Exec Command="copy &quot;..\..\$(PackagesFolderName)\*.*&quot; &quot;$(PackagesOutputPath)&quot;" ContinueOnError="true" />
+			<Exec Command="powershell -Command &quot;Invoke-WebRequest -OutFile '$(SandboxOutputPath)\$(SandboxRunBatchFileName)' -Uri '$(ZstartRunDownloadUrl)'&quot;" ContinueOnError="true" />
+			<ZipDirectory SourceDirectory="..\TestData" DestinationFile="$(TargetDir)\$(TestDataCompressedFileName)" Overwrite="true" ContinueOnError="true" />
+		<Message Text="&gt;&gt;&gt; $(MSBuildProjectName): Creating zstart run files ...Finished!" Importance="high" />
+	</Target>
+	<!-- ///////////////////////////////////////////////////////////// CONFIGURE ZSTART FILES ///////////////////////////////////////////////////////////////////////////// -->
+
+	<!-- this PostBuildEvent will be triggered ALWAYS (changed default setting) after a build (also on error) -->
+	<Target Label="APPLY_VECTORDRAW_ASSEMBLIES_LICENSE_AFTER_BUILD" Name="PostBuild" AfterTargets="PostBuildEvent">
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <Create License file> -->
+		<Exec Command="$(VdLicFilePath) &quot;$(TargetPath)&quot;" ContinueOnError="true" />
+		<ReadLinesFromFile File="$(vdCreateLicenseLogFile)">
+			<Output TaskParameter="Lines" ItemName="VdCreateLicFileContent" />
+		</ReadLinesFromFile>
+		<PropertyGroup Label="CheckLogVariables">
+			<AllLinesVdLic>@(VdCreateLicFileContent)</AllLinesVdLic>
+			<VectorDrawLicenseFileNotCreated Condition="$(AllLinesVdLic.Contains('No VectorDraw License File created')) OR $(AllLinesVdLic.Contains('No License file created'))">true</VectorDrawLicenseFileNotCreated>
+		</PropertyGroup>
+		<ItemGroup Label="OnCreateLicenseFileFailed">
+			<WriteLinesToFile File="$(vdCreateLicenseLogFile)" Lines="$(NewLine) CMD: $(VdLicCommand)" Overwrite="false" Condition="'$(VectorDrawLicenseFileNotCreated)' == 'true'" />
+			<Warning Text="Vector draw license file coud not be created. Application will run only in VectorDraw evaluation-mode! For more info see log file" File="$(vdCreateLicenseLogFile)" Condition="'$(VectorDrawLicenseFileNotCreated)' == 'true'" Code="VDLIC001" />
+		</ItemGroup>
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <Create License file END> -->
+	</Target>
+
+</Project>

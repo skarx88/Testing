@@ -1,0 +1,27 @@
+<Include xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+	<Fragment>
+		<UI Id="ZukenUI_Minimal">
+			<ui:WixUI Id="WixUI_InstallDir" InstallDirectory="INSTALLFOLDER"/>
+		</UI>
+
+		<!-- Icon for the Installed apps list -->
+		<?if $(IconPath) = ""?>
+		<Icon Id="AppIcon" SourceFile="images\e3logo.ico" />
+		<?else?>
+		<Icon Id="AppIcon" SourceFile="$(IconPath)" />
+		<?endif?>
+		<Property Id="ARPPRODUCTICON" Value="AppIcon" />
+
+		<!-- Background bitmap used on the welcome and completion dialogs -->
+		<WixVariable Id="WixUIDialogBmp" Value="images\background.bmp"/>
+
+		<!-- Top banner -->
+		<WixVariable Id="WixUIBannerBmp" Value="images\banner.bmp"/>
+
+		<!-- Information icon on the cancel and error dialogs -->
+		<WixVariable Id="WixUIInfoIco" Value="images\info.ico"/>
+
+		<!-- EULA -->
+		<WixVariable Id="WixUILicenseRtf" Value="EULA\license.rtf"/>
+	</Fragment>
+</Include>

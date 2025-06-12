@@ -1,0 +1,78 @@
+<Project>
+
+   <PropertyGroup Label="ZTART_CONTENT_GENERATION">
+		<ZstartBatchFileName>$(MsBuildProjectName) (Sandbox).bat</ZstartBatchFileName>
+		<ZstartBatchFilePath>$(TargetDir)\$(ZstartBatchFileName)</ZstartBatchFilePath>
+		<ZstartRunJsonFilePath>$(TargetDir)\$(ZstartRunJsonFileName)</ZstartRunJsonFilePath>
+		<SandboxOutputPath>$(TargetDir)\$(SandboxFolderName)</SandboxOutputPath>
+		<InstallExtraFilesPath>$(TargetDir)\$(InstallExtraFilesFolderName)</InstallExtraFilesPath>
+		<PackagesOutputPath>$(TargetDir)\$(PackagesFolderName)</PackagesOutputPath>
+		<RunInSandboxAppFilePath>$(TargetName)$(ZStartBatchContentFileNameExtension)</RunInSandboxAppFilePath>
+		<ZstartVersionInfoFilePath>$(TargetDir)\$(ZstartVersionInfoFileName)</ZstartVersionInfoFilePath>
+   </PropertyGroup>
+
+  <PropertyGroup>
+		<BuildToolsDir>$(MSBuildProjectDirectory)\..\BuildTools\</BuildToolsDir>
+		<MsiInfoExePath>$(BuildToolsDir)\MsiInfo.exe</MsiInfoExePath>
+	    <TempPayloadTargetDir>$(TargetDir)\TempPayload\</TempPayloadTargetDir>
+  </PropertyGroup>
+
+  <PropertyGroup Label="VECTOR_DRAW_SETTINGS">
+	   <VectorDrawLicense></VectorDrawLicense>  <!-- When this property is set the build tries to register the machine with that serial at the build start and unregister the machine at the end (PostBuildEvent), this is not needed when the machine is permanently registered: f.e. the developer machines/builds -->
+	   <vdCreateLicenseLogFile>$(TEMP)\vdCreateLicense.log</vdCreateLicenseLogFile>
+	   <VdLicFilePath>"$(BuildToolsDir)vdlic.exe"</VdLicFilePath>
+	   <VdAuthorizeCommand>"$(BuildToolsDir)Authorize.bat" $(VectorDrawLicense) /ELEV</VdAuthorizeCommand>
+	   <VdUnAuthorizeCommand>"$(BuildToolsDir)UnAuthorize.bat" $(VectorDrawLicense) /ELEV</VdUnAuthorizeCommand>
+  </PropertyGroup>
+  	
+  <PropertyGroup Label="ZStart_Files_Content" > 
+		<ZstartBatchFileContent>
+@echo off
+if not exist "./$(SandboxFolderName)/$(SandboxRunBatchFileName)"  (
+ echo Downloading script file ...
+ powershell -Command "Invoke-WebRequest -OutFile "./$(SandboxFolderName)/$(SandboxRunBatchFileName)" -Uri $(ZstartRunDownloadUrl)"
+ if %ERRORLEVEL% NEQ 0 (
+  pause
+  exit -1
+ )
+)
+
+"$(SandboxFolderName)/$(SandboxRunBatchFileName)" "$(RunInSandboxAppFilePath)"
+		</ZstartBatchFileContent>
+
+		<ZstartRunJsonContent>
+[
+    {
+        "executable": "$(ZstartBatchFileName)",
+        "args": []
+    }
+]		
+		</ZstartRunJsonContent>
+				
+		<ZStart_Version_Info_Json>
+{
+	"1_Created_1":"$([System.DateTime]::Now.ToString())",
+	"ProductName": "$(ProductName)",
+	"SolutionName": "$(SolutionName)",
+	"ApplicationTitle": "$(ProductTitle)",
+	"Version": "$(Version)",
+	"VersionShort": "$(VersionShort)",
+	"Description": "$(ProductDescription)",
+	"Authors": "$(Authors)",
+	"Company": "$(Company)",
+	"Copyright": "$(Copyright)",
+	"EazfuscatorCompatibilityVersion": "$(EazfuscatorCompatibilityVersion)",
+	"Configuration": "$(Configuration)",
+	"Targetframework": "$(ProductTargetFramework)",
+	"Platform": "$(Platform)",
+	"NeutralLanguage":"$(ProductNeutralLanguage)",
+	"VCToolsRedistVersion":"14.40.33807"                   
+}
+		</ZStart_Version_Info_Json>
+	<!-- VCToolsVersion is hardcoded as a minimum-value - this value will be detected and overwritten correctly by zstart -->
+
+   </PropertyGroup>
+
+  <Target Condition="'$(MSBuildProjectExtension)'=='.wixproj'" Name="CollectSuggestedVisualStudioComponentIds" />
+
+</Project>

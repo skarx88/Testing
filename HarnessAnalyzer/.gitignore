@@ -1,0 +1,10 @@
+*.suo
+*.user
+*.vs
+*.binlog
+.vs/
+x64/
+bin/
+obj/
+packages
+/Solution/E3.HarnessAnalyzer/*.user

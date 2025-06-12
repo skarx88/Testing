@@ -1,0 +1,121 @@
+! ************************************************************
+! * DSI Export File:  c:\Documents and Settings\plti1001\Desktop\EE-Browser Test\DSI4661.DSI
+! *      Created by:  CAPITAL HARNESS DSI Export
+! *   Creation Date:  21/07/2010 10:07
+! *            User:  Plappert
+! ************************************************************
+! * Comment Marker    =  !
+! * Section Separator =  %
+! * Field Delimiter   =  :
+! * Export Spot Tape & Breakout Tape as components =  no
+! ************************************************************
+!
+! Harness name information
+13253610:10NO08_LP0-80001:05/02/2010:10:Opel:13253610:10NO08_LP0-80001:05/02/2010:::::Default site:DCR:1585:800:Tip.Term:::::::::::::::None:Percentage:0:no:no:X31::no::no:
+!
+% Harness note information
+! None
+!
+% Harness circuit information
+13253612:10NO08_LP0-80001:13/01/2010:Opel:13253612:10NO08_LP0-80001:13/01/2010:::::Default site:DCR:1585:800:Tip.Term:::::::::::::::None:Percentage:0:no:no::0:F45:
+!
+% Harness branch configuration
+30::x281.03y-55.17:40::x198.09y-165.23:130:::::AUTOMATIC:::::::::
+30::x281.03y-55.17:60::x339.59y-55.17:20:::::AUTOMATIC:::::::::
+50::x584.85y-55.17:Y608LR_X1::x635.67y-55.17:50:::::AUTOMATIC:::::::::
+60::x339.59y-55.17:70::x402.55y-55.17:80:::::AUTOMATIC:::::::::
+70::x402.55y-55.17:80::x484.83y-55.17:85:::::AUTOMATIC:::::::::
+80::x484.83y-55.17:50::x584.85y-55.17:30:::::AUTOMATIC:::::::::
+X31::x205.89y-55.17:30::x281.03y-55.17:80:::::AUTOMATIC:::::::::
+!
+% Harness wire specification
+1115C:F45:FLR91X 0.75/0,16:GN/VT:.75:20X:50:TW1114_2:X31::1:SN:Y608LR_X1::2:SN:yes:yes:LEFT RR DAMPING SERVO CONT::NEITHER:0:::0.000000:0.000000:0.000000:0.000000:::::
+1114C:F45:FLR91X 0.75/0,16:BU/GY:.75:20X:50:TW1114_2:X31::2:SN:Y608LR_X1::1:SN:yes:yes:LEFT RR DAMPING SERVO SPLY VOL::NEITHER:0:::0.000000:0.000000:0.000000:0.000000:::::
+% Harness main node components
+30::::::::419176157:1.000000:::12782056::no:no:::::NONE:::AUTOMATIC::Default::::no:
+60::::CLIP::Clip_001::498152160:1.000000::ZUH-390:156-00399::no:no:::::NONE:::AUTOMATIC::Default::::no:
+70::::CLIP::Clip_002::498128640:1.000000::ZUH-435:133-00485::no:no:::::NONE:::AUTOMATIC::Default::::no:
+80::::CLIP::Clip_003::498128640:1.000000::ZUH-435:133-00485::no:no:::::NONE:::AUTOMATIC::Default::::no:
+X31::::CONNECTOR::13 125 727 (ZFW2-141) [X31]	HARNESS ASM-BODY WRG				X31::418123610:1.000000::ZFW2-141:15397337::yes:yes:::PA66:COFW::::AUTOMATIC::BACK::BK:2:no:
+Y608LR_X1::::CONNECTOR::13 140 563 (ZFW2-143) [Y608LR_X1]	SOLENOID-SHOCK DAMPER				Y608LR_X1::418858430:1.000000::ZFW2-143:15446292::yes:yes::::::::AUTOMATIC::BACK:::2:no:
+!
+! Harness tapes at nodes
+! None
+!
+! Harness extra node components
+X31::::::::492058500:1.000000::ZUS-25:1 928 403 428:::::::::::AUTOMATIC:::::::
+X31::::::::492175919_PACK UP 1:1.000000:::80710100250:::::::::::AUTOMATIC:::::::
+X31::::::::497022312:1.000000:::MACLITHO MP710 50x90:::::::::::AUTOMATIC:::::::
+X31::::::::497081600:300.000000:::TT M200/055/300/300:::::::::::AUTOMATIC:::::::
+Y608LR_X1::::::::492058500:1.000000::ZUS-25:1 928 403 428:::::::::::AUTOMATIC:::::::
+!
+! Harness terminals
+X31:1:::TERM::::414136500:1:::0-0929939-1:yes:yes:::System Calculated:SN:::::AUTOMATIC:::::::
+X31:2:::TERM::::414136500:1:::0-0929939-1:yes:yes:::System Calculated:SN:::::AUTOMATIC:::::::
+Y608LR_X1:1:::TERM::::414136500:1:::0-0929939-1:yes:yes:::System Calculated:SN:::::AUTOMATIC:::::::
+Y608LR_X1:2:::TERM::::414136500:1:::0-0929939-1:yes:yes:::System Calculated:SN:::::AUTOMATIC:::::::
+!
+! Harness cavity seals
+X31:1:::SEAL::::492081840:1:::WA2330:yes:yes:::::::::AUTOMATIC:::::::
+X31:2:::SEAL::::492081840:1:::WA2330:yes:yes:::::::::AUTOMATIC:::::::
+Y608LR_X1:1:::SEAL::::492081840:1:::WA2330:yes:yes:::::::::AUTOMATIC:::::::
+Y608LR_X1:2:::SEAL::::492081840:1:::WA2330:yes:yes:::::::::AUTOMATIC:::::::
+!
+! Harness extra cavity components
+! None
+!
+! Harness wire end components
+! None
+!
+! Harness multiple location components
+! None
+!
+! Harness assembly items
+! None
+!
+% Harness branch insulations
+30::::P1:UNKNOWN::::::AUTOMATIC:System:0::::30:Spot Tape:497059840::Y8551 19mmx15m:BK:TAPE:TEXB:.25:3:0:0:0:0:0:P:0:0:no:no::
+30::50::P2:UNKNOWN::::::AUTOMATIC:System:0::::20:Fixed Tube:491121410::382.008.15:BKYE:TUCS:PP:2.2:0:0:0:0:0:0:P:0:0:no:yes::
+50::::P3:UNKNOWN::::::AUTOMATIC:System:0::::30:Spot Tape:497059840::Y8551 19mmx15m:BK:TAPE:TEXB:.25:3:0:0:0:0:0:P:0:0:no:no::
+X31::30::P4:UNKNOWN::::::AUTOMATIC:System:0::::20:Fixed Tube:491121400::382.007.15:BKYE:TUCS:PP:1.5:0:0:0:0:0:0:P:0:0:no:yes::
+Y608LR_X1::50::P5:UNKNOWN::::::AUTOMATIC:System:0::::20:Fixed Tube:491121400::382.007.15:BKYE:TUCS:PP:1.5:0:0:0:0:0:0:P:0:0:no:yes::
+!
+% Harness center strips
+! None
+!
+% Harness multicores
+TW1114_2:yes:yes:::NEITHER:0:NEITHER:0:NEITHER:0:-:13:FLR91X 0,75/0,16:no::::::0.000000:0.000000:TW_499232800664+499232800557::TW_499232800664+499232800557:
+!
+% Module child details
+! None
+!
+% Module compatibility details
+! None
+!
+% Manual BOM quantities
+! None
+!
+% Composite Option Codes
+0::
+4::
+F45::
+INVALID: :
+LT::
+Z::
+!
+% Harness wire through nodes
+! None
+!
+% Harness branch insulation through nodes
+! None
+!
+% Harness mid wire components
+! None
+!
+% Harness wire / multicore markers
+! None
+!
+% Harness pin mappings
+! None
+!
+% End of file marker.

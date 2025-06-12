@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="PROJECT">
+		<ProjectGuid>{912F8253-0C8B-491C-A545-F2799A6A391B}</ProjectGuid>
+	</PropertyGroup>
+
+	<PropertyGroup Label="ASSEMBLY">
+		<TargetFramework>$(ProductTargetFramework)</TargetFramework>
+		<RootNamespace>Zuken.E3.HarnessAnalyzer.BorrowUtility</RootNamespace>
+		<Platforms>x64</Platforms>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<AssemblySearchPaths>$(AssemblySearchPaths);{GAC}</AssemblySearchPaths>
+		<OptionInfer>Off</OptionInfer>
+		<OptionExplicit>On</OptionExplicit>
+		<OptionStrict>On</OptionStrict>
+		<OptionCompare>Binary</OptionCompare>
+		<Configurations>Debug;Release;Debug_MFC;Release_DEV</Configurations>
+		<ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+		<ApplicationIcon>Icons\BorrowUtility.ico</ApplicationIcon>
+		<StartupObject>Zuken.E3.HarnessAnalyzer.BorrowUtility.My.MyApplication</StartupObject>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<!--================================-->
+		<OutputType>WinExe</OutputType>
+		<FileAlignment>512</FileAlignment>
+		<MyType>WindowsForms</MyType>
+		<UseWindowsForms>true</UseWindowsForms>
+		<!--================================-->
+	</PropertyGroup>
+
+	<PropertyGroup Label="PACKAGE_META_DATA">
+		<PackageId>E3.HarnessAnalyzer.BorrowUtility</PackageId>
+		<VersionBase>25.0.0</VersionBase>
+		<Version>$(VersionBase)-beta.1</Version>
+		<Version Condition="$(Configuration.EndsWith('DEV'))">$(VersionBase)-dev</Version>		<!--' Override version on dev-config-->
+		<Version Condition="$(Configuration.StartsWith('Debug'))">$(VersionBase)-debug</Version>		<!--' Override version on debug-config-->
+		<Product>E3.HarnessAnalyzer</Product>
+		<Copyright>© Zuken E3 GmbH 2024</Copyright>
+		<Authors>Zuken Team Voyager</Authors>
+		<Company>Zuken E3 GmbH</Company>
+		<Description>Utility for borrowing licenses for E³.HarnessAnalyzer</Description>
+		<PackageTags>Erlangen</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.BorrowUtility.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningLevel>1</WarningLevel>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DEV|x64'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.BorrowUtility.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningLevel>1</WarningLevel>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.BorrowUtility.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningLevel>1</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MFC|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.BorrowUtility.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningLevel>1</WarningLevel>
+	</PropertyGroup>
+
+	<Choose>
+		<When Condition="$(Configuration.StartsWith('Release'))">
+			<ItemGroup Label="RELEASE_REFERENCES">
+				<PackageReference Include="E3.Lib.Shared" Version="1.0.0-beta.7" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup Label="DEBUG_REFERENCES">
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\DotNet.Expansions\Solution\E3.Lib.DotNet.Expansions.vbproj" />
+			</ItemGroup>
+			<ItemGroup Label="MFC_DEBUG_EXTRA_REFERENCES" Condition="$(Configuration.Contains('MFC'))">
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\E3.Lib.Licensing.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET4\E3.Lib.Licensing.Wrapper.MFC.NET4.vcxproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET6\E3.Lib.Licensing.Wrapper.MFC.NET6.vcxproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET8\E3.Lib.Licensing.Wrapper.MFC.NET8.vcxproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
+
+	<ItemGroup Label="COMMON_REFERENCES">
+		<!--================================-->
+		<PackageReference Include="E3.Lib.Licensing" Version="1.0.0-beta.6" Condition="$(Configuration.StartsWith('Release')) Or !$(Configuration.Contains('MFC'))" />
+		<!--================================-->
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Shared\E3.HarnessAnalyzer.Shared.vbproj" />
+		<!--================================-->
+	</ItemGroup>
+
+	<Choose>
+		<When Condition="$(TargetFramework.StartsWith('net4'))">
+			<ItemGroup Label="NET4_CORE_COMMON_REFERENCES">
+				<Reference Include="Infragistics4.Win.UltraWinSchedule.v19.1">
+					<HintPath>C:\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinSchedule.v19.1.dll</HintPath>
+				</Reference>
+				<Reference Include="Infragistics4.Win.v19.1">
+					<HintPath>C:\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.v19.1.dll</HintPath>
+				</Reference>
+				<Reference Include="Infragistics4.Shared.v19.1">
+					<HintPath>C:\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Shared.v19.1.dll</HintPath>
+				</Reference>
+				<Reference Include="Infragistics4.Win.Misc.v19.1">
+					<HintPath>C:\Program Files (x86)\Infragistics\2019.1\Windows Forms\CLR4.0\Bin\Infragistics4.Win.Misc.v19.1.dll</HintPath>
+				</Reference>
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup Label="NET_CORE_COMMON_REFERENCES">
+				<PackageReference Include="Infragistics.WinForms.Schedule" Version="23.2.180" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
+
+	<ItemGroup Condition="'$(Configuration)' != 'Release'">
+		<None Update="license.dat" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<ItemGroup Label="NAMESPACES_COMMON_IMPORTS">
+		<Import Include="Microsoft.VisualBasic" />
+		<Import Include="System" />
+		<Import Include="System.Collections" />
+		<Import Include="System.Collections.Generic" />
+		<Import Include="System.Drawing" />
+		<Import Include="System.Diagnostics" />
+		<Import Include="System.Windows.Forms" />
+		<Import Include="System.Linq" />
+		<Import Include="System.Xml.Linq" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QMIssueReportingDataSet" targetNamespace="http://tempuri.org/QMIssueReportingDataSet.xsd" xmlns:mstns="http://tempuri.org/QMIssueReportingDataSet.xsd" xmlns="http://tempuri.org/QMIssueReportingDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QMIssueReportingDataSet" msdata:IsDataSet="true" msdata:Locale="" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="QMIssueReportingDataSet" msprop:Generator_UserDSName="QMIssueReportingDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Issues" msprop:Generator_TableClassName="IssuesDataTable" msprop:Generator_TableVarName="tableIssues" msprop:Generator_RowChangedName="IssuesRowChanged" msprop:Generator_TablePropName="Issues" msprop:Generator_RowDeletingName="IssuesRowDeleting" msprop:Generator_RowChangingName="IssuesRowChanging" msprop:Generator_RowEvHandlerName="IssuesRowChangeEventHandler" msprop:Generator_RowDeletedName="IssuesRowDeleted" msprop:Generator_RowClassName="IssuesRow" msprop:Generator_UserTableName="Issues" msprop:Generator_RowEvArgName="IssuesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="ObjectReference" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnObjectReference" msprop:Generator_ColumnPropNameInRow="ObjectReference" msprop:Generator_ColumnPropNameInTable="ObjectReferenceColumn" msprop:Generator_UserColumnName="ObjectReference" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="IssueTag" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIssueTag" msprop:Generator_ColumnPropNameInRow="IssueTag" msprop:Generator_ColumnPropNameInTable="IssueTagColumn" msprop:Generator_UserColumnName="IssueTag" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfOccurrences" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNumberOfOccurrences" msprop:Generator_ColumnPropNameInRow="NumberOfOccurrences" msprop:Generator_ColumnPropNameInTable="NumberOfOccurrencesColumn" msprop:Generator_UserColumnName="NumberOfOccurrences" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="ConfirmedBy" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="ConfirmedBy" msprop:Generator_ColumnVarNameInTable="columnConfirmedBy" msprop:Generator_ColumnPropNameInTable="ConfirmedByColumn" msprop:Generator_UserColumnName="ConfirmedBy" type="xs:string" minOccurs="0" />
+              <xs:element name="DateOfConfirmation" msprop:Generator_ColumnVarNameInTable="columnDateOfConfirmation" msprop:Generator_ColumnPropNameInRow="DateOfConfirmation" msprop:Generator_ColumnPropNameInTable="DateOfConfirmationColumn" msprop:Generator_UserColumnName="DateOfConfirmation" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ConfirmationComment" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ConfirmationComment" msprop:Generator_ColumnVarNameInTable="columnConfirmationComment" msprop:Generator_ColumnPropNameInTable="ConfirmationCommentColumn" msprop:Generator_UserColumnName="ConfirmationComment" type="xs:string" minOccurs="0" />
+              <xs:element name="ListObject" msdata:ReadOnly="true" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="ListObject" msprop:Generator_ColumnVarNameInTable="columnListObject" msprop:Generator_ColumnPropNameInTable="ListObjectColumn" msprop:Generator_UserColumnName="ListObject" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

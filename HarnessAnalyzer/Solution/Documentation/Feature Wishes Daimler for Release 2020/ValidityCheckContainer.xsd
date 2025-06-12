@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="ValidityCheckContainer">
+		<xs:annotation>
+			<xs:documentation>Gültigkeitsprüfungs-Container</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Creator" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Ersteller</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DateOfCreation" type="xs:dateTime">
+					<xs:annotation>
+						<xs:documentation>Datum der Erstellung</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Project" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Baureihe</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="PartNumber" type="xs:string" nillable="false">
+					<xs:annotation>
+						<xs:documentation>Teilenummer des Leitungssatzes</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Version" type="xs:string" nillable="false">
+					<xs:annotation>
+						<xs:documentation>Version (Datum) des Leitungssatzes</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element ref="ValidityCheckEntry"/>
+				</xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ValidityCheckEntry">
+		<xs:annotation>
+			<xs:documentation>Gültigkeitsprüfungs-Eintrag</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Code" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>GP-Code</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Description" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>GP-Beschreibung</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Text" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>GP-Fehlertext</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ResolutionHint" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Lösung</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Type" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Meldungsart</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="ID" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>KBL-ID oder KBL-Sachnummer; Cavity_occurrence-Typ: Kombination aus Stecker-ID und Kammernummer getrennt durch ','</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="ObjectType" type="ObjectTypes">
+				<xs:annotation>
+					<xs:documentation>Accessory_occurrence; Assembly_part_occurrence; Cavity_occurrence; Cavity_seal_occurrence; Cavity_plug_occurrence; Co_pack_occurrence; Component_box_occurrence; Component_occurrence; Connector_occurrence; Core_occurrence; Dimension_specification; Fixing_occurrence; Fuse_occurrence; Node; Part; Segment; Special_terminal_occurrence; Special_wire_occurrence; Terminal_occurrence; Wire_occurrence; Wire_protection_occurrence; Wiring_group</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="ObjectTypes">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Accessory_occurrence"/>
+			<xs:enumeration value="Assembly_part_occurrence"/>
+			<xs:enumeration value="Cavity_occurrence"/>
+			<xs:enumeration value="Cavity_seal_occurrence"/>
+			<xs:enumeration value="Cavity_plug_occurrence"/>
+			<xs:enumeration value="Co_pack_occurrence"/>
+			<xs:enumeration value="Component_box_occurrence"/>
+			<xs:enumeration value="Component_occurrence"/>
+			<xs:enumeration value="Connector_occurrence"/>
+			<xs:enumeration value="Core_occurrence"/>
+			<xs:enumeration value="Dimension_specification"/>
+			<xs:enumeration value="Fixing_occurrence"/>
+			<xs:enumeration value="Fuse_occurrence"/>
+			<xs:enumeration value="Node"/>
+			<xs:enumeration value="Part"/>
+			<xs:enumeration value="Segment"/>
+			<xs:enumeration value="Special_terminal_occurrence"/>
+			<xs:enumeration value="Special_wire_occurrence"/>
+			<xs:enumeration value="Terminal_occurrence"/>
+			<xs:enumeration value="Wire_occurrence"/>
+			<xs:enumeration value="Wire_protection_occurrence"/>
+			<xs:enumeration value="Wiring_group"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

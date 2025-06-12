@@ -1,0 +1,111 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui" xmlns:netfx="http://wixtoolset.org/schemas/v4/wxs/netfx">
+	<?include Common.wxi?>
+	<?include WixUI_Zuken.wxi?>
+
+	<Package Name="$(var.PackageName)" Manufacturer="$(var.Manufacturer)" Version="$(var.VersionShort)" UpgradeCode="$(var.ProductUpgradeCode)">
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<!-- for more info in .NET runtime check for wix see: https://wixtoolset.org/docs/tools/wixext/dotnet/ -->
+		<netfx:DotNetCompatibilityCheck Property="DOTNETRUNTIMECHECK" RollForward="major" RuntimeType="desktop" Platform="x64" Version="8.0.0"/>
+
+		<!-- Definition of INSTALLFOLDER => ProgramMenuFolder\Zuken\ProductName -->
+		<StandardDirectory Id="ProgramFiles64Folder">
+				<Directory Id="CompanyFolder" Name="$(ManufacturerShort)">
+					<Directory Id="INSTALLFOLDER" Name="$(PackageName)"/>
+					<Component Id="ApplicationShortcut" Guid="E602A7E0-31A9-4576-9048-9A932DFDADCC">
+						<RemoveFolder Id="RemoveApplicationFolder" Directory="INSTALLFOLDER" On="uninstall" />
+					</Component>
+				</Directory>
+			</StandardDirectory>
+
+		<!--Definition of files to be installed-->
+		<ComponentGroup Id="AllPayloadFiles" Directory="INSTALLFOLDER">
+			<!-- a seperate manual including is needed for the file extension linking by the wix-component-installer-part down (ProductFilesRegisterProgIds)-->
+			<File Id="E3.HarnessAnalyzer.exe" KeyPath="no" Source="$(AssemblyName)"  />
+			<Files Include="$(PayloadDir)\**\*.*">
+				<Exclude Files="**\$(AssemblyName)"/>
+				<Exclude Files="**\license*.dat"/>
+				<Exclude Files="!(bindpath.ToBeHarvested)\.*" />
+				<Exclude Files="!(bindpath.ToBeHarvested)\.packages\*.*" />
+				<Exclude Files="!(bindpath.ToBeHarvested)\.sandbox\*.*" />
+				<Exclude Files="*.bat"/>
+			</Files>
+		</ComponentGroup>
+
+			<UIRef Id="ZukenUI_Minimal"/>
+
+		<!--Desktop shortcuts-->
+		<StandardDirectory Id="DesktopFolder">
+			<Component>
+				<RegistryValue Root="HKCU"
+				               Key="Software\$(ManufacturerShort)\$(PackageName)"
+				               Name="DesktopFolderShortcutsInstalled"
+				               Value="1"/>
+				<Shortcut Name="E3.HarnessAnalyzer" Target="[INSTALLFOLDER]$(AssemblyName)"/>
+			</Component>
+		</StandardDirectory>
+
+		<!--Start menu shortcuts-->
+		<StandardDirectory Id="ProgramMenuFolder">
+			<Directory Name="$(ManufacturerShort)">
+				<Component>
+					<RegistryValue Root="HKCU"
+					               Key="Software\$(ManufacturerShort)\$(PackageName)"
+					               Name="ManufacturerFolderInstalled"
+					               Value="1"/>
+
+					<RemoveFolder On="uninstall"/>
+				</Component>
+
+				<Directory Name="$(PackageName)">
+					<Component>
+						<RegistryValue Root="HKCU"
+						               Key="Software\$(ManufacturerShort)\$(PackageName)"
+						               Name="StartMenuFolderShortcutsInstalled"
+						               Value="1"/>
+
+						<RemoveRegistryKey Id="RemovePackageRegKey" Root="HKCU" Key="Software\$(ManufacturerShort)\$(PackageName)" Action="removeOnUninstall"/>
+
+						<Shortcut Id="StartMenuApplicationShortcut"
+						          Name="$(PackageName)"
+						          Target="[INSTALLFOLDER]$(AssemblyName)"/>
+
+						<Shortcut Id="StartMenuBorrowUtilityShortcut"
+								  Name="BorrowUtility"
+								  Target="[INSTALLFOLDER]$(BorrowUtilityAssemblyName)"/>
+
+						<RemoveFolder On="uninstall"/>
+					</Component>
+				</Directory>
+			</Directory>
+		</StandardDirectory>
+
+		<ComponentGroup Id="ProductFilesRegisterProgIds">
+			<Component Id="HarnessAnalyzerHcvComponentId" Guid="B13C00F4-9F4F-4C14-9042-891439AA5DFE" KeyPath="yes" Directory="INSTALLFOLDER">
+				<ProgId Id="HarnessAnalyzer.hcvFile" Description="Harness container for vehicles file" Icon="E3.HarnessAnalyzer.exe">
+					<Extension Id='hcv' ContentType="application/hcv">
+						<Verb Id='open' Command='Open' Argument='"%1"' TargetFile='E3.HarnessAnalyzer.exe'></Verb>
+					</Extension>
+				</ProgId>
+			</Component>
+
+			<Component Id="HarnessAnalyzerXhcvComponentId" Guid="5AE693A1-AECE-4A61-BA65-ED734AA707E0" KeyPath="yes" Directory="INSTALLFOLDER">
+				<ProgId Id="HarnessAnalyzer.xhcvFile" Description="Extended harness container for vehicles file" Icon="E3.HarnessAnalyzer.exe">
+					<Extension Id='xhcv' ContentType="application/xhcv">
+						<Verb Id='open' Command='Open' Argument='"%1"' TargetFile='E3.HarnessAnalyzer.exe'></Verb>
+					</Extension>
+				</ProgId>
+			</Component>
+		</ComponentGroup>
+
+		<ComponentGroup Id='ProductEnvironmentPaths'>
+			<Component Id="LicensePath" Guid="3739C941-8F3C-4E9D-921B-7881FF23836A" Directory="INSTALLFOLDER" KeyPath="yes">
+				<Environment Id="ZUKENLICENSEFILE" Name="ZUKEN_LICENSE_FILE" Value="[INSTALLFOLDER]license.dat" Permanent="no" Action="create" System="no"/>
+			</Component>
+		</ComponentGroup>
+
+	</Package>
+
+</Wix>

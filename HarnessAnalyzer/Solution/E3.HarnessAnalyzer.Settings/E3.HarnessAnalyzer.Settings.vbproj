@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="PROJECT">
+		<ProjectGuid>{56C68F61-237E-4B91-9D9D-2CABFBF84398}</ProjectGuid>
+	</PropertyGroup>
+
+	<PropertyGroup Label="ASSEMBLY">
+		<TargetFrameworks>net472;$(ProductTargetFramework)</TargetFrameworks>
+		<RootNamespace>Zuken.E3.HarnessAnalyzer.Settings</RootNamespace>
+		<Platforms>x64</Platforms>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<AssemblySearchPaths>$(AssemblySearchPaths);{GAC}</AssemblySearchPaths>
+		<OptionInfer>Off</OptionInfer>
+		<OptionExplicit>On</OptionExplicit>
+		<OptionStrict>On</OptionStrict>
+		<OptionCompare>Binary</OptionCompare>
+		<Configurations>Debug;Release;Debug_MFC</Configurations>
+		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+	</PropertyGroup>
+
+	<PropertyGroup Label="META_DATA">
+		<PackageId>$(MSBuildProjectName)</PackageId>
+		<!--================================-->
+		<!-- Additional Meta Data was moved to Directory.build.props -->
+		<!--================================-->
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion> <!-- see also: https://github.com/dotnet/sdk/issues/18294 -->
+		<Description>Library for the handling of different HarnessAnalyzer settings globally</Description>
+		<PackageTags>Erlangen</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<DefineDebug>false</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.Settings.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<DocumentationFile>E3.HarnessAnalyzer.Settings.xml</DocumentationFile>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MFC|x64'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DefineDebug>true</DefineDebug>
+		<DefineTrace>true</DefineTrace>
+		<OutputPath>bin\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+		<DocumentationFile>E3.HarnessAnalyzer.Settings.xml</DocumentationFile>
+		<RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<Choose>
+		<When Condition="$(Configuration.StartsWith('Release'))">
+			<ItemGroup>
+				<PackageReference Include="E3.Lib.Model" Version="1.0.0-beta.7" />
+				<PackageReference Include="E3.Lib.Schema.Kbl" Version="1.0.0-beta.9" />
+				<PackageReference Include="E3.Lib.Toasts" Version="1.0.0-beta.2" Condition="$(TargetFramework.Contains('windows')) Or $(TargetFramework.StartsWith('net4'))" />
+			</ItemGroup>
+		</When>
+		<Otherwise>  <!--' DEBUG References-->
+			<ItemGroup Condition="$(Configuration.Contains('MFC'))">
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\E3.Lib.Licensing.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET4\E3.Lib.Licensing.Wrapper.MFC.NET4.vcxproj" Condition="$(TargetFramework.StartsWith('net4'))" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET6\E3.Lib.Licensing.Wrapper.MFC.NET6.vcxproj" Condition="$(TargetFramework.StartsWith('net6'))" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Licensing\Solution\FlexLmWrapper\NET8\E3.Lib.Licensing.Wrapper.MFC.NET8.vcxproj" Condition="$(TargetFramework.StartsWith('net8'))" />
+			</ItemGroup>
+			<ItemGroup>
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Toasts\Solution\E3.Lib.Toasts.vbproj" Condition="$(TargetFramework.Contains('windows')) Or $(TargetFramework.StartsWith('net4'))" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Model\Solution\E3.Lib.Model.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\Schema.Kbl\Solution\E3.Lib.Schema.Kbl.vbproj" />
+				<ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\..\E3.Lib\DotNet.Expansions\Solution\E3.Lib.DotNet.Expansions.vbproj" />
+			</ItemGroup>
+		</Otherwise> <!--' /Debug References-->
+	</Choose>
+
+	<ItemGroup Label="COMMON_REFERENCES">
+		<!--================================-->
+		<PackageReference Include="E3.Lib.Licensing" Version="1.0.0-beta.6" Condition="($(Configuration.StartsWith('Release')) Or !$(Configuration.Contains('MFC'))) AND ($(TargetFramework.Contains('windows')) OR $(TargetFramework.StartsWith('net4')))" />
+		<!--================================-->
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Shared\E3.HarnessAnalyzer.Shared.vbproj" />
+		<ProjectReference Include="$(MSBuildProjectDirectory)\..\E3.HarnessAnalyzer.Compatibility\E3.HarnessAnalyzer.Compatibility.vbproj" />
+		<!--================================-->
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Resources\QMStampSpecificationStrings.Designer.vb">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>QMStampSpecificationStrings.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\QMStampSpecificationStrings.resx">
+	    <CustomToolNamespace>Resources</CustomToolNamespace>
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>QMStampSpecificationStrings.Designer.vb</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

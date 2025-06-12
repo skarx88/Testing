@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mit XMLSpy v2018 rel. 2 sp1 (x64) (http://www.altova.com) von Heiko Hahn (Zuken E3 GmbH) bearbeitet -->
+<xs:schema xmlns:tns="http://www.zuken.com/E3.HarnessAnalyzer/CavityAssignment" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.zuken.com/E3.HarnessAnalyzer/CavityAssignment" elementFormDefault="qualified">
+	<xs:element name="CavityAssignmentList" type="tns:CavityAssignmentList"/>
+	<xs:complexType name="CavityAssignmentList">
+		<xs:sequence>
+			<xs:element name="Header" type="tns:Header" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Connectors" type="tns:Connector" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Modules" type="tns:Module" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Header">
+		<xs:sequence>
+			<xs:element name="CreatedBy" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="DateOfCreation" type="xs:dateTime" form="unqualified" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="HarnessProject" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="HarnessPartNumber" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="HarnessVersion" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="Version" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Connector">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Checked" type="tns:CheckedState" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Cavities" type="tns:Cavity" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="CheckedState">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Unchecked"/>
+			<xs:enumeration value="Error"/>
+			<xs:enumeration value="Ok"/>
+			<xs:enumeration value="Unfinished"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Cavity">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Checked" type="tns:CheckedState" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Wires" type="tns:Wire" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Wire">
+		<xs:sequence>
+			<xs:element name="WireNumber" type="xs:string" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Checked" type="tns:CheckedState" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Module">
+		<xs:sequence>
+			<xs:element name="Abbreviation" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Description" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="PartNumber" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="CopyrightNote" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Version" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="CompanyName" type="xs:string" form="unqualified" nillable="true" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

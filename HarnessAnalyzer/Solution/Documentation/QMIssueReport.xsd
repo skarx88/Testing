@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) von Martin (Zuken E3 GmbH) bearbeitet -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="QMIssueReport">
+		<xs:annotation>
+			<xs:documentation>Issue report</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CreatedBy" type="xs:string"/>
+				<xs:element name="DateOfCreation" type="xs:dateTime"/>
+				<xs:element name="AuthoringSystem" type="xs:string"/>
+				<xs:element name="BeginOfObservation" type="xs:dateTime"/>
+				<xs:element name="EndOfObservation" type="xs:dateTime"/>
+				<xs:element name="HarnessPartnumber" type="xs:string"/>
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="QMIssue" type="QMIssue"/>
+				</xs:sequence>
+			</xs:sequence>
+			<xs:attribute name="Version" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="QMIssue">
+		<xs:sequence>
+			<xs:element name="ObjectReference" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>(big id)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="xs:string"/>
+			<xs:element name="IssueTag" type="xs:string"/>
+			<xs:element name="NofOccurences" type="xs:integer"/>
+			<xs:element name="ConfirmedBy" type="xs:string"/>
+			<xs:element name="DateOfConfirmation" type="xs:dateTime"/>
+			<xs:element name="ConfirmationComment" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:schema>

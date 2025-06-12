@@ -1,0 +1,17 @@
+{
+  "dependentFileProviders": {
+    "add": {
+      "pathSegment": {
+        "add": {
+          ".*": [ ".vb" ]
+        }
+      },
+      "fileSuffixToExtension": {
+        "add": {
+          ".de-DE.resx": [ ".resx" ],
+          ".Designer.vb": [ ".resx" ]
+        }
+      }
+    }
+  }
+}

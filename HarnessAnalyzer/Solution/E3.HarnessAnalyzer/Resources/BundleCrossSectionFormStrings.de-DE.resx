@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCabWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Füge Kabel/Draht wieder hinzu</value>
+  </data>
+  <data name="AddedWiresWillBeRemoved_Msg" xml:space="preserve">
+    <value>Die vom Anweder hinzugefügten oder veränderten Kabel/Drähte werden verworfen. Soll fortgefahren werden?</value>
+  </data>
+  <data name="AddUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Füge temporären Draht hinzu</value>
+  </data>
+  <data name="BundlePic_Caption1" xml:space="preserve">
+    <value>Segment: '{0}'{1}Modulkonfiguration: '{2}'{1}Durchmessertoleranz: {3}%</value>
+  </data>
+  <data name="BundlePic_Caption2" xml:space="preserve">
+    <value>Segment: '{0}'{1}Modulkonfiguration: '{2}'{1}Querschnittsflächentoleranz: {3}%</value>
+  </data>
+  <data name="BundlePic_Caption3" xml:space="preserve">
+    <value>Segment: '{0}'{1}Modulkonfiguration: '{2}'</value>
+  </data>
+  <data name="CabHasInvalidOutsideDia_Tooltip" xml:space="preserve">
+    <value>Kabel hat einen ungültigen Außendurchmesser</value>
+  </data>
+  <data name="Cable_Text" xml:space="preserve">
+    <value>Kabel '{0}'</value>
+  </data>
+  <data name="CabWirNum_ColumnCaption" xml:space="preserve">
+    <value>Kabel/Drahtnummer</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Rohbündeldurchmesser am Segment '{0}' auf dem Dokument '{1}'</value>
+  </data>
+  <data name="Class_ColumnCaption" xml:space="preserve">
+    <value>Klasse</value>
+  </data>
+  <data name="CloneAsUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Dupliziere als temporäre Drähte</value>
+  </data>
+  <data name="ConfigFile_CellValue" xml:space="preserve">
+    <value>Konfigurationsdatei</value>
+  </data>
+  <data name="CopyUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Kopiere alle temporären Drähte</value>
+  </data>
+  <data name="Core_Text" xml:space="preserve">
+    <value>Ader '{0}'</value>
+  </data>
+  <data name="CSACalc_ColumnCaption" xml:space="preserve">
+    <value>CSA (ber.)</value>
+  </data>
+  <data name="CSAKBL_ColumnCaption" xml:space="preserve">
+    <value>CSA (KBL)</value>
+  </data>
+  <data name="CSAPack_ColumnCaption" xml:space="preserve">
+    <value>CSA (pak.)</value>
+  </data>
+  <data name="CSAValCalc_ColumnCaption" xml:space="preserve">
+    <value>CSA value (ber.)</value>
+  </data>
+  <data name="CSAValKBL_ColumnCaption" xml:space="preserve">
+    <value>CSA value (KBL)</value>
+  </data>
+  <data name="CSAValPack_ColumnCaption" xml:space="preserve">
+    <value>CSA value (pak.)</value>
+  </data>
+  <data name="DiaSource_ColumnCaption" xml:space="preserve">
+    <value>Ø Quelle</value>
+  </data>
+  <data name="EnterValidOutsideDia_Msg" xml:space="preserve">
+    <value>Es muss ein gültiger Außendurchmesser (ohne Einheit) zwischen 0 und 1000 mm eingegeben werden!</value>
+  </data>
+  <data name="ExportBundlePicFile_Title" xml:space="preserve">
+    <value>Exportiere Rohbündel des Segmentes als...</value>
+  </data>
+  <data name="ExportBundlePicSuccess_Msg" xml:space="preserve">
+    <value>Bündelbild des Segmentes erfolgreich exportiert!</value>
+  </data>
+  <data name="ExportErrorBundlePic_Msg" xml:space="preserve">
+    <value>Beim Exportieren des Bündelbilds ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="ExportExcelError_Msg" xml:space="preserve">
+    <value>Beim Export der Tabellendaten nach Excel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="ExportExcelFile_Title" xml:space="preserve">
+    <value>Exportiere Bündeldaten nach Excel...</value>
+  </data>
+  <data name="ExportExcelSuccess_Msg" xml:space="preserve">
+    <value>Der Export der Bündeldaten nach Excel wurde erfolgreich abgeschlossen! Soll die erstellte Datei geöffnet werden?</value>
+  </data>
+  <data name="ExportProblemBundlePic_Msg" xml:space="preserve">
+    <value>Beim Export des Bündelbilds ist ein Problem aufgetreten!</value>
+  </data>
+  <data name="FromKBL_CellValue" xml:space="preserve">
+    <value>Aus KBL</value>
+  </data>
+  <data name="GenFormula_CellValue" xml:space="preserve">
+    <value>Generische Formel</value>
+  </data>
+  <data name="InvalidSegment_Text" xml:space="preserve">
+    <value>Ungültiges Segment!</value>
+  </data>
+  <data name="ModConf_ColumnCaption" xml:space="preserve">
+    <value>Modulkonfiguration</value>
+  </data>
+  <data name="NetName_ColumnCaption" xml:space="preserve">
+    <value>Netz</value>
+  </data>
+  <data name="NotAvailable_CellVal" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="NotDeterminable_CellValue" xml:space="preserve">
+    <value>Nicht ermittelbar</value>
+  </data>
+  <data name="OutsideDiaCalc_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø (ber.)</value>
+  </data>
+  <data name="OutsideDiaKBL_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø (KBL)</value>
+  </data>
+  <data name="OutsideDiaPack_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø (pak.)</value>
+  </data>
+  <data name="OutsideDiaValCalc_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø Wert (ber.)</value>
+  </data>
+  <data name="OutsideDiaValKBL_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø Wert (KBL)</value>
+  </data>
+  <data name="OutsideDiaValPack_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø Wert (pak.)</value>
+  </data>
+  <data name="OutsideDiaVal_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø Wert</value>
+  </data>
+  <data name="OutsideDia_ColumnCaption" xml:space="preserve">
+    <value>Außen Ø</value>
+  </data>
+  <data name="Packaged_CellValue" xml:space="preserve">
+    <value>Paketiert</value>
+  </data>
+  <data name="PartNumber_ColumnCaption" xml:space="preserve">
+    <value>Teilenummer</value>
+  </data>
+  <data name="PasteUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Füge kopierte temporäre Drähte ein</value>
+  </data>
+  <data name="RecalculateNecessary_Msg" xml:space="preserve">
+    <value>Eine oder mehrere Modulkonfigurationen wurden verändert!{0}Eine Neuberechnung des Bündeldurchmessers ist nötig.{0}Soll die Berechnung durchgeführt werden?</value>
+  </data>
+  <data name="RemoveCabWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Entferne Kabel/Drähte temporär</value>
+  </data>
+  <data name="RemoveUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Entferne temporäre Drähte</value>
+  </data>
+  <data name="SegmentBundlePicDim_Label" xml:space="preserve">
+    <value>Ø {0} mm (ber.)/{1} mm (pak.)</value>
+  </data>
+  <data name="Segment_Text" xml:space="preserve">
+    <value>Segment '{0}'</value>
+  </data>
+  <data name="Source_ColumnCaption" xml:space="preserve">
+    <value>Quelle</value>
+  </data>
+  <data name="TempRemoved_ColumnCaption" xml:space="preserve">
+    <value>Temporär entfernt</value>
+  </data>
+  <data name="UserWire_Caption" xml:space="preserve">
+    <value>Temporärer Draht</value>
+  </data>
+  <data name="UserWire_Text" xml:space="preserve">
+    <value>Temporärer Draht '{0}'</value>
+  </data>
+  <data name="User_CellValue" xml:space="preserve">
+    <value>Temporär</value>
+  </data>
+  <data name="WarningNoWireRouting_Msg" xml:space="preserve">
+    <value>Kein Routing für das selektierte Segment verfügbar!</value>
+  </data>
+  <data name="Wire_Text" xml:space="preserve">
+    <value>Draht '{0}'</value>
+  </data>
+  <data name="WiringGroup_ColumnCaption" xml:space="preserve">
+    <value>Drahtgruppe</value>
+  </data>
+  <data name="WiringGroup_Text" xml:space="preserve">
+    <value>Drahtgruppe '{0}'</value>
+  </data>
+  <data name="WiringGroup_Tooltip1" xml:space="preserve">
+    <value>Nur ein Draht/Ader zugewiesen</value>
+  </data>
+  <data name="WiringGroup_Tooltip2" xml:space="preserve">
+    <value>Mindestens eine Ader und Draht zugewiesen</value>
+  </data>
+  <data name="WiringGroup_Tooltip3" xml:space="preserve">
+    <value>Adern aus unterschiedlichen Kabeln zugewiesen</value>
+  </data>
+  <data name="DrwLegendCalc_Text" xml:space="preserve">
+    <value>ber.: über Formel berechnet</value>
+  </data>
+  <data name="DrwLegendPack_Text" xml:space="preserve">
+    <value>pak.: geometrisch paketiert</value>
+  </data>
+  <data name="ValCalcByFormula_Tooltip" xml:space="preserve">
+    <value>Wert über Formel berechnet</value>
+  </data>
+  <data name="ValDetByPack_Tooltip" xml:space="preserve">
+    <value>Wert über Anordnung (Paketierung) ermittelt</value>
+  </data>
+  <data name="ValFromKBL_Tooltip" xml:space="preserve">
+    <value>Wert von KBL-Datenquelle</value>
+  </data>
+  <data name="BundlePic_Tooltip" xml:space="preserve">
+    <value>Detailinformationen</value>
+  </data>
+  <data name="WiresWithoutModuleAssignment_Msg" xml:space="preserve">
+    <value>Ein oder mehrere über dieses Segment geroutete Kabel/Drähte besitzen keine Modulzuweisung und werden bei der Berechnung des Bündelquerschnitts ignoriert</value>
+  </data>
+  <data name="Color_Text" xml:space="preserve">
+    <value>Farbe '{0}'</value>
+  </data>
+  <data name="BulkChangePartnumber_CtxtMnu_Caption" xml:space="preserve">
+    <value>Temporäre Teilenummeränderung</value>
+  </data>
+  <data name="ResetPartnumberMod_CtxtMnu_Caption" xml:space="preserve">
+    <value>Teilenummeränderung zurücksetzen</value>
+  </data>
+  <data name="ModifiedWire_Text" xml:space="preserve">
+    <value>Geänderter Draht '{0}'</value>
+  </data>
+  <data name="CalculationCancelled_Msg" xml:space="preserve">
+    <value>Die Bündel-Berechnungsoperation für alle Modul-Konfigurationen wurde abgebrochen!</value>
+  </data>
+  <data name="UnexpectedExceptionOccurred_Msg" xml:space="preserve">
+    <value>Unerwarteter Fehler aufgetreten: {0} -&gt; {1}</value>
+  </data>
+  <data name="ExportStructureError_Msg" xml:space="preserve">
+    <value>Beim Export der Bündelstruktur nach Excel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="ExportStructureFile_Title" xml:space="preserve">
+    <value>Exportiere Bündelstruktur-Daten nach Excel...</value>
+  </data>
+  <data name="ExportStructureSuccess_Msg" xml:space="preserve">
+    <value>Der Export der Bündelstruktur-Daten nach Excel wurde erfolgreich abgeschlossen! Soll die erstellte Datei geöffnet werden?</value>
+  </data>
+  <data name="Caption_Standalone" xml:space="preserve">
+    <value>Rohbündelberechner</value>
+  </data>
+  <data name="CopySelUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Kopiere ausgewählte temporäre Drähte</value>
+  </data>
+  <data name="ToleranceOnArea" xml:space="preserve">
+    <value>auf Fläche</value>
+  </data>
+  <data name="ToleranceOnDiameter" xml:space="preserve">
+    <value>auf Durchmesser</value>
+  </data>
+</root>

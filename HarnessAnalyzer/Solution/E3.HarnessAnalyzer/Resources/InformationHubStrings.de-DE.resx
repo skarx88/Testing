@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abbreviation_Caption" xml:space="preserve">
+    <value>Abkürzung</value>
+  </data>
+  <data name="Added2_TooltipPart" xml:space="preserve">
+    <value>{0}Hinzugefügt -&gt; {1} {2}</value>
+  </data>
+  <data name="Added3_TooltipPart" xml:space="preserve">
+    <value>{0}Hinzugefügt -&gt; Typ: {1} | Wert: {2}</value>
+  </data>
+  <data name="Added_CellValue" xml:space="preserve">
+    <value>[ADDED] </value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Hinzugefügt</value>
+  </data>
+  <data name="Added_TooltipPart" xml:space="preserve">
+    <value>{0}Hinzugefügt -&gt; {1}</value>
+  </data>
+  <data name="AddExtremities_Caption" xml:space="preserve">
+    <value>Zusätzl. Enden</value>
+  </data>
+  <data name="AddLengthInfo_ColumnCaption" xml:space="preserve">
+    <value>Zuschlagslänge</value>
+  </data>
+  <data name="AddToMemList_CtxtMnu_Caption" xml:space="preserve">
+    <value>Füge selektierte Objekte der Memoliste hinzu</value>
+  </data>
+  <data name="AliasIds_Caption" xml:space="preserve">
+    <value>Aliases</value>
+  </data>
+  <data name="AliasId_TooltipPart" xml:space="preserve">
+    <value>Alias id: {0} | Gültigkeit: {1} | Beschreibung: {2}</value>
+  </data>
+  <data name="CalcDist_CtxtMnu_Caption" xml:space="preserve">
+    <value>Berechne Abstand</value>
+  </data>
+  <data name="CalcDist_Msg" xml:space="preserve">
+    <value>Berechneter Abstand zwischen selektierten Objekten:{0}{0}physikalisch: {1} {2}{0}virtuell: {3} {4}</value>
+  </data>
+  <data name="CalcTotLength_CtxtMnu_Caption" xml:space="preserve">
+    <value>Berechne Gesamtlänge</value>
+  </data>
+  <data name="CalcTotLength_Msg" xml:space="preserve">
+    <value>Berechnete Gesamtlänge der selektierten Segmente:{0}{0}physikalisch: {1} {2}{0}virtuell: {3} {4}</value>
+  </data>
+  <data name="CalcWirRes_CtxtMnu_Caption" xml:space="preserve">
+    <value>Berechne Leitungswiderstand...</value>
+  </data>
+  <data name="CalcWirWeight_CtxtMnu_Caption" xml:space="preserve">
+    <value>Berechne Leitungsgewicht(e)...</value>
+  </data>
+  <data name="CarClassLvl2_Caption" xml:space="preserve">
+    <value>Fahrzeugklassifikation 2</value>
+  </data>
+  <data name="CarClassLvl3_Caption" xml:space="preserve">
+    <value>Fahrzeugklassifikation 3</value>
+  </data>
+  <data name="CarClassLvl4_Caption" xml:space="preserve">
+    <value>Fahrzeugklassifikation 4</value>
+  </data>
+  <data name="ChangedElements_Caption" xml:space="preserve">
+    <value>Geänderte Objekte</value>
+  </data>
+  <data name="Change_Caption" xml:space="preserve">
+    <value>Änderung</value>
+  </data>
+  <data name="Change_TooltipPart" xml:space="preserve">
+    <value>Id: {0} | Beschreibung: {1} | Änderungsanforderung: {2} | Änderungsdatum: {3} | Verantw. Entwickler: {4} | Entwicklungsabt.: {5} | Freigeber: {6} | Freigabeabt.: {7}</value>
+  </data>
+  <data name="Classification_ColumnCaption" xml:space="preserve">
+    <value>Klassifikation</value>
+  </data>
+  <data name="Class_Caption" xml:space="preserve">
+    <value>Klasse</value>
+  </data>
+  <data name="ClearMarkedObjs_CtxtMnu_Caption" xml:space="preserve">
+    <value>Setze Objektmarkierung zurück</value>
+  </data>
+  <data name="CollapseAll_CtxtMnu_Caption" xml:space="preserve">
+    <value>Reduziere alle Zeilen</value>
+  </data>
+  <data name="Comment_ColumnCaption" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="CompanyName_Caption" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="CompDoc1_TooltipPart" xml:space="preserve">
+    <value>Vergleichsdokument: </value>
+  </data>
+  <data name="CompDoc2_TooltipPart" xml:space="preserve">
+    <value>Vergleichsdokument: -</value>
+  </data>
+  <data name="Confirmation_RedliningType" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="Content_Caption" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="ControlledComponents_Caption" xml:space="preserve">
+    <value>Modulgesteuerte Komponenten</value>
+  </data>
+  <data name="CopyrightNote_Caption" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="CSAInfo_Caption" xml:space="preserve">
+    <value>Querschnitt</value>
+  </data>
+  <data name="CtrlComps_ColumnCaption" xml:space="preserve">
+    <value>Gesteuerte Komponenten</value>
+  </data>
+  <data name="DegreeOfMaturity_Caption" xml:space="preserve">
+    <value>Reifegrad</value>
+  </data>
+  <data name="Deleted2_TooltipPart" xml:space="preserve">
+    <value>{0}Gelöscht -&gt; {1} {2}</value>
+  </data>
+  <data name="Deleted3_TooltipPart" xml:space="preserve">
+    <value>{0}Gelöscht -&gt; Typ: {1} | Wert: {2}</value>
+  </data>
+  <data name="Deleted_CellValue" xml:space="preserve">
+    <value>[DELETED] </value>
+  </data>
+  <data name="Deleted_TooltipPart" xml:space="preserve">
+    <value>{0}Gelöscht -&gt; {1}</value>
+  </data>
+  <data name="DeleteRedlining_Msg" xml:space="preserve">
+    <value>Lösche selektierte Anmerkungen?</value>
+  </data>
+  <data name="Description_Caption" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="EditRedlining_CtxtMnu_Caption" xml:space="preserve">
+    <value>Bearbeite Anmerkungen...</value>
+  </data>
+  <data name="Edit_CtxtMnu_Caption" xml:space="preserve">
+    <value>Bearbeite...</value>
+  </data>
+  <data name="ErrorExportExcel_Msg" xml:space="preserve">
+    <value>Beim Export der Daten nach Excel ist ein Fehler aufgetreten!{0}{1}.</value>
+  </data>
+  <data name="ErrorFillCompGridData_Msg" xml:space="preserve">
+    <value>Beim Erstellen des KBL-Datenvergleichs ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="ErrorFillGridData_Msg" xml:space="preserve">
+    <value>Beim Füllen der Tabellen mit den KBL-Daten ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="ErrorFillMapper_Msg" xml:space="preserve">
+    <value>Bei der Erstellung der Datenstrukturen mit den KBL-Daten ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="ErrorInitCompGridData_Msg" xml:space="preserve">
+    <value>Bei der Initialisierung der Tabellen mit den Vergleichsergebnissen ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="ErrorInitGridData_Msg" xml:space="preserve">
+    <value>Bei der Initialisierung der Datenquelle mit den KBL-Daten ist ein Fehler aufgetreten!{0}{1}</value>
+  </data>
+  <data name="ErrorLoadGraphRedlining_Msg" xml:space="preserve">
+    <value>Beim Laden der grafischen Anmerkungen ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Error_RedliningType" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ExpandAll_CtxtMnu_Caption" xml:space="preserve">
+    <value>Erweitere alle Zeilen</value>
+  </data>
+  <data name="ExportExcelFinished_Msg" xml:space="preserve">
+    <value>Der Export nach Excel wurde erfolgreich abgeschlossen! Soll die erstellte Datei geöffnet werden?</value>
+  </data>
+  <data name="ExportExcel_CtxtMnu_Caption" xml:space="preserve">
+    <value>Exportiere nach Excel...</value>
+  </data>
+  <data name="ExportingToExcel_LogMsg" xml:space="preserve">
+    <value>Exportiere Tabelle '{0}' nach Excel...</value>
+  </data>
+  <data name="ExportSelRowsToExcelFile_Title" xml:space="preserve">
+    <value>Exportiere selektierte Tabellenzeilen nach Excel...</value>
+  </data>
+  <data name="ExportSelRows_Msg" xml:space="preserve">
+    <value>Exportiere nur aktive bzw. selektierte Zeilen?</value>
+  </data>
+  <data name="ExportTableToExcel_CtxtMnu_Caption" xml:space="preserve">
+    <value>Exportiere {0} nach Excel...</value>
+  </data>
+  <data name="ExtReferences_Caption" xml:space="preserve">
+    <value>Externe Referenzen</value>
+  </data>
+  <data name="ExtReference_TooltipPart" xml:space="preserve">
+    <value>Dok. Typ: {0} | Dok. Nummer: {1} | Änderungsstufe: {2} | Dateiname: {3} | Verzeichnis: {4} | Datenformat: {5} | Autorensystem: {6}</value>
+  </data>
+  <data name="FinishedLoadKBL_LogMsg" xml:space="preserve">
+    <value>Laden des KBL-Dokumnets um {0} abgeschlossen...</value>
+  </data>
+  <data name="FixingAssignmentAdd_TooltipPart" xml:space="preserve">
+    <value>{0}Hinzugefügt -&gt; Id: {1} | Beschreibung: {2} | Teilenummer: {3} | Position: {4}</value>
+  </data>
+  <data name="FixingAssignmentDel_TooltipPart" xml:space="preserve">
+    <value>{0}Gelöscht -&gt; Id: {1} | Beschreibung: {2} | Teilenummer: {3} | Position: {4}</value>
+  </data>
+  <data name="FixingAssignments_Caption" xml:space="preserve">
+    <value>Befestigungen</value>
+  </data>
+  <data name="Graphical_RedliningType" xml:space="preserve">
+    <value>Grafisch</value>
+  </data>
+  <data name="Group_ColumnCaption" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="HighlightRoutingPath_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige übergreifendes Routing</value>
+  </data>
+  <data name="Info_RedliningType" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="InstallInfo_Caption" xml:space="preserve">
+    <value>Montagehinweis</value>
+  </data>
+  <data name="LastChangedBy_ColumnCaption" xml:space="preserve">
+    <value>Zuletzt geändert von</value>
+  </data>
+  <data name="LastChangedOn_ColumnCaption" xml:space="preserve">
+    <value>Zuletzt geändert am</value>
+  </data>
+  <data name="LengthInfo_Caption" xml:space="preserve">
+    <value>Länge</value>
+  </data>
+  <data name="Length_RedliningType" xml:space="preserve">
+    <value>Längen</value>
+  </data>
+  <data name="LinkedModules_Caption" xml:space="preserve">
+    <value>Module des selektierten Objektes</value>
+  </data>
+  <data name="MarkSelObjs_CtxtMnu_Caption" xml:space="preserve">
+    <value>Markiere selektiere Objekte</value>
+  </data>
+  <data name="MassInfo_Caption" xml:space="preserve">
+    <value>Gewicht</value>
+  </data>
+  <data name="MatInfo_Caption" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="ModelYear_Caption" xml:space="preserve">
+    <value>Modelljahr</value>
+  </data>
+  <data name="Modified_CellValue" xml:space="preserve">
+    <value>[MODIFIED] </value>
+  </data>
+  <data name="MountingObjects_Caption" xml:space="preserve">
+    <value>Montageteile</value>
+  </data>
+  <data name="NoLinkedModules_Msg" xml:space="preserve">
+    <value>Keine Modulzuweisung verfügbar!</value>
+  </data>
+  <data name="NoSheetFound_LogMsg" xml:space="preserve">
+    <value>Es wurde keine Schaltplanseite mit der selektierten Leitung in der geöffneten E3-Applikation gefunden!</value>
+  </data>
+  <data name="ObjName_ColumnCaption" xml:space="preserve">
+    <value>Objektname</value>
+  </data>
+  <data name="ObjType_ColumnCaption" xml:space="preserve">
+    <value>Objekttyp</value>
+  </data>
+  <data name="PartNumber_Caption" xml:space="preserve">
+    <value>Teilenummer</value>
+  </data>
+  <data name="PlugPart_Caption" xml:space="preserve">
+    <value>Blindstopfen</value>
+  </data>
+  <data name="PredPartNumber_Caption" xml:space="preserve">
+    <value>Vorgängerteilenummer</value>
+  </data>
+  <data name="PrjNumber_Caption" xml:space="preserve">
+    <value>Projektnummer</value>
+  </data>
+  <data name="ProblemExportExcel_LogMsg" xml:space="preserve">
+    <value>Beim Export der Daten nach Excel ist ein Problem aufgetreten: {0}</value>
+  </data>
+  <data name="ProblemFillGridData_LogMsg" xml:space="preserve">
+    <value>Beim Füllen der Tabellen mit den KBL-Datein ist ein Problem aufgetreten: {0}</value>
+  </data>
+  <data name="ProblemInitGridData_LogMsg" xml:space="preserve">
+    <value>Beim Initialisieren der Datenquellen mit den KBL-Daten ist ein Problem aufgetreten: {0}</value>
+  </data>
+  <data name="ProblemLoadMapper_LogMsg" xml:space="preserve">
+    <value>Bei der Erstellung der Datenstrukturen aus den KBL-Daten ist ein Problem aufgetreten: {0}</value>
+  </data>
+  <data name="ProcInfo_Caption" xml:space="preserve">
+    <value>Verarbeitungshinweis</value>
+  </data>
+  <data name="PropName_ColumnCaption" xml:space="preserve">
+    <value>Eigenschaftsname</value>
+  </data>
+  <data name="PropVal_ColumnCaption" xml:space="preserve">
+    <value>Eigenschaftswert</value>
+  </data>
+  <data name="Question_RedliningType" xml:space="preserve">
+    <value>Frage</value>
+  </data>
+  <data name="RefCavs_Caption" xml:space="preserve">
+    <value>Referenzierte Kammern</value>
+  </data>
+  <data name="RefComps_Caption" xml:space="preserve">
+    <value>Referenzierte Komponenten</value>
+  </data>
+  <data name="RefDoc_TooltipPart" xml:space="preserve">
+    <value>Referenzdokument: </value>
+  </data>
+  <data name="RoutingInfo_Caption" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="RowCount_Label" xml:space="preserve">
+    <value>Zeilenanzahl: {0}      gefiltert: {1}      sichtbar: {2}      selektiert: {3}</value>
+  </data>
+  <data name="SealPart_Caption" xml:space="preserve">
+    <value>Dichtung</value>
+  </data>
+  <data name="SelectObjectFirst_Msg" xml:space="preserve">
+    <value>Es muss erst ein Objekt selektiert werden!</value>
+  </data>
+  <data name="SelMarkedObjs_CtxtMnu_Caption" xml:space="preserve">
+    <value>Selektiere die markierten Objekte</value>
+  </data>
+  <data name="ShowBundleCS_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Bündelquerschnitte...</value>
+  </data>
+  <data name="ShowConnectivity_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige alle abgehenden Verbindungen...</value>
+  </data>
+  <data name="ShowCorresponding_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige zugehörige</value>
+  </data>
+  <data name="ShowMods_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Module...</value>
+  </data>
+  <data name="ShowOverallConnectivity_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige vollständige Verbindung...</value>
+  </data>
+  <data name="ShowRoutingPath_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Leitungsübergänge...</value>
+  </data>
+  <data name="ShowStartEndConns_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Anfangs-/End Kontaktgehäuseansicht...</value>
+  </data>
+  <data name="StartLoadKBL_LogMsg" xml:space="preserve">
+    <value>Beginne KBL-Dokument um {0} zu laden...</value>
+  </data>
+  <data name="TerminalPart_Caption" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="TermPlatingMatDiff_TooltipText" xml:space="preserve">
+    <value>Oberflächenmaterial ist unterschiedlich: {0}</value>
+  </data>
+  <data name="Version_Caption" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Visible_ColumnCaption" xml:space="preserve">
+    <value>Sichtbar</value>
+  </data>
+  <data name="Warning1CalcDist_Msg" xml:space="preserve">
+    <value>Die Berechnung des Abstandes zwischen den selektierten Objekten ist nicht möglich!{0}Die Segmentroutings sind nicht eindeutig.</value>
+  </data>
+  <data name="Warning2CalcDist_Msg" xml:space="preserve">
+    <value>Die Berechnung des Abstandes zwischen den selektierten Objekten ist nicht möglich!{0}Start- oder Endknoten konnten nicht bestimmt werden.</value>
+  </data>
+  <data name="WarningExcelCellLimit_Msg" xml:space="preserve">
+    <value>Ein odere mehrere Werte haben die maximal mögliche Länge einer Excel-Zelle überschritten und wurden abgeschnitten!</value>
+  </data>
+  <data name="WarningGetE3App_LogMsg" xml:space="preserve">
+    <value>Die laufenden E3-Applikationen konnten nicht ermittelt werden.</value>
+  </data>
+  <data name="WiresTab_Caption" xml:space="preserve">
+    <value>Drähte/Adern</value>
+  </data>
+  <data name="DiffType_ColumnCaption" xml:space="preserve">
+    <value>Diff.-Typ</value>
+  </data>
+  <data name="AccFixName_ExcelComment" xml:space="preserve">
+    <value>|Zubehörteil-/Befestigungsname: {0}</value>
+  </data>
+  <data name="ApprDep_ExcelComment" xml:space="preserve">
+    <value>     Abteilung des Prüfers:{0}</value>
+  </data>
+  <data name="ApprName_ExcelComment" xml:space="preserve">
+    <value>     Name des Prüfers:{0}</value>
+  </data>
+  <data name="Area_ExcelComment" xml:space="preserve">
+    <value>|Bereich: {0}</value>
+  </data>
+  <data name="ChangeDate_ExcelComment" xml:space="preserve">
+    <value>     Änderungsdatum:{0}</value>
+  </data>
+  <data name="ChangeLvl_ExcelComment" xml:space="preserve">
+    <value>     Änderungs-Level:{0}</value>
+  </data>
+  <data name="ChangeReq_ExcelComment" xml:space="preserve">
+    <value>     Änderungsanforderung:{0}</value>
+  </data>
+  <data name="CreatingSys_ExcelComment" xml:space="preserve">
+    <value>     Erzeugersystem:{0}</value>
+  </data>
+  <data name="DataFormat_ExcelComment" xml:space="preserve">
+    <value>     Datenformat:{0}</value>
+  </data>
+  <data name="Description_ExcelComment" xml:space="preserve">
+    <value>     Beschreibung:{0}</value>
+  </data>
+  <data name="DesDep_ExcelComment" xml:space="preserve">
+    <value>     Abteilung des Designers:{0}</value>
+  </data>
+  <data name="DocNum_ExcelComment" xml:space="preserve">
+    <value>     Dokmentennummer:{0}</value>
+  </data>
+  <data name="DocTyp_ExcelComment" xml:space="preserve">
+    <value>     Dokumententyp:{0}</value>
+  </data>
+  <data name="FileName_ExcelComment" xml:space="preserve">
+    <value>     Dateiname:{0}</value>
+  </data>
+  <data name="Id_ExcelComment" xml:space="preserve">
+    <value>Id:{0}</value>
+  </data>
+  <data name="InstrType_ExcelComment" xml:space="preserve">
+    <value>     Befehlstyp:{0}</value>
+  </data>
+  <data name="InstrVal_ExcelComment" xml:space="preserve">
+    <value>     Befehlswert:{0}</value>
+  </data>
+  <data name="LengthType_ExcelComment" xml:space="preserve">
+    <value>Längentyp: {0}</value>
+  </data>
+  <data name="LengthValue_ExcelComment" xml:space="preserve">
+    <value>|Längenwert: {0}</value>
+  </data>
+  <data name="Loc_ExcelComment" xml:space="preserve">
+    <value>     Dateipfad:{0}</value>
+  </data>
+  <data name="MountingCav_ExcelComment" xml:space="preserve">
+    <value>[Kammer] {0},{1}</value>
+  </data>
+  <data name="MountingConn_ExcelComment" xml:space="preserve">
+    <value>[Kontaktgehäuse] {0}</value>
+  </data>
+  <data name="MountingSlot_ExcelComment" xml:space="preserve">
+    <value>[Einsatz] {0},{1}</value>
+  </data>
+  <data name="RespDes_ExcelComment" xml:space="preserve">
+    <value>     Verantwortlicher Designer:{0}"</value>
+  </data>
+  <data name="Scope_ExcelComment" xml:space="preserve">
+    <value>     Geltungsbereich:{0}</value>
+  </data>
+  <data name="Seg_ExcelComment" xml:space="preserve">
+    <value>Segment: {0}</value>
+  </data>
+  <data name="ValDet_ExcelComment" xml:space="preserve">
+    <value>Wertfestlegung: {0}</value>
+  </data>
+  <data name="InstrType2_ExcelComment" xml:space="preserve">
+    <value>Befehlstyp: {0}</value>
+  </data>
+  <data name="InstrVal2_ExcelComment" xml:space="preserve">
+    <value>|Befehlswert: {0}</value>
+  </data>
+  <data name="MatKey_ExcelComment" xml:space="preserve">
+    <value>     Material-Schlüssel:{0}</value>
+  </data>
+  <data name="MatRefSys_ExcelComment" xml:space="preserve">
+    <value>     Material-Referenzsystem:{0}</value>
+  </data>
+  <data name="AssignedModules_ColumnCaption" xml:space="preserve">
+    <value>Zugeordnete Module</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Gelöscht</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Verändert</value>
+  </data>
+  <data name="CheckComment_ColumnCaption" xml:space="preserve">
+    <value>Prüfkommentar</value>
+  </data>
+  <data name="CheckedBy_ColumnCaption" xml:space="preserve">
+    <value>Geprüft von</value>
+  </data>
+  <data name="CheckResult_ColumnCaption" xml:space="preserve">
+    <value>Prüfergebnis</value>
+  </data>
+  <data name="CreatedBy_ColumnCaption" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="DateOfCheck_ColumnCaption" xml:space="preserve">
+    <value>Geprüft am</value>
+  </data>
+  <data name="DateOfCreation_ColumnCaption" xml:space="preserve">
+    <value>Erstellt am</value>
+  </data>
+  <data name="ObjectNames_ColumnCaption" xml:space="preserve">
+    <value>Ref.-Objektname(n)</value>
+  </data>
+  <data name="ObjectTypes_ColumnCaption" xml:space="preserve">
+    <value>Ref.-Objekttyp(en)</value>
+  </data>
+  <data name="Passed_ColumnCaption" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="RefNo_ColumnCaption" xml:space="preserve">
+    <value>Ref.-Nr.</value>
+  </data>
+  <data name="Specification_ColumnCaption" xml:space="preserve">
+    <value>Spezifikation</value>
+  </data>
+  <data name="DeleteQMStamp_Msg" xml:space="preserve">
+    <value>Lösche selektierte QM-Stempel?</value>
+  </data>
+  <data name="RefNoAlreadyInUse_Msg" xml:space="preserve">
+    <value>Referenz-Nummer wird schon verwendet! Soll diese Nummer trotzdem vergeben werden?</value>
+  </data>
+  <data name="RefNoCannotBeEmpty_Msg" xml:space="preserve">
+    <value>Referenz-Nummer darf nicht leer sein!</value>
+  </data>
+  <data name="FlatSuffix1_ExcelWorksheet" xml:space="preserve">
+    <value> flach</value>
+  </data>
+  <data name="FlatSuffix2_ExcelWorksheet" xml:space="preserve">
+    <value>{0} flach</value>
+  </data>
+  <data name="WeightCalc_Calculating" xml:space="preserve">
+    <value>Berechne...</value>
+  </data>
+  <data name="CalcModWeight_CtxtMnu_Caption" xml:space="preserve">
+    <value>Berechne Modulgewicht(e)...</value>
+  </data>
+  <data name="DefCabLengthTypeNotFound_Msg" xml:space="preserve">
+    <value>Der gewählte Standard-Längentyp für Kabel '{0}' wurde im aktuellen Dokument nicht gefunden! Bitte ändern Sie Ihre Einstellungen.</value>
+  </data>
+  <data name="DefWirLengthTypeNotFound_Msg" xml:space="preserve">
+    <value>Der gewählte Standard-Längentyp für Drähte '{0}' wurde im aktuellen Dokument nicht gefunden! Bitte ändern Sie Ihre Einstellungen.</value>
+  </data>
+  <data name="ShowSchematics_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Schaltplan...</value>
+  </data>
+  <data name="ToBeChanged_ColumnCaption" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Checked_ColumnCaption" xml:space="preserve">
+    <value>Abgehakt</value>
+  </data>
+  <data name="ComparableWorksheet_Name" xml:space="preserve">
+    <value>Vergleichbarkeitsunterschiede</value>
+  </data>
+  <data name="RedliningNotPossible_Msg" xml:space="preserve">
+    <value>Bearbeiten von Anmerkungen am gewählten Objekt nicht möglich, da keine verwendbare ID gefunden werden konnte!</value>
+  </data>
+  <data name="ErrorGetE3App_LogMsg" xml:space="preserve">
+    <value>Fehler bei der Ermittlung der laufenden E3-Applikationen: {0}</value>
+  </data>
+  <data name="DefWireAndCableLengthTypeNotFound_Msg" xml:space="preserve">
+    <value>Die gewählten Standard-Längentypen für Drähte '{0}' und für Kabel '{1}' wurden im aktuellen Dokument nicht gefunden! Bitte ändern Sie Ihre Einstellungen.</value>
+  </data>
+  <data name="CompPinMapCavNumber_ExcelComment" xml:space="preserve">
+    <value>|Kammernummer: {0}</value>
+  </data>
+  <data name="CompPinMapContactPoint_ExcelComment" xml:space="preserve">
+    <value>|Angeschlossene Kontaktpunkte: {0}</value>
+  </data>
+  <data name="CompPinMapPinNumber_ExcelComment" xml:space="preserve">
+    <value>Komponenten-Pinnummer: {0}</value>
+  </data>
+  <data name="PartNumberType_Caption" xml:space="preserve">
+    <value>Teilenummer-Typ</value>
+  </data>
+  <data name="Compare_CellValue" xml:space="preserve">
+    <value>[VERGL.]</value>
+  </data>
+  <data name="Reference_CellValue" xml:space="preserve">
+    <value>[REF.] </value>
+  </data>
+  <data name="ObjectContainsOneOrMoreValidityCheckResults_TooltipText" xml:space="preserve">
+    <value>Objekt enthält ein oder mehrere Ergebnisse der Gültigkeitsprüfung(en)! Klicken Sie die Zellentaste auf der rechten Seite für weitere Informationen.</value>
+  </data>
+  <data name="ChildObjectContainsOneOrMoreValidityCheckResults_TooltipText" xml:space="preserve">
+    <value>Ein oder mehrere untergeordnete Objekte enthalten Ergebnisse von Gültigkeitsprüfungen! Bitte erweitern Sie die Zeile für weitere Informationen!</value>
+  </data>
+  <data name="ClearAllFilters_CtxtMnu_Caption" xml:space="preserve">
+    <value>Lösche alle Filter auf allen Reitern</value>
+  </data>
+  <data name="ClearFilters_CtxtMnu_Caption" xml:space="preserve">
+    <value>Lösche alle Filter auf diesem Reiter</value>
+  </data>
+  <data name="ShowContacting_CtxtMnu_Caption" xml:space="preserve">
+    <value>Zeige Kontaktierung</value>
+  </data>
+  <data name="ShowSpliceProposals" xml:space="preserve">
+    <value>Alternative Positionen für Spleiß berechnen</value>
+  </data>
+  <data name="ShowBestProposal" xml:space="preserve">
+    <value>Berechne alternative Positionen für Spleiß</value>
+  </data>
+  <data name="SpliceLocator_Msg" xml:space="preserve">
+    <value>Es konnten keine alternative Positionen für diesen Spleiß gefunden werden. Eventuell ist keine Konnektivität vorhanden.</value>
+  </data>
+  <data name="ShowRubberlines" xml:space="preserve">
+    <value>Verbindungslinien zu den verbundenen Steckern zeigen</value>
+  </data>
+  <data name="LocDescription_Caption" xml:space="preserve">
+    <value>Lokalisierte Bezeichungen</value>
+  </data>
+  <data name="RefElement_Caption" xml:space="preserve">
+    <value>Referenzierte Elemente</value>
+  </data>
+  <data name="PlacementModified" xml:space="preserve">
+    <value>verändert</value>
+  </data>
+  <data name="PrimaryLength_Caption" xml:space="preserve">
+    <value>Prim. Länge</value>
+  </data>
+</root>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) von Florian Rappel (Zuken E3 GmbH) bearbeitet -->
+<ValidityCheckContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Solutions/E3.HarnessAnalyzer/Documentation/Feature%20Wishes%20Daimler%20for%20Release%202020/ValidityCheckContainer.xsd">
+	<Creator>Rappel</Creator>
+	<DateOfCreation>2020-04-24T09:30:00Z</DateOfCreation>
+	<Project>TestProject</Project>
+	<PartNumber>A1775403906</PartNumber>
+	<Version>2020-01-17</Version>
+	<ValidityCheckEntry ID="FX.IR.5402" ObjectType="Accessory_occurrence">
+		<Code>GP3007</Code>
+		<Description>POS-Nr. mit erlaubtem Muster</Description>
+		<Text>Die POS-Nr. 'P6332' hat kein gültiges Präfix.</Text>
+		<ResolutionHint>Ein Teil in diesem LS Modul hat kein gültiges Präfix für PKW.
+--> POS-Nummer überprüfen / Richtige POS-Nummer beantragen und KBL korrigieren.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="FX.IR.5402" ObjectType="Accessory_occurrence">
+		<Code>GP3009</Code>
+		<Description>Teile ohne Dummy-POS-Nr.</Description>
+		<Text>Das Teil mit der Dummy POS-Nr. Z000 benötigt eine echte POS-Nr.</Text>
+		<ResolutionHint>Ein Teil in diesem LS Modul hat noch keine echte POS-Nummer.
+--> Richtige POS-Nummer beantragen und KBL korrigieren.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A103*1-B,1" ObjectType="Cavity_occurrence">
+		<Code>GP4202</Code>
+		<Description>Prüfung der verschlossenen Kammern eines Kontaktgehäuses</Description>
+		<Text>Die Kammer 1 des Kontaktgehäuses A103*1-B sind in der KBL als verschlossen dokumentiert, in ConnectPARTS hingegen nicht.</Text>
+		<ResolutionHint>Die verschlossenen Kammern des Kontaktgehäuses in der KBL (bestückt mit Blindstopfen-Sachnummer = 'VERSCHLOSSEN') gegen ConnectPARTS abgleichen, und die entsprechende KBL bzw. den Datensatz in ConnectPARTS anpassen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A103*1-B,1" ObjectType="Cavity_occurrence">
+		<Code>GP4015</Code>
+		<Description>Doppelbelegung Kammer melden</Description>
+		<Text>Die Kammer 1 am Stecker A103*1-B ist mit mehr als einem Kontakt belegt</Text>
+		<ResolutionHint>Beide Verbindungen des Doppelanschlags müssen vom selben Kontakt bzw. Ela referenziert werden</ResolutionHint>
+		<Type>Hinweis</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A105*1-B" ObjectType="Connector_occurrence">
+		<Code>GP3016</Code>
+		<Description>Prüfung auf gleiche Kontaktgehäuse-
+SNR für verschiedene OKZ einer REF</Description>
+		<Text>Für den Stecker A105*1-B werden im Master 4711 für die OKZ "fd84" unterschiedliche Kontaktgehäuse verbaut (A8412, A1251)</Text>
+		<ResolutionHint>Für Endpunkte mit identischer REF und Stecker-Nr. (d.h. die sich nur im OKZ
+unterscheiden) muss in allen LS-Modulen eines Masters dasselbe Kontaktgehäuse verbaut werden.</ResolutionHint>
+		<Type>Hinweis</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A105*1-B" ObjectType="Connector_occurrence">
+		<Code>GP4330</Code>
+		<Description>Massebolzen-Sachnummer in
+ConnectPARTS dokumentiert</Description>
+		<Text>Für den Massebolzen A105*1-B der Baureihe A177 ist in ConnectPARTS keine
+Sachnummer eingetragen.</Text>
+		<ResolutionHint>Sachnummer in ConnectPARTS für den entsprechenden Bolzen nachtragen (lassen,
+ggfs. über Team Kontaktierungssyteme).</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="22081_1" ObjectType="Core_occurrence">
+		<Code>GP4104</Code>
+		<Description>Leitungen mit gleicher Kontakten unterschiedlicher Oberflächen</Description>
+		<Text>An beiden Enden der Leitung 22081_1 wird der gleiche Kontakt, jedoch mit unterschiedlichen Oberflächenmaterialien eingesetzt. Aufgrund potentieller Falschkonfektionierung sollte dies nach Möglichkeit vermieden werden.</Text>
+		<ResolutionHint>Die Oberflächenmaterialien der verwendeten Kontakte an der Leitung der Trennstelle stimmen nicht überein. Passende Kontakte mit gleichem Oberflächenmaterial der Leitung für die Trennstelle auswählen und in Leitungssatzzeichung, inklusive KBL
+eintragen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="22081_1" ObjectType="Core_occurrence">
+		<Code>GP4312</Code>
+		<Description>Spannungslage der Verbindung
+stimmt mit Massestelle überein</Description>
+		<Text>An der Verbindung 22081_1 der Massestelle mit der REF 4711 ist keine
+Spannungslage eingetragen.</Text>
+		<ResolutionHint>Bitte sicherstellen, dass die Spannungslage von Massestelle und Verbindung
+übereinstimmen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="FX.IR.0059" ObjectType="Fixing_occurrence">
+		<Code>GP3008</Code>
+		<Description>POS-Nr. angegeben</Description>
+		<Text>POS-Nr. nicht angegeben.</Text>
+		<ResolutionHint>Ein Teil in diesem LS Modul hat keine eingetragene POS-Nummer  für PKW.
+--> POS-Nummer auswählen und in Leitungssatzzeichung, inklusive KBL eintragen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="FX.IR.0059" ObjectType="Fixing_occurrence">
+		<Code>GP3009</Code>
+		<Description>Teile ohne Dummy-POS-Nr.</Description>
+		<Text>Das Teil mit der Dummy POS-Nr. 335 benötigt eine echte POS-Nr.</Text>
+		<ResolutionHint>Ein Teil in diesem LS Modul hat noch keine echte POS-Nummer.
+--> Richtige POS-Nummer beantragen und KBL korrigieren.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="N100" ObjectType="Node">
+		<Code>GP3017</Code>
+		<Description>Keine Bandagierungs-SNR in
+Stückliste</Description>
+		<Text>In der Leitungssatz-Stückliste dürfen keine Bandagierungs-Sachnummern mehr aufgeführt
+werden, sondern nur noch AV-Bandagierungs-Sachnummern.</Text>
+		<ResolutionHint>Bitte die Bandagierungs-SNR durch die passende AV-Bandagierungs-SNR ersetzen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A1775403906" ObjectType="Part">
+		<Code>GP1011</Code>
+		<Description>Firma vorhanden</Description>
+		<Text>Die in der KBL angegebene Firma ACME wurde in Connect nicht gefunden.</Text>
+		<ResolutionHint>Die in der KBL-Datei angegebene Firma muss muss mit dem Firmen-Namen in
+Connect übereinstimmen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="Iy-0.75 RD/WH" ObjectType="Part">
+		<Code>GP2000</Code>
+		<Description>Leitung in ConnectPARTS
+vorhanden</Description>
+		<Text>Die Leitung ly-0.75 RD/WH ist in ConnectPARTS nicht angelegt.</Text>
+		<ResolutionHint>Die in diesem LS Modul verwendete Leitung ist nicht angelegt.
+--> Leitung anlegen lassen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="B48-2x0.5 BN+GY/YE" ObjectType="Part">
+		<Code>GP3001</Code>
+		<Description>Bauteil/Leitung nicht gesperrt</Description>
+		<Text>Die Leitung ist in ConnectPARTS im Bereich Forschung für die Baureihe
+C222 gesperrt.</Text>
+		<ResolutionHint>Die betroffene Leitung in diesem LS Modul ist für die Verwendung gesperrt.
+--> Verwendung beim Komponentenverantwortlichen freischalten lassen, oder entsprechende Alternative zur Verwendung suchen</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A1775408733" ObjectType="Part">
+		<Code>GP1007</Code>
+		<Description>Benennung von Leitungssätzen</Description>
+		<Text>Benennung Leitungssatz stimmt mit SRM nicht überein.</Text>
+		<ResolutionHint>Die Benennung nach SRM anpassen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A1775408733" ObjectType="Part">
+		<Code>GP1008</Code>
+		<Description>Baureihe vorhanden</Description>
+		<Text>Die in der KBL angegeben Baureihe BR222 im Bereich A1775408733 konnte in Connect
+nicht gefunden werden.</Text>
+		<ResolutionHint>Die in der KBL-Datei angegebene Baureihe muss mit Connect übereinstimmen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0005456280" ObjectType="Part">
+		<Code>GP4020</Code>
+		<Description>ELA passend zu Leitung</Description>
+		<Text>Der Außendurchmesser der Leitung 4711 liegt außerhalb des Durchmesserbereichs des ELA 0815 von 0.5 bis
+0.75 an Pin 3 der REF N2*1-B.</Text>
+		<ResolutionHint>Bitte anderen Ela einsetzen, der zum Aussendurchmesser der Leitung passt.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0185455426" ObjectType="Part">
+		<Code>GP4000</Code>
+		<Description>Kontakt in AV Kammer zugelassen</Description>
+		<Text>Der Kontakt A0185455426 an Pin 2 ist in ConnectPARTS für die AV Kammer A34564334 nicht zugelassen.</Text>
+		<ResolutionHint>Auswahl eines Kontaktes, der laut CONNECT für diesen Kammerbereich des Kontaktgehäuses eingesetzt werden darf. Ggfs. Rücksprache mit BTV des
+Kontaktgehäuses.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0185455426" ObjectType="Part">
+		<Code>GP4013</Code>
+		<Description>Schirme dürfen nur direkt am Gehäuse oder über einen Stützpunkt angeschlossen werden.</Description>
+		<Text>Der Schirm an der Verbindung 0815 ist im Stecker X15*1-B an Pin 6 am Kontakt A0185455426 angeschlossen. Das ist nicht zulässig.</Text>
+		<ResolutionHint>Bitte den Schirm nur direkt am Gehäuse oder über einen Stützpunkt anschliessen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0285450226" ObjectType="Part">
+		<Code>GP4050</Code>
+		<Description>Notwendige Zusatzteile in Stückliste
+enthalten</Description>
+		<Text>Dieses Teil ist für das Kontaktgehäuse A02854XX als notwendiges Zusatzteil definiert, das
+2 Mal verbaut ist.</Text>
+		<ResolutionHint>Bitte notwendige Zusatzteile in Leitungssatz aufnehmen oder Zusteuerung als 7er-Teil
+im Dialog sicherstellen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0029896898" ObjectType="Part">
+		<Code>GP3001</Code>
+		<Description>Bauteil/Leitung nicht gesperrt</Description>
+		<Text>Das Teil ist in ConnectPARTS im Bereich Forschung für die Baureihe
+BR222, Ausführungsart A23 und Referenz R4 gesperrt.</Text>
+		<ResolutionHint>Das betroffene Teil in diesem LS Modul ist für die Verwendung gesperrt.
+--> Verwendung beim Komponentenverantwortlichen freischalten lassen, oder entsprechende Alternative zur Verwendung suchen</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="N000000004203" ObjectType="Part">
+		<Code>GP3001</Code>
+		<Description>Bauteil/Leitung nicht gesperrt</Description>
+		<Text>Das Teil ist in ConnectPARTS im Bereich Forschung für die Baureihe
+BR222, Ausführungsart A24 und Referenz R2 gesperrt.</Text>
+		<ResolutionHint>Das betroffene Teil in diesem LS Modul ist für die Verwendung gesperrt.
+--> Verwendung beim Komponentenverantwortlichen freischalten lassen, oder entsprechende Alternative zur Verwendung suchen</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0029972390" ObjectType="Part">
+		<Code>GP3001</Code>
+		<Description>Bauteil/Leitung nicht gesperrt</Description>
+		<Text>Das Teil ist in ConnectPARTS im Bereich Forschung für die Baureihe
+BR224, Ausführungsart A14 und Referenz R3 gesperrt.</Text>
+		<ResolutionHint>Das betroffene Teil in diesem LS Modul ist für die Verwendung gesperrt.
+--> Verwendung beim Komponentenverantwortlichen freischalten lassen, oder entsprechende Alternative zur Verwendung suchen</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="A0019825418" ObjectType="Part">
+		<Code>GP3013</Code>
+		<Description>Sachnummernlänge OK? (Restriktion aus DIALOG 21
+Zeichen)</Description>
+		<Text>Die Teile-Sachnummer darf nicht länger als 21 Zeichen sein (Restriktion aus DIALOG).</Text>
+		<ResolutionHint>Die verwendete Sachnummer ist zu lang (max. 21 Zeichen) und muss neu ausgefasst werden. Bitte beim DIALOG-Support melden.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="BUN27276" ObjectType="Segment">
+		<Code>GP3017</Code>
+		<Description>Keine Bandagierungs-SNR in
+Stückliste</Description>
+		<Text>In der Leitungssatz-Stückliste dürfen keine Bandagierungs-Sachnummern mehr aufgeführt
+werden, sondern nur noch AV-Bandagierungs-Sachnummern.</Text>
+		<ResolutionHint>Bitte die Bandagierungs-SNR durch die passende AV-Bandagierungs-SNR ersetzen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="24435" ObjectType="Special_wire_occurrence">
+		<Code>GP2001</Code>
+		<Description>Außendurchmesser stimmt mit ConnectPARTS überein</Description>
+		<Text>Der Durchmesser der Sonderleitung 24435 ist nicht angegeben. Soll Wert (aus Connect) ist 5.4 +/-1.
+Berechnete Durchmesser/Querschnitte im Lei-tungssatz können falsch sein.</Text>
+		<ResolutionHint>Bitte bei der entsprechenden Sonderleitung (in der KBL) den Leitungsquerschnitt inkl. Toleranz eintragen.
+--> und KBL neu einstellen.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="21938" ObjectType="Wire_occurrence">
+		<Code>GP2002</Code>
+		<Description>Leitungsverbindungen im SP enthalten</Description>
+		<Text>Die Leitung 21938 ist in keinem Schaltplan enthalten.</Text>
+		<ResolutionHint>Der in diesem LS Modul referenzierte Schaltplan enthält nicht die angegebene Leitungsnummer.
+--> Schaltplan und KBL überprüfen.</ResolutionHint>
+		<Type>Hinweis</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="21938" ObjectType="Wire_occurrence">
+		<Code>GP2004</Code>
+		<Description>Prüfung der Suffix-Reihenfolge in
+der Leitungsnummer</Description>
+		<Text>Die Reihenfolge der Leitungssatz-Suffixe der Leitungsnummer "21938" im LS-Modul
+"A177XX" ist falsch.</Text>
+		<ResolutionHint>Bitte die Zusammensetzung der Leitungsnummer korrigieren.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+	<ValidityCheckEntry ID="INS13050" ObjectType="Wire_protection_occurrence">
+		<Code>GP3009</Code>
+		<Description>Teile ohne Dummy-POS-Nr.</Description>
+		<Text>Das Teil mit der Dummy POS-Nr. POS234 benötigt eine echte POS-Nr.</Text>
+		<ResolutionHint>Ein Teil in diesem LS Modul hat noch keine echte POS-Nummer.
+--> Richtige POS-Nummer beantragen und KBL korrigieren.</ResolutionHint>
+		<Type>Fehler</Type>
+	</ValidityCheckEntry>
+</ValidityCheckContainer>

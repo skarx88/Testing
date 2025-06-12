@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<E3XmlMapper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SerializedData" version="1.0.0" creator="ZukenE3" dateOfCreation="2022-01-11T00:00:00+01:00">
+  <PropertyMappingsByModelObjectType>
+    <item key="Zuken.E3.EESystemModel.Wire">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="WIRE_CSA" e3XMLPropertyValueFormat="\w+|(?&lt;=-).*?(?=-)" />
+        <E3ToModelPropertyMapping modelPropertyName="PartNumberFromCable" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Color1" e3XMLPropertyName="WIRE_COLOR" e3XMLPropertyValueFormat="^.*?(?=/)|\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Color2" e3XMLPropertyName="WIRE_COLOR" e3XMLPropertyValueFormat="(?&lt;=/).*" />
+        <E3ToModelPropertyMapping modelPropertyName="CSANom" e3XMLPropertyName="WIRE_CSA" e3XMLPropertyValueFormat="^([\d]{0,9})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="OuterDiameter" e3XMLPropertyName="WIRE_DIA_MAX" e3XMLPropertyValueFormat="^([\d]{0,2})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="Description" e3XMLPropertyName="WIRE_SPEC" e3XMLPropertyValueFormat="[^\w+-/]\w+[-/]([\d]{0,2})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="WIRE_LENGTH" e3XMLPropertyValueFormat="^([\d]{0,9})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="\w+" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Cable">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-_*/\. ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="PartNumber" e3XMLPropertyName="WIRE_FPN" e3XMLPropertyValueFormat="\w+[-/]\w+[-/]([\d]{0,2})(\.[\d]{1,2})?[-/]\w+[-/]\w+|\w+[-/]\w+[-/]([\d]{0,2})(\.[\d]{1,2})?[-/]([A-Za-z0-9\-_*/\. ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="OuterDiameter" e3XMLPropertyName="WIRE_DIA_MAX" e3XMLPropertyValueFormat="^([\d]{0,2})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="Specifier" e3XMLPropertyName="cableType" e3XMLPropertyValueFormat="(?&lt;=-)\w+[-/]([\d]{0,2})(\.[\d]{1,2})?$" />
+        <E3ToModelPropertyMapping modelPropertyName="Description" e3XMLPropertyName="bundleType" e3XMLPropertyValueFormat="([A-Za-z0-9\-_*/\. ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="\w+" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Twisting">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-_*/\. ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="\w+" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Vertex">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="XCoordinate" e3XMLPropertyName="x" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="YCoordinate" e3XMLPropertyName="y" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="ZCoordinate" e3XMLPropertyName="z" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="\w+" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Segment">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="LongName" e3XMLPropertyName="CATPart" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Diameter" e3XMLPropertyName="diameter" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="InitialDiameter" e3XMLPropertyName="diameter" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="DMULength" e3XMLPropertyName="length" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="NomLength" e3XMLPropertyName="length" e3XMLPropertyValueFormat="^([\d]+)(\.[\d]+)?$" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="Option" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_*]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Connector">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="LongName" e3XMLPropertyName="DESCRIPTION_DEVICE" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="PartNumber" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_*]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Specifier" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_*]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="DESCRIPTION_COMPONENT" e3XMLPropertyValueFormat="([A-Za-z0-9\-.() ]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Supplement">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="id" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_* ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="PartNumber" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="Option" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()&amp;_*| ]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.AdditionalPart">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="PartNumber" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Specifier" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="Option" e3XMLPropertyValueFormat="([A-Za-z0-9\-.() ]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Protection">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="PartNumber" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Specifier" e3XMLPropertyName="compType" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="CustomAttributes" e3XMLPropertyName="COMP_TYPE" e3XMLPropertyValueFormat="([A-Za-z0-9\-.() ]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Signal">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_ ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.SignalClass">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-.()_ ]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Net">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="\w+" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Cavity">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="ShortName" e3XMLPropertyName="name" e3XMLPropertyValueFormat="([A-Za-z0-9\-_]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SignalHint" e3XMLPropertyName="signalId" e3XMLPropertyValueFormat="([A-Za-z0-9\-_]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Terminal">
+      <E3ToModelPropertyMappings>
+        <E3ToModelPropertyMapping modelPropertyName="SourceId" e3XMLPropertyName="SourceId" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+        <E3ToModelPropertyMapping modelPropertyName="Reference" e3XMLPropertyName="Reference" e3XMLPropertyValueFormat="([A-Za-z0-9\-]+)" />
+      </E3ToModelPropertyMappings>
+    </item>
+  </PropertyMappingsByModelObjectType>
+  <CavityContentMappingsByModelObjectType>
+    <item key="Zuken.E3.EESystemModel.Terminal">
+      <CavityContentMappings>
+        <item key="WIRE_DEV_PIN_1">
+          <E3WireToPinItemPropertyMappings>
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PartNumber" e3XMLWirePropertyName="WIRE_END1_TERM" e3XMLPropertyValueFormat="([A-Za-z0-9\-:_;*\/ ]+)" />
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PlatingMaterial" e3XMLWirePropertyName="WIRE_END1_MATL" e3XMLPropertyValueFormat="\w+" />
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="Diameter" e3XMLWirePropertyName="WIRE_DIA_MAX" e3XMLPropertyValueFormat="^([\d]{0,2})(\.[\d]{1,2})?$" />
+          </E3WireToPinItemPropertyMappings>
+        </item>
+        <item key="WIRE_DEV_PIN_2">
+          <E3WireToPinItemPropertyMappings>
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PartNumber" e3XMLWirePropertyName="WIRE_END2_TERM" e3XMLPropertyValueFormat="([A-Za-z0-9\-:_;*\/  ]+)" />
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PlatingMaterial" e3XMLWirePropertyName="WIRE_END2_MATL" e3XMLPropertyValueFormat="\w+" />
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="Diameter" e3XMLWirePropertyName="WIRE_DIA_MAX" e3XMLPropertyValueFormat="^([\d]{0,2})(\.[\d]{1,2})?$" />
+          </E3WireToPinItemPropertyMappings>
+        </item>
+      </CavityContentMappings>
+    </item>
+    <item key="Zuken.E3.EESystemModel.Seal">
+      <CavityContentMappings>
+        <item key="WIRE_DEV_PIN_1">
+          <E3WireToPinItemPropertyMappings>
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PartNumber" e3XMLWirePropertyName="WIRE_END1_CAVSEAL" e3XMLPropertyValueFormat="([A-Za-z0-9\-:_;*/ ]+)" />
+          </E3WireToPinItemPropertyMappings>
+        </item>
+        <item key="WIRE_DEV_PIN_2">
+          <E3WireToPinItemPropertyMappings>
+            <E3WireToPinItemPropertyMapping modelpinItemPropertyName="PartNumber" e3XMLWirePropertyName="WIRE_END2_CAVSEAL" e3XMLPropertyValueFormat="([A-Za-z0-9\-:_;*/ ]+)" />
+          </E3WireToPinItemPropertyMappings>
+        </item>
+      </CavityContentMappings>
+    </item>
+  </CavityContentMappingsByModelObjectType>
+</E3XmlMapper>

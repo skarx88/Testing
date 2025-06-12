@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCabWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Add cable/wire(s) again</value>
+  </data>
+  <data name="AddedWiresWillBeRemoved_Msg" xml:space="preserve">
+    <value>Added user wires and modified cable/wire content of bundle will be discarded. Continue?</value>
+  </data>
+  <data name="AddUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Add user wire</value>
+  </data>
+  <data name="BundlePic_Caption1" xml:space="preserve">
+    <value>Segment: '{0}'{1}Module configuration: '{2}'{1}Outside diameter tolerance: {3}%</value>
+  </data>
+  <data name="BundlePic_Caption2" xml:space="preserve">
+    <value>Segment: '{0}'{1}Module configuration: '{2}'{1}Cross section area tolerance: {3}%</value>
+  </data>
+  <data name="BundlePic_Caption3" xml:space="preserve">
+    <value>Segment: '{0}'{1}Module configuration: '{2}'</value>
+  </data>
+  <data name="CabHasInvalidOutsideDia_Tooltip" xml:space="preserve">
+    <value>Cable has invalid outside diameter</value>
+  </data>
+  <data name="Cable_Text" xml:space="preserve">
+    <value>Cable '{0}'</value>
+  </data>
+  <data name="CabWirNum_ColumnCaption" xml:space="preserve">
+    <value>Cable/Wire number</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Raw bundle(s) at segment '{0}' on document '{1}'</value>
+  </data>
+  <data name="Class_ColumnCaption" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="ConfigFile_CellValue" xml:space="preserve">
+    <value>Configuration file</value>
+  </data>
+  <data name="CopyUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Copy all user wires</value>
+  </data>
+  <data name="Core_Text" xml:space="preserve">
+    <value>Core '{0}'</value>
+  </data>
+  <data name="CSACalc_ColumnCaption" xml:space="preserve">
+    <value>CSA (calc.)</value>
+  </data>
+  <data name="CSAKBL_ColumnCaption" xml:space="preserve">
+    <value>CSA (KBL)</value>
+  </data>
+  <data name="CSAValCalc_ColumnCaption" xml:space="preserve">
+    <value>CSA value (calc.)</value>
+  </data>
+  <data name="CSAValKBL_ColumnCaption" xml:space="preserve">
+    <value>CSA value (KBL)</value>
+  </data>
+  <data name="DiaSource_ColumnCaption" xml:space="preserve">
+    <value>Ø source</value>
+  </data>
+  <data name="EnterValidOutsideDia_Msg" xml:space="preserve">
+    <value>Please enter a valid outside diameter value (without unit expression) between 0 and 1000 mm!</value>
+  </data>
+  <data name="ExportBundlePicFile_Title" xml:space="preserve">
+    <value>Export determined raw bundle of segment as...</value>
+  </data>
+  <data name="ExportBundlePicSuccess_Msg" xml:space="preserve">
+    <value>Bundle picture of segment successfully exported!</value>
+  </data>
+  <data name="ExportErrorBundlePic_Msg" xml:space="preserve">
+    <value>Error while exporting bundle picture to the selected graphic file!{0}{1}.</value>
+  </data>
+  <data name="ExportExcelError_Msg" xml:space="preserve">
+    <value>Error while exporting grid content to Excel!{0}{1}.</value>
+  </data>
+  <data name="ExportExcelFile_Title" xml:space="preserve">
+    <value>Export determined raw bundle(s) grid content to Excel...</value>
+  </data>
+  <data name="ExportExcelSuccess_Msg" xml:space="preserve">
+    <value>Excel export successfully finished! Open created workbook?</value>
+  </data>
+  <data name="ExportProblemBundlePic_Msg" xml:space="preserve">
+    <value>Problem occurred while exporting bundle picture of segment!</value>
+  </data>
+  <data name="FromKBL_CellValue" xml:space="preserve">
+    <value>From KBL</value>
+  </data>
+  <data name="GenFormula_CellValue" xml:space="preserve">
+    <value>Generic formula</value>
+  </data>
+  <data name="InvalidSegment_Text" xml:space="preserve">
+    <value>INVALID SEGMENT!</value>
+  </data>
+  <data name="ModConf_ColumnCaption" xml:space="preserve">
+    <value>Module configuration</value>
+  </data>
+  <data name="NetName_ColumnCaption" xml:space="preserve">
+    <value>Net name</value>
+  </data>
+  <data name="NotDeterminable_CellValue" xml:space="preserve">
+    <value>Not determinable</value>
+  </data>
+  <data name="OutsideDiaCalc_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø (calc.)</value>
+  </data>
+  <data name="OutsideDiaKBL_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø (KBL)</value>
+  </data>
+  <data name="OutsideDiaValCalc_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø value (calc.)</value>
+  </data>
+  <data name="OutsideDiaValKBL_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø value (KBL)</value>
+  </data>
+  <data name="OutsideDiaVal_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø value</value>
+  </data>
+  <data name="OutsideDia_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø</value>
+  </data>
+  <data name="Packaged_CellValue" xml:space="preserve">
+    <value>Packaged</value>
+  </data>
+  <data name="PartNumber_ColumnCaption" xml:space="preserve">
+    <value>Part number</value>
+  </data>
+  <data name="PasteUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Paste copied user wires</value>
+  </data>
+  <data name="RecalculateNecessary_Msg" xml:space="preserve">
+    <value>One or more harness module configuration(s) has been changed!{0}Recalculation of segment outside diameter necessary.{0}Would you like to restart the calculation process?</value>
+  </data>
+  <data name="RemoveCabWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Remove cable/wire(s) temporarily</value>
+  </data>
+  <data name="RemoveUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Remove user wire(s)</value>
+  </data>
+  <data name="Segment_Text" xml:space="preserve">
+    <value>Segment '{0}'</value>
+  </data>
+  <data name="Source_ColumnCaption" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="TempRemoved_ColumnCaption" xml:space="preserve">
+    <value>Temp. removed</value>
+  </data>
+  <data name="UserWire_Text" xml:space="preserve">
+    <value>User wire '{0}'</value>
+  </data>
+  <data name="User_CellValue" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="WarningNoWireRouting_Msg" xml:space="preserve">
+    <value>No wire routing available for selected segment!</value>
+  </data>
+  <data name="Wire_Text" xml:space="preserve">
+    <value>Wire '{0}'</value>
+  </data>
+  <data name="WiringGroup_ColumnCaption" xml:space="preserve">
+    <value>Wiring group</value>
+  </data>
+  <data name="WiringGroup_Text" xml:space="preserve">
+    <value>Wiring group '{0}'</value>
+  </data>
+  <data name="WiringGroup_Tooltip1" xml:space="preserve">
+    <value>Only one core/wire assigned</value>
+  </data>
+  <data name="WiringGroup_Tooltip2" xml:space="preserve">
+    <value>At least one core and wire assigned</value>
+  </data>
+  <data name="WiringGroup_Tooltip3" xml:space="preserve">
+    <value>Cores of different cables assigned</value>
+  </data>
+  <data name="CSAPack_ColumnCaption" xml:space="preserve">
+    <value>CSA (pack.)</value>
+  </data>
+  <data name="CSAValPack_ColumnCaption" xml:space="preserve">
+    <value>CSA value (pack.)</value>
+  </data>
+  <data name="OutsideDiaPack_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø (pack.)</value>
+  </data>
+  <data name="OutsideDiaValPack_ColumnCaption" xml:space="preserve">
+    <value>Outside Ø value (pack.)</value>
+  </data>
+  <data name="SegmentBundlePicDim_Label" xml:space="preserve">
+    <value>Ø {0} mm (calc.)/{1} mm (pack.)</value>
+  </data>
+  <data name="UserWire_Caption" xml:space="preserve">
+    <value>User wire</value>
+  </data>
+  <data name="NotAvailable_CellVal" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="CloneAsUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Clone as user wire(s)</value>
+  </data>
+  <data name="DrwLegendCalc_Text" xml:space="preserve">
+    <value>calc.: calculated by formula</value>
+  </data>
+  <data name="DrwLegendPack_Text" xml:space="preserve">
+    <value>pack.: determined by geometrical packaging</value>
+  </data>
+  <data name="ValCalcByFormula_Tooltip" xml:space="preserve">
+    <value>Value calculated by formula</value>
+  </data>
+  <data name="ValDetByPack_Tooltip" xml:space="preserve">
+    <value>Value determined by geometrical packaging</value>
+  </data>
+  <data name="ValFromKBL_Tooltip" xml:space="preserve">
+    <value>Value originated from KBL data source</value>
+  </data>
+  <data name="BundlePic_Tooltip" xml:space="preserve">
+    <value>Detail information</value>
+  </data>
+  <data name="WiresWithoutModuleAssignment_Msg" xml:space="preserve">
+    <value>One or more routed cables/wires do not have module assignments and will be ignored for bundle calculation</value>
+  </data>
+  <data name="Color_Text" xml:space="preserve">
+    <value>Color '{0}'</value>
+  </data>
+  <data name="BulkChangePartnumber_CtxtMnu_Caption" xml:space="preserve">
+    <value>Bulk change partnumber</value>
+  </data>
+  <data name="ResetPartnumberMod_CtxtMnu_Caption" xml:space="preserve">
+    <value>Reset partnumber modification</value>
+  </data>
+  <data name="CalculationCancelled_Msg" xml:space="preserve">
+    <value>The bundle diameter calculation operation has been cancelled!</value>
+  </data>
+  <data name="UnexpectedExceptionOccurred_Msg" xml:space="preserve">
+    <value>Unexpected exception occurred: {0} -&gt; {1}</value>
+  </data>
+  <data name="ExportStructureError_Msg" xml:space="preserve">
+    <value>Error while exporting bundle structure content to Excel!{0}{1}.</value>
+  </data>
+  <data name="ExportStructureFile_Title" xml:space="preserve">
+    <value>Export determined bundle structure content to Excel...</value>
+  </data>
+  <data name="ExportStructureSuccess_Msg" xml:space="preserve">
+    <value>Excel bundle structure export successfully finished! Open created workbook?</value>
+  </data>
+  <data name="ModifiedWire_Text" xml:space="preserve">
+    <value>Modified wire '{0}'</value>
+  </data>
+  <data name="Caption_Standalone" xml:space="preserve">
+    <value>Rawbundle Calculator</value>
+  </data>
+  <data name="CopySelUserWir_CtxtMnu_Caption" xml:space="preserve">
+    <value>Copy selected user wires</value>
+  </data>
+  <data name="ToleranceOnArea" xml:space="preserve">
+    <value>on area </value>
+  </data>
+  <data name="ToleranceOnDiameter" xml:space="preserve">
+    <value>on diameter</value>
+  </data>
+</root>

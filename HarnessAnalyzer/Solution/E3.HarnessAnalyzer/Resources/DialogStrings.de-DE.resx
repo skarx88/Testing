@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CalcWeightForm_UnexpError_Msg" xml:space="preserve">
+    <value>Bei der Gewichtskalkulation ist ein Fehler aufgetreten: </value>
+  </data>
+  <data name="DocStatMachine_ExportToExcelFile_Title" xml:space="preserve">
+    <value>Exportiere alle Tabellen nach Excel...</value>
+  </data>
+  <data name="DocStatMachine_GraphCompResultInfoExportSuccess_Msg" xml:space="preserve">
+    <value>Die Ergebnisse des grafischen Daten-Vergleichs wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="DocStatMachine_GraphCompResultInfoImportSuccess_Msg" xml:space="preserve">
+    <value>Die Ergebnisse des grafischen Daten-Vergleichs wurden erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_ImportGraphCompResultInfoFile_Title" xml:space="preserve">
+    <value>Importiere grafische Vergleichsdaten...</value>
+  </data>
+  <data name="DocStatMachine_ImportMemolistFile_Title" xml:space="preserve">
+    <value>Importiere Memoliste...</value>
+  </data>
+  <data name="DocStatMachine_ImportQMStampsFile_Title" xml:space="preserve">
+    <value>Importiere QM-Stempel...</value>
+  </data>
+  <data name="DocStatMachine_ImportRedliningFile_Title" xml:space="preserve">
+    <value>Importiere Anmerkungen...</value>
+  </data>
+  <data name="DocStatMachine_MemolistExportSuccess_Msg" xml:space="preserve">
+    <value>Die Memoliste wurde erfolgreich exportiert!</value>
+  </data>
+  <data name="DocStatMachine_MemolistImportSuccess_Msg" xml:space="preserve">
+    <value>Die Memoliste wurde erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_NoGraphCompResultInfoInDoc_Msg" xml:space="preserve">
+    <value>Im aktuellen Dokument sind keine grafischen Vergleichsdaten vorhanden!</value>
+  </data>
+  <data name="DocStatMachine_NoMemolistInDoc_Msg" xml:space="preserve">
+    <value>Im aktuellen Dokument sind keine Memolisteneinträge vorhanden!</value>
+  </data>
+  <data name="DocStatMachine_NoModConfig_Msg" xml:space="preserve">
+    <value>Es sind keine Modulkonfigurationen verfügbar!</value>
+  </data>
+  <data name="DocStatMachine_NoQMStampInDoc_Msg" xml:space="preserve">
+    <value>Im aktuellen Dokument sind keine QM-Stempel verfügbar!</value>
+  </data>
+  <data name="DocStatMachine_NoRedliningInDoc_Msg" xml:space="preserve">
+    <value>Im aktuellen Dokument sind keine Anmerkungen verfügbar!</value>
+  </data>
+  <data name="DocStatMachine_OpenModConfig_Msg" xml:space="preserve">
+    <value>Wenn der Modulkonfigurationsmanager geöffnet werden soll, müssen die Vergleichsfenster geschlossen werden. Soll fortgefahren werden?</value>
+  </data>
+  <data name="DocStatMachine_OvrIdentMemListItmsInDoc_Msg" xml:space="preserve">
+    <value>Sollen identische Einträge in der Memoliste im aktuellen Dokument überschrieben werden?</value>
+  </data>
+  <data name="DocStatMachine_OvrIdentQMStampsInDoc_Msg" xml:space="preserve">
+    <value>Sollen identische Einträge in den QM-Stempel des aktuellen Dokumentes überschrieben werden, wenn sie einen aktuelleren Zeitstempel haben?</value>
+  </data>
+  <data name="DocStatMachine_OvrIdentRedlGroupsInDoc_Msg" xml:space="preserve">
+    <value>Sollen identische Einträge in den Anmerkungsgruppen des aktuellen Dokumentes überschrieben werden, wenn sie einen aktuelleren Zeitstempel haben?</value>
+  </data>
+  <data name="DocStatMachine_OvrIdentRedlsInDoc_Msg" xml:space="preserve">
+    <value>Sollen identische Einträge in den Anmerkungen des aktuellen Dokumentes überschrieben werden, wenn sie einen aktuelleren Zeitstempel haben?</value>
+  </data>
+  <data name="DocStatMachine_OvrwrGraphCompResultInfo_Msg" xml:space="preserve">
+    <value>Sollen die vorhandenen Daten des grafischen Vergleichs überschrieben werden?</value>
+  </data>
+  <data name="DocStatMachine_QMStampsExportSuccess_Msg" xml:space="preserve">
+    <value>Die QM-Stempel wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="DocStatMachine_QMStampsImportSuccess_Msg" xml:space="preserve">
+    <value>Die QM-Stempel wurden erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_RedliningExportError_Msg" xml:space="preserve">
+    <value>Fehler beim Exportieren der Anmerkungen: {0}</value>
+  </data>
+  <data name="DocStatMachine_RedliningExportSuccess_Msg" xml:space="preserve">
+    <value>Die Anmerkungen wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="DocStatMachine_RedliningImportSuccess_Msg" xml:space="preserve">
+    <value>Die Anmerkungen wurden erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_SaveGraphCompResultInfoFile_Title" xml:space="preserve">
+    <value>Speichere die grafischen Daten-Vergleichsergebnisse...</value>
+  </data>
+  <data name="DocStatMachine_SaveMemolistToFile_Title" xml:space="preserve">
+    <value>Speichere die Memoliste...</value>
+  </data>
+  <data name="DocStatMachine_SaveQMStampsToFile_Title" xml:space="preserve">
+    <value>Speichere die QM-Stempel...</value>
+  </data>
+  <data name="DocStatMachine_SaveRedliningToFile_Title" xml:space="preserve">
+    <value>Speichere die Anmerkungen...</value>
+  </data>
+  <data name="DocStatMachine_SchemValidationSuccess_Msg" xml:space="preserve">
+    <value>Die KBL-Schemavalidierung für '{0}' wurde ohne Fehler/Warnungen erfolgreich durchgeführt!</value>
+  </data>
+  <data name="Export3DModel_Caption" xml:space="preserve">
+    <value>3D-Model exportieren</value>
+  </data>
+  <data name="ExportLogInformationSuccess_Msg" xml:space="preserve">
+    <value>Die Log-Informationen wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="ImportMemolist_Msg" xml:space="preserve">
+    <value>Die Leitungssatz-Teilenummer oder Version sind unterschiedlich! Sollen die Memolisten trotzdem importiert werden?</value>
+  </data>
+  <data name="ImportQMStamps_Msg" xml:space="preserve">
+    <value>Die Leitungssatz-Teilenummer oder Version sind unterschiedlich! Sollen die QM-Stempel trotzdem importiert werden?</value>
+  </data>
+  <data name="ImportRedlinings_Msg" xml:space="preserve">
+    <value>Die Leitungssatz-Teilenummer oder Version sind unterschiedlich! Sollen die Anmerkungen trotzdem importiert werden?</value>
+  </data>
+  <data name="LoadCarTransformation_Caption" xml:space="preserve">
+    <value>Autotransformation laden</value>
+  </data>
+  <data name="MainStatMachine_CannotOvwrHCVFile_Msg" xml:space="preserve">
+    <value>Die aktuelle HCV-Datei kann nicht überschrieben werden, da sie schon im E³.HarnessAnalyzer geöffnet ist!</value>
+  </data>
+  <data name="MainStatMachine_CloseAppFirst_Msg" xml:space="preserve">
+    <value>Der E³.HarnessAnalyzer muss geschlossen werden, damit Änderungen an den Tabelleneinstellungen durchgeführt werden können!</value>
+  </data>
+  <data name="MainStatMachine_CloseCompDlgWhenChangingActiveHCV_Msg" xml:space="preserve">
+    <value>Um die  Vergleichsreferenz ändern zu können, muss der geöffnete Vergleich geschlossen werden. Soll fortgefahren werden?</value>
+  </data>
+  <data name="MainStatMachine_CloseCompDlgWhenOpeningHCV_Msg" xml:space="preserve">
+    <value>Das Öffnen von HCV-Datein schließt den geöffnenten Vergleich. Soll fortgefahren werden?</value>
+  </data>
+  <data name="MainStatMachine_CloseCompDlgWhenOpeningKBL_Msg" xml:space="preserve">
+    <value>Das Öffnen von DSI/KBL-Dateien schließt den geöffneten Vergleich. Soll fortgefahren werden?</value>
+  </data>
+  <data name="MainStatMachine_CloseGraphCompDlgWhenChangingActiveHCV_Msg" xml:space="preserve">
+    <value>Um die Vergleichsreferenz ändern zu können, muss der geöffnete Vergleich geschlossen werden. Soll fortgefahren werden?</value>
+  </data>
+  <data name="MainStatMachine_ExportDSISuccess_Msg" xml:space="preserve">
+    <value>Der Export nach DSI wurde erfogreich durchgeführt!</value>
+  </data>
+  <data name="MainStatMachine_ExportGraphicSuccess_Msg" xml:space="preserve">
+    <value>Die Zeichung wurde erfolgreich exportiert!</value>
+  </data>
+  <data name="MainStatMachine_ExportToDSIBaseFile_Title" xml:space="preserve">
+    <value>Exportiere aktives HCV-Dokument nach DSI...</value>
+  </data>
+  <data name="MainStatMachine_ExportToExcelFile_Title" xml:space="preserve">
+    <value>Exportiere Daten des aktiven HCV-Documentes nach Excel...</value>
+  </data>
+  <data name="MainStatMachine_ExportToGraphicFile_Title" xml:space="preserve">
+    <value>Exportiere Zeichnung als...</value>
+  </data>
+  <data name="MainStatMachine_LoadDrwsForEachHCV_Msg" xml:space="preserve">
+    <value>Sollen die Zeichnungen für jedes zu öffnende HCV-Dokument mit geladen werden?</value>
+  </data>
+  <data name="MainStatMachine_MultipleHCVsOpeningNotSupported_Msg" xml:space="preserve">
+    <value>Das Öffnen von mehreren xHCV-Dateien wird nicht unterstützt! Die zuerst gewählte Datei wird geöffnet...</value>
+  </data>
+  <data name="MainStatMachine_NoDocLoaded_Msg" xml:space="preserve">
+    <value>Es ist keine KBL-Datei geladen!</value>
+  </data>
+  <data name="MainStatMachine_NoDrwOpened_Msg" xml:space="preserve">
+    <value>Es ist keine Zeichnung geöffnet!</value>
+  </data>
+  <data name="MainStatMachine_NoDrwVisible_Msg" xml:space="preserve">
+    <value>Die Grafik kann nicht exportiert werden! Es ist keine Zeichnung in dem geöffneten HCV dargestellt oder enthalten.</value>
+  </data>
+  <data name="MainStatMachine_NoInlPairFound_Msg" xml:space="preserve">
+    <value>Es wurden keine Trennstellen-Paare in der xHCV-Datei gefunden!</value>
+  </data>
+  <data name="MainStatMachine_OpenDocWarning1_Msg" xml:space="preserve">
+    <value>Öffnen einer xHCV-Datei nicht möglich, solange andere Dokumente in der Applikation geladen sind!</value>
+  </data>
+  <data name="MainStatMachine_OpenDocWarning2_Msg" xml:space="preserve">
+    <value>Öffnen einer Datei nicht möglich, solange ein xHCV-Dokument in der Applikation geladen ist!</value>
+  </data>
+  <data name="MainStatMachine_SaveHCVSuccess_Msg" xml:space="preserve">
+    <value>Das HCV-Dokument wurde erfolgreich gespeichert!</value>
+  </data>
+  <data name="MainStatMachine_SaveHCVToFile_Title" xml:space="preserve">
+    <value>Speichere das aktive Dokument unter...</value>
+  </data>
+  <data name="MainStatMachine_SelCommonFile_Title" xml:space="preserve">
+    <value>Auswahl einer HCV-, KBL- oder xHCV-Datei...</value>
+  </data>
+  <data name="MainStatMachine_SelDSIBaseFile_Title" xml:space="preserve">
+    <value>Auswahl einer DSI-Datei...</value>
+  </data>
+  <data name="MainStatMachine_SelHCVFile_Title" xml:space="preserve">
+    <value>Auswahl einer HCV-Datei...</value>
+  </data>
+  <data name="MainStatMachine_SelKBLFile_Title" xml:space="preserve">
+    <value>Auswahl einer KBL-Datei...</value>
+  </data>
+  <data name="MainStatMachine_SelXHCVFile_Title" xml:space="preserve">
+    <value>Auswahl einer xHCV-Datei...</value>
+  </data>
+  <data name="MainStatMachine_XHCVAlreadyOpened_Msg" xml:space="preserve">
+    <value>Eine xHCV-Datei ist gegenwärtig geöffnet! {0}. Es ist nicht möglich gleichzeitig weitere xHCV-Dateien zu öffnen.</value>
+  </data>
+  <data name="SaveCarTransformation_Caption" xml:space="preserve">
+    <value>Autotransformation speichern</value>
+  </data>
+  <data name="SplashScreen_BorrowLicValidUntil_Label" xml:space="preserve">
+    <value>Die ausgeliehene Lizenz ist gültig bis: {0}.</value>
+  </data>
+  <data name="SplashScrren_BorrowLicExpired_Label" xml:space="preserve">
+    <value>Die ausgeliehene Lizenz ist abgelaufen.</value>
+  </data>
+  <data name="UnexpectedErrorPlmXml_Msg" xml:space="preserve">
+    <value>Ein unerwarteter Fehler ist beim Laden der PLM XML-Datei aufgetreten!</value>
+  </data>
+  <data name="UnsupportedPlmXmlVersion_Msg" xml:space="preserve">
+    <value>Nicht unterstützte PLM XML-Version! Bitte überprüfen Sie die PLM XML-Datei, ob die Schema-Version 6 oder größer enthält!</value>
+  </data>
+  <data name="MainStatMachine_CloseAppFirstBecauseReset" xml:space="preserve">
+    <value>Bitte schließen Sie zuerst E³.HarnessAnalyzer, um das Zurücksetzen der Tabellen wirksam zu machen</value>
+  </data>
+  <data name="MainStatMachine_SelVECFile_Title" xml:space="preserve">
+    <value>Wählen Sie eine gültige VEC-Datei aus ...</value>
+  </data>
+  <data name="DocStatMachine_SaveTechCompResultInfoFile_Title" xml:space="preserve">
+    <value>Speichere die technischen Daten-Vergleichsergebnisse...</value>
+  </data>
+  <data name="DocStatMachine_ImportTechCompResultInfoFile_Title" xml:space="preserve">
+    <value>Importiere technische Vergleichsdaten...</value>
+  </data>
+  <data name="DocStatMachine_NoTechCompResultInfoInDoc_Msg" xml:space="preserve">
+    <value>Im aktuellen Dokument sind keine technischen Vergleichsdaten vorhanden!</value>
+  </data>
+  <data name="DocStatMachine_OvrwrTechCompResultInfo_Msg" xml:space="preserve">
+    <value>Sollen die vorhandenen Daten des technischen Vergleichs überschrieben werden?</value>
+  </data>
+  <data name="DocStatMachine_TechCompResultInfoExportSuccess_Msg" xml:space="preserve">
+    <value>Die Ergebnisse des technischen Daten-Vergleichs wurden erfolgreich exportiert!</value>
+  </data>
+  <data name="DocStatMachine_TechCompResultInfoImportSuccess_Msg" xml:space="preserve">
+    <value>Die Ergebnisse des technischen Daten-Vergleichs wurden erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_ImportUSSpliceTerminalDistanceMappingFile_Title" xml:space="preserve">
+    <value>Importiere Ultraschall-Spleiß - Kontakt-Abstands-Daten...</value>
+  </data>
+  <data name="DocStatMachine_SaveCavityChecksToFile_Title" xml:space="preserve">
+    <value>Kammerprüfungs informationen speichern...</value>
+  </data>
+  <data name="DocStatMachine_CavityChecksExportSuccess_Msg" xml:space="preserve">
+    <value>Kammerbelegungsprüfungsinformationen wurden erfolgreich exportiert. Soll die Datei jetzt geöffnet werden?</value>
+  </data>
+  <data name="DocStatMachine_NoCavityChecks" xml:space="preserve">
+    <value>Keine Kammerprüfungs informationen für den Export vorhanden!</value>
+  </data>
+  <data name="ImportValidityCheckResults_Msg" xml:space="preserve">
+    <value>Die Leitungssatz-Teilenummern sind unterschiedlich! Sollen die Ergebnisse der Gültigkeitsprüfungen trotzdem importiert werden?</value>
+  </data>
+  <data name="DocStatMachine_ValidityCheckResultsImportSuccess_Msg" xml:space="preserve">
+    <value>Die Ergebnisse der Gültigkeitsprüfungen wurden erfolgreich importiert!</value>
+  </data>
+  <data name="DocStatMachine_ImportValidityCheckResultsFile_Title" xml:space="preserve">
+    <value>Importiere Ergebnisse der Gültigkeitsprüfungen...</value>
+  </data>
+  <data name="MainStatMachine_NoDrwOpened_Msg2" xml:space="preserve">
+    <value>Das Drucken von 3D Zeichungen wird noch nicht unterstützt.</value>
+  </data>
+  <data name="MainStatMachine_SelE3xmlFile_Title" xml:space="preserve">
+    <value>Auswahl einer E3XML-Datei...</value>
+  </data>
+  <data name="MainStatMachine_SelPlmxmlFile_Title" xml:space="preserve">
+    <value>Auswahl einer Plmxml-Datei...</value>
+  </data>
+  <data name="MainStatMachine_ExportToKblFile_Title" xml:space="preserve">
+    <value>Exportiere Daten des aktiven HCV-Documentes nach kbl...</value>
+  </data>
+</root>
